@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
 
 import Home from './pages/Home';
