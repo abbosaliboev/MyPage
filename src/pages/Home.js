@@ -8,7 +8,7 @@ const Home = () => {
       <Row className="align-items-center">
         <Col md={4} className="text-center mb-4 mb-md-0">
         <Image
-            src="{avatar}"
+            src={avatar}
             fluid
             alt="Abbos Aliboev"
             style={{ maxWidth: '200px' }}

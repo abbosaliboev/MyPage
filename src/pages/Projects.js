@@ -10,27 +10,7 @@ const projectsData = [
     status: 'Completed',
     role: 'Full-Stack Developer',
     date: '2024-12-01',
-    link: 'https://example.com/project-one',
-  },
-  {
-    id: 2,
-    title: 'Project Two',
-    description: 'An e-commerce platform with secure payment integration.',
-    image: 'https://via.placeholder.com/300x200',
-    status: 'In Progress',
-    role: 'Frontend Developer',
-    date: '2025-03-15',
-    link: 'https://example.com/project-two',
-  },
-  {
-    id: 3,
-    title: 'Project Three',
-    description: 'A mobile app for real-time location tracking.',
-    image: 'https://via.placeholder.com/300x200',
-    status: 'Planning',
-    role: 'Project Manager',
-    date: '2025-05-10',
-    link: 'https://example.com/project-three',
+    link: 'https://github.com/abbosaliboev/Web_AI_Project.git',
   },
 ];
 
