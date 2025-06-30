@@ -18,7 +18,7 @@ const Home = () => {
           <h1>I'm <strong>Abbos Aliboev</strong></h1>
           <p>
             I'm from Uzbekistan and currently studying Computer Science at Chungbuk National University in South Korea.<br/>
-            My main interests include AI, Deep Learning, Smart Manufacturing and Web development.<br/>
+            My main interests include AI, Deep Learning, Computer Vision, Smart Manufacturing and Web development.<br/>
             This site serves as my portfolio to showcase my projects, blog posts, and works.
           </p>
         </Col>

@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
+import { SiLeetcode } from "react-icons/si";
 
 import Home from './pages/Home';
 import About from './pages/About';
@@ -47,6 +48,9 @@ function App() {
             </a>
             <a href="https://instagram.com/abbos_aliboev" target="_blank" rel="noreferrer" className="text-white mx-3">
               <FaInstagram size={28} />
+            </a>
+            <a href="https://leetcode.com/abbosaliboev" target="_blank" rel="noreferrer" className="text-white mx-3">
+              <SiLeetcode size={28} />
             </a>
           </div>
           <p className="mb-0">© 2025 Abbos Aliboev. All rights reserved.</p>
