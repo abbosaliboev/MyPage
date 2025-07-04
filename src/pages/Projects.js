@@ -44,7 +44,7 @@ const projectsData = [
     status: 'In Progress',
     role: 'Researcher, AI Developer',
     date: '2025-07-01 ~ Present',
-    link: 'https://github.com/yourusername/fall-detection-research', 
+    link: 'https://github.com/abbosaliboev/fall-detection-research.git', 
   },
 ];
 
