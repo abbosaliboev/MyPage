@@ -11,7 +11,7 @@ const About = () => {
       {/* First Block */}
       <Row className="mb-5 align-items-center">
         <Col md={4}>
-          <Image src={ProfileImg} fluid rounded />
+          <Image src={ProfileImg} alt="Abbos Aliboev professional photo" fluid rounded />
         </Col>
         <Col md={8}>
           <p>

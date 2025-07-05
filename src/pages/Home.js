@@ -10,7 +10,7 @@ const Home = () => {
         <Image
             src={avatar}
             fluid
-            alt="Abbos Aliboev"
+            alt="Abbos Aliboev professional photo"
             style={{ maxWidth: '200px' }}
         />
           <p className="mt-3">
