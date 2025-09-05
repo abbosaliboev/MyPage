@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
-import ProfileImg from '../assets/my_photo6.JPG'; // Rasm 1
+import ProfileImg from '../assets/my_photo.JPG'; // Rasm 1
 // import ProjectImg1 from '../assets/my_photo.JPG'; // Rasm 2
 
 const About = () => {

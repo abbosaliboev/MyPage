@@ -4,10 +4,33 @@ import SafetyImg from '../assets/SafetyAI.png';
 import VoidaImg from '../assets/VoidaAI.png';
 import AICOMSImg from '../assets/AICOMS.png';
 import FallImg from '../assets/FallDetection.png';
+import CrosswalkImg from '../assets/ai_smart_crosswalk.png';
+import PrettyImg from '../assets/PrettyEyes.png';
+import PlantopiaImg from '../assets/Plantopia.png';
 
 const projectsData = [
   {
     id: 1,
+    title: 'Pretty Eyes - AI Shopping Assistant for Visual Impairment',
+    description: 'A shopping assistant application designed to help people with visual impairments.',
+    image: PrettyImg,
+    status: 'Completed',
+    role: 'Frontend Developer',
+    date: '2024-05-10 ~ 2024-06-22',
+    link: 'https://github.com/abbosaliboev/PrettyEyes.git',
+  },
+  {
+    id: 2,
+    title: 'Plantopia Website',
+    description: 'Plantopia is a website designed to give users easy access to plant based information and products.',
+    image: PlantopiaImg,
+    status: 'Completed',
+    role: 'Frontend Developer',
+    date: '2024-10-25 ~ 2024-12-15',
+    link: 'https://github.com/abbosaliboev/Plantopia.git',
+  },
+  {
+    id: 3,
     title: 'Smart Manufacturing AI Safety Monitoring System',
     description: 'A web-based application designed to detect and monitor PPE (Personal Protective Equipment) compliance in real-time.',
     image: SafetyImg,
@@ -17,7 +40,7 @@ const projectsData = [
     link: 'https://github.com/abbosaliboev/AI_Web_Software_Project.git',
   },
   {
-    id: 2,
+    id: 4,
     title: 'AI Mobile App - Online Store (+For Visual Impairment)',
     description: 'This project develops an Android shopping app for visually impaired users, featuring a simple, screen reader–friendly interface and an AI model that summarizes product information.',
     image: VoidaImg,
@@ -27,7 +50,7 @@ const projectsData = [
     link: 'https://github.com/Hoogdle/Team_Voida.git',
   },
   {
-    id: 3,
+    id: 5,
     title: 'AI COMS: Real-Time Safety Monitoring System',
     description: 'A private project integrating AI and computer vision for real-time safety monitoring, including PPE violation detection, alert systems, danger zone, and visual analytics in industrial environments.',
     image: AICOMSImg, 
@@ -37,21 +60,31 @@ const projectsData = [
     link: null, 
   },
   {
-    id: 4,
+    id: 6,
     title: 'Fall Detection AI Research',
-    description: 'An ongoing research project focused on detecting human falls using computer vision and machine learning techniques for improved safety in smart environments.',
+    description: 'A research project focused on detecting human falls using computer vision and machine learning techniques for improved safety in smart environments.',
     image: FallImg, 
     status: 'In Progress',
     role: 'Researcher, AI Developer',
     date: '2025-07-01 ~ Present',
     link: 'https://github.com/abbosaliboev/fall-detection-research.git', 
   },
+  {
+    id: 7,
+    title: 'AI Smart Crosswalk System',
+    description: 'AI-powered Smart Crosswalk for safer pedestrian crossings.',
+    image: CrosswalkImg, 
+    status: 'Completed',
+    role: 'Team Leader, AI Developer',
+    date: '2025-07-23 ~ 2025-08-23',
+    link: 'https://github.com/abbosaliboev/AI_Smart_Crosswalk.git', 
+  },
 ];
 
 const Projects = () => {
   return (
     <Container className="my-5" id="projects">
-      <h2 className="text-center mb-4">My Projects</h2>
+      <h2 className="text-center mb-4">My Team Projects</h2>
       <p className="text-center mb-4">
         Explore some of the projects I've worked on, showcasing my skills and contributions.
       </p>
