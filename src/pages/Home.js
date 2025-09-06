@@ -8,9 +8,8 @@ import certKLP from '../assets/Certi-Language.png';
 import certTopik from '../assets/Certi-Topik.png';
 import awardScholarship from '../assets/award-LevelUp.png';
 import awardAIProject2 from '../assets/award-2024-2.png';
-import awardAIProject from '../assets/award-2024-1.png';   // 🔥 yangi qo'shilgan
-import awardSPEDGold from '../assets/award-SPED.png';       // 🔥 yangi qo'shilgan
-
+import awardAIProject from '../assets/award-2024-1.png';
+import awardSPEDGold from '../assets/award-SPED.png';
 
 // ---------- Modal (kattalashtirilgan rasm ko'rsatish) ----------
 const DocModal = ({ show, onHide, src, alt = 'Document' }) => (
@@ -20,14 +19,14 @@ const DocModal = ({ show, onHide, src, alt = 'Document' }) => (
         <img
           src={src}
           alt={alt}
-          style={{ width: '50%', height: 'auto', display: 'block', margin: '0 auto' }}
+          style={{ width: '80%', maxWidth: 900, height: 'auto', display: 'block', margin: '0 auto' }}
         />
       )}
     </Modal.Body>
   </Modal>
 );
 
-// ---------- Bir xil qator UI (hoverda hech narsa chiqmaydi) ----------
+// ---------- Bir xil qator UI (Certificates & Honors uchun) ----------
 const DocRow = ({ item, onOpen }) => (
   <Row className="align-items-center mb-4">
     <Col md={2} xs={4} className="text-center">
@@ -67,21 +66,71 @@ const Home = () => {
   const close = () => setShow(false);
 
   // ====== Data ======
+  const education = [
+    {
+      title: 'Chungbuk National University (CBNU), South Korea',
+      date: 'Mar 2023 – Present',
+      note: (
+        <>
+          B.S. in Computer Science <br />
+          Major in <strong>Artificial Intelligence</strong> (from Mar 2025) <br />
+          <a href="https://www.cbnu.ac.kr/eng/" target="_blank" rel="noreferrer">
+            cbnu.ac.kr
+          </a>
+        </>
+      ),
+    },
+    {
+      title: '42.uz, Online',
+      date: 'Jun 2025 – Present',
+      note: (
+        <>
+          Express Algorithm & Data Structure <br />
+          Mentors include software engineers from Meta, Amazon, and Google. <br />
+          <a href="https://42.uz" target="_blank" rel="noreferrer">
+            42.uz
+          </a>
+        </>
+      ),
+    },
+    {
+      title: 'academy.pdp.uz, Online',
+      date: 'Mar 2024 – Present',
+      note: (
+        <>
+          Frontend Development <br />
+          <a href="https://academy.pdp.uz" target="_blank" rel="noreferrer">
+            academy.pdp.uz
+          </a>
+        </>
+      ),
+    },
+  ];
+
   const experience = [
     {
       title: 'Undergraduate Intern – Data Analytics Lab (DaLab)',
       org: 'Chungbuk National University (Cheongju, South Korea)',
       date: 'Sep 2024 – Present',
-      note: 'Working on AI and Smart Manufacturing projects, focusing on web & computer vision (YOLO).',
-      file: null, 
+      note: (
+        <>
+          Working on AI and Smart Manufacturing projects, focusing on web & computer vision (YOLO). <br />
+          <a
+            href="https://sites.google.com/view/data-analytics-lab/members?authuser=0"
+            target="_blank"
+            rel="noreferrer"
+          >
+            dalab.cbnu.ac.kr
+          </a>
+        </>
+      ),
     },
     {
       title: 'Sales & Service Specialist',
       org: 'HUMANS.uz (Tashkent, Uzbekistan)',
       date: 'Nov 2020 – Apr 2021',
-      note: 'Assisted customers with mobile and fintech services, handled payments, and resolved service issues while improving communication and problem-solving skills.',
-      file: null,
-    }
+      note: 'Assisted customers with mobile and fintech services, handled payments, and resolved service issues.',
+    },
   ];
 
   const certificates = [
@@ -142,7 +191,7 @@ const Home = () => {
   return (
     <Container className="my-5" id="home">
       <Row className="align-items-center">
-        {/* Avatar */}
+        {/* Avatar + Intro */}
         <Col md={4} className="text-center mb-4 mb-md-0">
           <img
             src={avatar}
@@ -152,7 +201,6 @@ const Home = () => {
           <p className="mt-3">ali@chungbuk.ac.kr</p>
         </Col>
 
-        {/* Intro */}
         <Col md={8}>
           <h1>I'm <strong>Abbos Aliboev</strong></h1>
           <p>
@@ -162,63 +210,40 @@ const Home = () => {
           </p>
         </Col>
 
-        {/* Education */}
+        {/* Education & Experience (2 ustun, massivdan) */}
         <Col md={12}>
-          <h2 className="mt-5">Education</h2>
-          <ul>
-            <li>
-              <strong>Chungbuk National University (CBNU), South Korea</strong><br />
-              B.S. in Computer Science (2023.03 – Present) <br />
-              Major in <strong>Artificial Intelligence</strong> (from 2025.03)
-              <br />
-              <a href="https://www.cbnu.ac.kr/eng/" target="_blank" rel="noreferrer">
-                cbnu.ac.kr
-              </a>
-            </li>
-            <li className="mt-3">
-              <strong>Data Analytics Lab (DaLab), CBNU</strong><br />
-              Scholarship Intern – AI and Smart Manufacturing (2024.09 - Present)
-              <br />
-              <a
-                href="https://sites.google.com/view/data-analytics-lab/members?authuser=0"
-                target="_blank"
-                rel="noreferrer"
-              >
-                dalab.cbnu.ac.kr
-              </a>
-            </li>
-            <li className="mt-3">
-              <strong>42.uz, Online</strong><br />
-              Express Algorithm & Data Structer (2025.06 - Present)<br />
-              Mentors include <strong>software engineers from Meta, Amazon, and Google</strong>.<br />
-              <a href="https://42.uz" target="_blank" rel="noreferrer">42.uz</a>
-            </li>
-            <li className="mt-3">
-              <strong>academy.pdp.uz, Online</strong><br />
-              Frontend Development (2024.03 - Present)<br />
-              <a href="https://academy.pdp.uz" target="_blank" rel="noreferrer">academy.pdp.uz</a>
-            </li>
-          </ul>
-        </Col>
+          <Row className="mt-5">
+            {/* Education */}
+            <Col md={6}>
+              <h2 className="mb-4">Education</h2>
+              <ul className="list-unstyled">
+                {education.map((ed, i) => (
+                  <li key={`edu-${i}`} className="mb-3">
+                    <h5 className="mb-1"><strong>{ed.title}</strong></h5>
+                    <p className="mb-1"><em>{ed.date}</em></p>
+                    <p className="text-muted" style={{ fontSize: '0.9rem' }}>{ed.note}</p>
+                  </li>
+                ))}
+              </ul>
+            </Col>
 
-        {/* Experience */}
-        <Col md={12}>
-          <h2 className="mt-5">Experience</h2>
-          <ul>
-            {experience.map((e, i) => (
-              <li key={`exp-${i}`} className="mb-3">
-                <h5 className="mb-1"><strong>{e.title}</strong></h5>
-                <p className="mb-1">
-                  <em>{e.org}</em> · {e.date}
-                </p>
-                {e.note && (
-                  <p className="text-muted" style={{ fontSize: '0.9rem' }}>
-                    {e.note}
-                  </p>
-                )}
-              </li>
-            ))}
-          </ul>
+            {/* Experience */}
+            <Col md={6}>
+              <h2 className="mb-4">Experience</h2>
+              <ul className="list-unstyled">
+                {experience.map((e, i) => (
+                  <li key={`exp-${i}`} className="mb-3">
+                    <h5 className="mb-1"><strong>{e.title}</strong></h5>
+                    <p className="mb-1">{e.org}</p>
+                    <p className="mb-1"><em>{e.date}</em></p>
+                    {e.note && (
+                      <p className="text-muted" style={{ fontSize: '0.9rem' }}>{e.note}</p>
+                    )}
+                  </li>
+                ))}
+              </ul>
+            </Col>
+          </Row>
         </Col>
 
         {/* Certificates */}

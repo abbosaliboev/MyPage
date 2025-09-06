@@ -92,7 +92,7 @@ const Projects = () => {
         {projectsData.slice().reverse().map((project) => (
           <Card
             key={project.id}
-            className="d-flex flex-row align-items-center p-3 shadow-sm transition-hover"
+            className="d-flex flex-column flex-md-row align-items-center p-3 shadow-sm transition-hover"
             style={{ transition: 'box-shadow 0.3s ease' }}
             onMouseEnter={(e) => e.currentTarget.classList.replace('shadow-sm', 'shadow')}
             onMouseLeave={(e) => e.currentTarget.classList.replace('shadow', 'shadow-sm')}
@@ -101,43 +101,50 @@ const Projects = () => {
               src={project.image}
               alt={`${project.title} screenshot`}
               className="img-fluid rounded"
-              style={{ width: '150px', height: '100px', objectFit: 'cover' }}
+              style={{
+                width: '100%',        // mobil uchun to'liq kenglik
+                maxWidth: '150px',    // desktop uchun cheklov
+                height: 'auto',
+                objectFit: 'cover'
+              }}
             />
-            <Card.Body className="flex-grow-1 ms-3">
+            <Card.Body className="flex-grow-1 ms-md-3 mt-3 mt-md-0">
               <Card.Title className="h5">{project.title}</Card.Title>
               <Card.Text>{project.description}</Card.Text>
               <div>
-              <p className="mb-1 text-muted">
-                <strong>Status:</strong>{' '}
-                <span
-                  className={
-                    'fw-bold ' +
-                    (project.status === 'Completed'
-                      ? 'text-success'
-                      : project.status === 'In Progress'
-                      ? 'text-warning'
-                      : 'text-primary')
-                  }
-                >
-                  {project.status}
-                </span>
-              </p>
+                <p className="mb-1 text-muted">
+                  <strong>Status:</strong>{' '}
+                  <span
+                    className={
+                      'fw-bold ' +
+                      (project.status === 'Completed'
+                        ? 'text-success'
+                        : project.status === 'In Progress'
+                        ? 'text-warning'
+                        : 'text-primary')
+                    }
+                  >
+                    {project.status}
+                  </span>
+                </p>
                 <p className="mb-1 text-muted">
                   <strong>Role:</strong> {project.role}
                 </p>
                 <p className="mb-1 text-muted">
                   <strong>Date:</strong> {project.date}
                 </p>
-                <p className="mb-0">
-                  <a
-                    href={project.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-primary text-decoration-none"
-                  >
-                    View Project
-                  </a>
-                </p>
+                {project.link && (
+                  <p className="mb-0">
+                    <a
+                      href={project.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-primary text-decoration-none"
+                    >
+                      View Project
+                    </a>
+                  </p>
+                )}
               </div>
             </Card.Body>
           </Card>

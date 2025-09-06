@@ -1,25 +1,50 @@
 import React from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
-import ProjectImg1 from '../assets/my_photo.JPG'; // Rasm 2
+import Img1 from '../assets/logo192.png';
+import Img2 from '../assets/logo192.png';
+import Img3 from '../assets/logo192.png';
+import Img4 from '../assets/logo192.png';
 
-const Blog = () => {
+const Gallery = () => {
   return (
-    <Container className="my-5" id="blog">
-      <h2>Blog</h2>
-      <Row className="mb-5 align-items-center">
-        <Col md={4}>
-          <Image src={ProjectImg1} fluid rounded />
+    <Container className="my-5" id="gallery">
+      <h2 className="mb-4 text-center">Gallery</h2>
+      <Row className="g-3">
+        <Col xs={12} md={6} className="text-center">
+          <Image
+            src={Img1}
+            rounded
+            className="d-block mx-auto"
+            style={{ maxWidth: '300px', height: 'auto' }}
+          />
         </Col>
-        <Col md={8}>
-          <p>
-            One of my recent projects involved building a real-time AI-based safety monitoring web app.
-            I served as both frontend lead and AI engineer. I used React, and YOLOv8 to create a
-            system that detects PPE violations in manufacturing environments.
-          </p>
+        <Col xs={12} md={6} className="text-center">
+          <Image
+            src={Img2}
+            rounded
+            className="d-block mx-auto"
+            style={{ maxWidth: '300px', height: 'auto' }}
+          />
+        </Col>
+        <Col xs={12} md={6} className="text-center">
+          <Image
+            src={Img3}
+            rounded
+            className="d-block mx-auto"
+            style={{ maxWidth: '300px', height: 'auto' }}
+          />
+        </Col>
+        <Col xs={12} md={6} className="text-center">
+          <Image
+            src={Img4}
+            rounded
+            className="d-block mx-auto"
+            style={{ maxWidth: '300px', height: 'auto' }}
+          />
         </Col>
       </Row>
     </Container>
   );
 };
 
-export default Blog;
+export default Gallery;
