@@ -246,14 +246,6 @@ const Home = () => {
           </Row>
         </Col>
 
-        {/* Certificates */}
-        <Col md={12}>
-          <h2 className="mt-5">Certificates</h2>
-          {certificates.map((c, i) => (
-            <DocRow key={`cert-${i}`} item={c} onOpen={open} />
-          ))}
-        </Col>
-
         {/* Honors & Awards */}
         <Col md={12}>
           <h2 className="mt-5">Honors & Awards</h2>
@@ -262,6 +254,14 @@ const Home = () => {
           ))}
         </Col>
       </Row>
+
+        {/* Certificates */}
+        <Col md={12}>
+          <h2 className="mt-5">Certificates</h2>
+          {certificates.map((c, i) => (
+            <DocRow key={`cert-${i}`} item={c} onOpen={open} />
+          ))}
+        </Col>
 
       {/* Modal: enlarged image */}
       <DocModal show={show} onHide={close} src={active.src} alt={active.alt} />
