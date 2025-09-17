@@ -3,6 +3,7 @@ import { Container, Row, Col, Modal } from 'react-bootstrap';
 import avatar from '../assets/avatar.png';
 
 // ===== PNG fayllaring (o'zingizdagi nomlarga moslang) =====
+import certHackathon from '../assets/Certi-Hakhaton.png';
 import certTopikCamp from '../assets/Certi-LevelUp.png';
 import certKLP from '../assets/Certi-Language.png';
 import certTopik from '../assets/Certi-Topik.png';
@@ -134,6 +135,13 @@ const Home = () => {
   ];
 
   const certificates = [
+    {
+      title: 'Global Innovators IT LAB Hackathon Certificate',
+      org: '충북PRO메이커센터 (Chungbuk PRO Maker Center)',
+      date: 'Issued: September 14, 2025',
+      note: 'Successfully completed the Global Innovators’ IT LAB Hackathon (2025.09.13 – 2025.09.14), demonstrating innovation and strong IT application skills.',
+      file: certHackathon,
+    },
     {
       title: 'TOPIK (Test of Proficiency in Korean) Level 5 Certificate',
       org: 'President of National Institute for International Education',

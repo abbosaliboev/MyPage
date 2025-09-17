@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Card } from 'react-bootstrap';
+import EZIPImg from '../assets/EZIP.png';
 import SafetyImg from '../assets/SafetyAI.png';
 import VoidaImg from '../assets/VoidaAI.png';
 import AICOMSImg from '../assets/AICOMS.png';
@@ -15,7 +16,7 @@ const projectsData = [
     description: 'A shopping assistant application designed to help people with visual impairments.',
     image: PrettyImg,
     status: 'Completed',
-    role: 'Frontend Developer',
+    role: 'UI/UX Designer, Frontend Developer',
     date: '2024-05-10 ~ 2024-06-22',
     link: 'https://github.com/abbosaliboev/PrettyEyes.git',
   },
@@ -25,7 +26,7 @@ const projectsData = [
     description: 'Plantopia is a website designed to give users easy access to plant based information and products.',
     image: PlantopiaImg,
     status: 'Completed',
-    role: 'Frontend Developer',
+    role: 'UI/UX Designer, Frontend Developer',
     date: '2024-10-25 ~ 2024-12-15',
     link: 'https://github.com/abbosaliboev/Plantopia.git',
   },
@@ -35,7 +36,7 @@ const projectsData = [
     description: 'A web-based application designed to detect and monitor PPE (Personal Protective Equipment) compliance in real-time.',
     image: SafetyImg,
     status: 'Completed',
-    role: 'Team Leader, Frontend Developer, AI Engineer',
+    role: 'Team Leader, UI/UX Designer, Frontend Developer, AI Engineer',
     date: '2025-05-01 ~ 2025-06-16',
     link: 'https://github.com/abbosaliboev/AI_Web_Software_Project.git',
   },
@@ -55,7 +56,7 @@ const projectsData = [
     description: 'A private project integrating AI and computer vision for real-time safety monitoring, including PPE violation detection, alert systems, danger zone, and visual analytics in industrial environments.',
     image: AICOMSImg, 
     status: 'In Progress',
-    role: 'Frontend Developer (React), AI Integration Assistant, Intern',
+    role: 'UI/UX Designer, Frontend Developer, AI Integration Assistant, Intern',
     date: '2025-03 ~ Present',
     link: null, 
   },
@@ -78,6 +79,16 @@ const projectsData = [
     role: 'Team Leader, AI Developer',
     date: '2025-07-23 ~ 2025-08-23',
     link: 'https://github.com/abbosaliboev/AI_Smart_Crosswalk.git', 
+  },
+  {
+    id: 8,
+    title: 'E-ZIP: Foreigner-Friendly Housing Platform',
+    description: 'A Web-based housing platform designed for internationals in Korea, providing easy search, posting, and landlord-tenant interaction features.',
+    image: EZIPImg, 
+    status: 'Completed',
+    role: 'UI/UX Designer, Frontend Developer, Ideation & Planning',
+    date: '2025-09.13 ~ 2025-09.14',
+    link: 'https://github.com/abbosaliboev/E-ZIP.git',
   },
 ];
 
