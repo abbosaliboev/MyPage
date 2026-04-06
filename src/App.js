@@ -1,34 +1,92 @@
-import React from 'react';
+import { useState, useRef, useEffect } from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
 import { SiLeetcode } from "react-icons/si";
 
+import { LanguageProvider, useLanguage } from './context/LanguageContext';
 import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
 import Blog from './pages/Blog';
 
-function App() {
+const LANGS = ['en', 'ko', 'ru', 'uz'];
+
+function LangSwitcher() {
+  const { language, setLanguage } = useLanguage();
+  const [open, setOpen] = useState(false);
+  const ref = useRef(null);
+
+  useEffect(() => {
+    const handleClick = (e) => {
+      if (ref.current && !ref.current.contains(e.target)) setOpen(false);
+    };
+    document.addEventListener('mousedown', handleClick);
+    return () => document.removeEventListener('mousedown', handleClick);
+  }, []);
+
+  const dimStyle = {
+    background: 'none', border: 'none', cursor: 'pointer',
+    fontSize: '0.7rem', letterSpacing: '0.06em',
+    padding: '2px 6px',
+  };
+
+  return (
+    <div ref={ref} style={{ position: 'relative', marginLeft: '8px' }}>
+      <button
+        onClick={() => setOpen(!open)}
+        style={{ ...dimStyle, color: 'rgba(255,255,255,0.38)' }}
+      >
+        {language.toUpperCase()} ▾
+      </button>
+      {open && (
+        <div style={{
+          position: 'absolute', right: 0, top: 'calc(100% + 4px)',
+          background: '#1e2124', border: '1px solid rgba(255,255,255,0.1)',
+          borderRadius: '4px', padding: '4px 0',
+          minWidth: '56px', zIndex: 1050,
+        }}>
+          {LANGS.filter(l => l !== language).map(lang => (
+            <button
+              key={lang}
+              onClick={() => { setLanguage(lang); setOpen(false); }}
+              style={{
+                ...dimStyle,
+                display: 'block', width: '100%', textAlign: 'left',
+                color: 'rgba(255,255,255,0.45)',
+                padding: '5px 12px',
+              }}
+            >
+              {lang.toUpperCase()}
+            </button>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
+function AppInner() {
+  const { t } = useLanguage();
+
   return (
     <Router>
-      {/* Header */}
       <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
         <Container>
           <Navbar.Brand as={Link} to="/">Abbos Aliboev</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-              <Nav.Link as={Link} to="/">Home</Nav.Link>
-              <Nav.Link as={Link} to="/about">About</Nav.Link>
-              <Nav.Link as={Link} to="/projects">Projects</Nav.Link>
-              <Nav.Link as={Link} to="/blog">Blog</Nav.Link>
+              <Nav.Link as={Link} to="/">{t.nav.home}</Nav.Link>
+              <Nav.Link as={Link} to="/about">{t.nav.about}</Nav.Link>
+              <Nav.Link as={Link} to="/projects">{t.nav.projects}</Nav.Link>
+              <Nav.Link as={Link} to="/blog">{t.nav.blog}</Nav.Link>
             </Nav>
+            <LangSwitcher />
           </Navbar.Collapse>
         </Container>
       </Navbar>
 
-      {/* Pages */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -36,7 +94,6 @@ function App() {
         <Route path="/blog" element={<Blog />} />
       </Routes>
 
-      {/* Footer */}
       <footer className="bg-dark text-white text-center py-4 mt-auto">
         <Container>
           <div className="mb-2">
@@ -53,10 +110,18 @@ function App() {
               <SiLeetcode size={28} />
             </a>
           </div>
-          <p className="mb-0">© 2025 Abbos Aliboev. All rights reserved.</p>
+          <p className="mb-0">{t.footer}</p>
         </Container>
       </footer>
     </Router>
+  );
+}
+
+function App() {
+  return (
+    <LanguageProvider>
+      <AppInner />
+    </LanguageProvider>
   );
 }
 
