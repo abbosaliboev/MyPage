@@ -94,7 +94,7 @@ function AppInner() {
         <Route path="/blog" element={<Blog />} />
       </Routes>
 
-      <footer className="bg-dark text-white text-center py-4 mt-auto">
+      <footer className="bg-dark text-white text-center py-4" style={{ marginBottom: 0, width: '100%' }}>
         <Container>
           <div className="mb-2">
             <a href="https://github.com/abbosaliboev" target="_blank" rel="noreferrer" className="text-white mx-3">
@@ -112,7 +112,7 @@ function AppInner() {
           </div>
           <p className="mb-0">{t.footer}</p>
           <p className="mb-0" style={{ fontSize: '0.7rem', opacity: 0.3, marginTop: '4px' }}>
-            Last updated: April 6, 2026, 12:00 PM UTC
+            Last updated: April 6, 2026, 4:16 PM KST
           </p>
         </Container>
       </footer>
