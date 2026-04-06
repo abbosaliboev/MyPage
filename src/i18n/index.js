@@ -1,7 +1,7 @@
 export const translations = {
   en: {
     nav: { home: 'Home', about: 'About', projects: 'Projects', blog: 'Blog' },
-    footer: '© 2025 Abbos Aliboev. All rights reserved.',
+    footer: '© 2026 Abbos Aliboev. All rights reserved.',
     home: {
       intro: "I'm from Uzbekistan and currently studying Computer Science at Chungbuk National University in South Korea. My main interests include AI, Deep Learning, Computer Vision, Smart Manufacturing and Web development. This site serves as my portfolio to showcase my projects, blog posts, and works.",
       education: 'Education',
@@ -34,7 +34,7 @@ export const translations = {
   },
   ko: {
     nav: { home: '홈', about: '소개', projects: '프로젝트', blog: '블로그' },
-    footer: '© 2025 Abbos Aliboev. 모든 권리 보유.',
+    footer: '© 2026 Abbos Aliboev. 모든 권리 보유.',
     home: {
       intro: '저는 우즈베키스탄 출신으로 현재 대한민국 충북대학교에서 컴퓨터공학을 공부하고 있습니다. 주요 관심 분야는 AI, Deep Learning, Computer Vision, Smart Manufacturing 및 웹 개발입니다. 이 사이트는 제 프로젝트와 작업물을 소개하는 포트폴리오입니다.',
       education: '학력',
@@ -67,7 +67,7 @@ export const translations = {
   },
   ru: {
     nav: { home: 'Главная', about: 'Обо мне', projects: 'Проекты', blog: 'Блог' },
-    footer: '© 2025 Abbos Aliboev. Все права защищены.',
+    footer: '© 2026 Abbos Aliboev. Все права защищены.',
     home: {
       intro: 'Я из Узбекистана и в настоящее время изучаю Computer Science в Чхунбукском национальном университете в Южной Корее. Мои основные интересы — AI, Deep Learning, Computer Vision, Smart Manufacturing и веб-разработка. Этот сайт является моим портфолио для демонстрации проектов и работ.',
       education: 'Образование',
@@ -100,7 +100,7 @@ export const translations = {
   },
   uz: {
     nav: { home: 'Bosh sahifa', about: 'Men haqimda', projects: 'Loyihalar', blog: 'Blog' },
-    footer: "© 2025 Abbos Aliboev. Barcha huquqlar himoyalangan.",
+    footer: "© 2026 Abbos Aliboev. Barcha huquqlar himoyalangan.",
     home: {
       intro: "Men O'zbekistondan bo'lib, hozirda Janubiy Koreyaning Chungbuk Milliy Universitetida Computer Science bo'yicha o'qimoqdaman. Asosiy qiziqishlarim: AI, Deep Learning, Computer Vision, Smart Manufacturing va Web dasturlash. Ushbu sayt mening loyihalarim va ishlarimni namoyish etuvchi portfoliodir.",
       education: "Ta'lim",
