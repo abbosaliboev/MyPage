@@ -7,6 +7,10 @@ import certHackathon from '../assets/Certi-Hakhaton.png';
 import certTopikCamp from '../assets/Certi-LevelUp.png';
 import certKLP from '../assets/Certi-Language.png';
 import certTopik from '../assets/Certi-Topik.png';
+import cert3D from '../assets/Certi_3d.png';
+import certAdvisor from '../assets/Certi_Advisor.png';
+import certAIFluency from '../assets/Certi_AI_Fluence.png';
+import certClaude from '../assets/Certi_Claude.png';
 import awardScholarship from '../assets/award-LevelUp.png';
 import awardAIProject2 from '../assets/award-2024-2.png';
 import awardAIProject from '../assets/award-2024-1.png';
@@ -135,6 +139,34 @@ const Home = () => {
   ];
 
   const certificates = [
+    {
+      title: 'Claude Code in Action',
+      org: 'Anthropic',
+      date: 'Issued: March 28, 2026',
+      note: 'Successfully completed the Claude Code in Action course by Anthropic. Certificate No: hxazimw26zx5. Verify at: https://verify.skilljar.com/c/hxazimw26zx5',
+      file: certClaude,
+    },
+    {
+      title: 'AI Fluency for Students',
+      org: 'Anthropic (in partnership with UCC, Ringling College of Art + Design, HEA & National Forum)',
+      date: 'Certificate of Completion',
+      note: 'Successfully completed the AI Fluency for Students course, covering foundational AI concepts and practical skills for academic and professional use.',
+      file: certAIFluency,
+    },
+    {
+      title: '3D Printer Capability Enhancement Training Camp',
+      org: 'Korea Industry Promotion Association (KOIDA) & Chungbuk National University',
+      date: 'Issued: December 19, 2025',
+      note: 'Successfully completed the 3D Printer-based Root Industry and Secondary Battery Industry Application Capability Enhancement Training Camp program.',
+      file: cert3D,
+    },
+    {
+      title: 'Advisor Program for Foreign Freshmen Certificate',
+      org: 'Office of International Affairs, Chungbuk National University',
+      date: 'Issued: August 27, 2025',
+      note: 'Successfully completed the Advisor Program for Foreign Freshmen, 1st Semester 2025, from February 25, 2025 to July 31, 2025. Certificate No. 2025-388.',
+      file: certAdvisor,
+    },
     {
       title: 'Global Innovators IT LAB Hackathon Certificate',
       org: '충북PRO메이커센터 (Chungbuk PRO Maker Center)',
