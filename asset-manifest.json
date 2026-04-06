@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.07c21a48.css",
-    "main.js": "/static/js/main.6967d637.js",
+    "main.js": "/static/js/main.a23b7e52.js",
     "static/js/453.ed3810f9.chunk.js": "/static/js/453.ed3810f9.chunk.js",
     "static/media/Certi-LevelUp.png": "/static/media/Certi-LevelUp.652fa8e50c3f0119f4d1.png",
     "static/media/Certi_Advisor.png": "/static/media/Certi_Advisor.03d9033b63cad6c38238.png",
@@ -15,23 +15,26 @@
     "static/media/award-LevelUp.png": "/static/media/award-LevelUp.f2aff8bc28fe1000379b.png",
     "static/media/Certi-Topik.png": "/static/media/Certi-Topik.292bbadd97820b96a1f7.png",
     "static/media/Certi-Language.png": "/static/media/Certi-Language.8fbe44de5832e215071a.png",
+    "static/media/library.png": "/static/media/library.fc93ed60e14f96d18852.png",
     "static/media/avatar.png": "/static/media/avatar.ed55c3636cf0d7937d21.png",
+    "static/media/tillatandir.png": "/static/media/tillatandir.0485552650ee98f38362.png",
     "static/media/AICOMS.png": "/static/media/AICOMS.df90f491265b824c7c31.png",
+    "static/media/tartibai.png": "/static/media/tartibai.c4df7207b5703a4715f6.png",
     "static/media/FallDetection.png": "/static/media/FallDetection.66b3a1108bb8b07c13c4.png",
     "static/media/PrettyEyes.png": "/static/media/PrettyEyes.d8056ab34afa8a16318e.png",
     "static/media/SafetyAI.png": "/static/media/SafetyAI.c466b4ac6f4e697aeaeb.png",
     "static/media/Certi_AI_Fluence.png": "/static/media/Certi_AI_Fluence.d4cf0587d4ea0f540ed7.png",
     "static/media/VoidaAI.png": "/static/media/VoidaAI.1ae7056da86f9f8df40e.png",
     "static/media/Certi_Claude.png": "/static/media/Certi_Claude.9891decab9afe30fede0.png",
-    "static/media/tartib_ai.jpg": "/static/media/tartib_ai.28d82433d94b2db7daff.jpg",
+    "static/media/safartour.png": "/static/media/safartour.369a65c74d76ea6a3751.png",
     "static/media/Plantopia.png": "/static/media/Plantopia.da1e35c7898a796e8c4d.png",
     "index.html": "/index.html",
     "main.07c21a48.css.map": "/static/css/main.07c21a48.css.map",
-    "main.6967d637.js.map": "/static/js/main.6967d637.js.map",
+    "main.a23b7e52.js.map": "/static/js/main.a23b7e52.js.map",
     "453.ed3810f9.chunk.js.map": "/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.07c21a48.css",
-    "static/js/main.6967d637.js"
+    "static/js/main.a23b7e52.js"
   ]
 }
