@@ -36,7 +36,7 @@ export const translations = {
     nav: { home: '홈', about: '소개', projects: '프로젝트', blog: '블로그' },
     footer: '© 2025 Abbos Aliboev. 모든 권리 보유.',
     home: {
-      intro: '저는 우즈베키스탄 출신으로 현재 대한민국 충북대학교에서 컴퓨터공학을 공부하고 있습니다. 주요 관심 분야는 AI, Deep Learning, Computer Vision, Smart Manufacturing 및 웹 개발입니다. 이 사이트는 제 프로젝트와 작업물을 소개하는 포트폴리오입니다.',
+      intro: '저는 우즈베키스탄 출신으로 현재 충북대학교에서 소프트웨어학부 인공지능전공을 공부하고 있습니다. 주요 관심 분야는 AI, Deep Learning, Computer Vision, Smart Manufacturing 및 웹 개발입니다. 이 사이트는 제 프로젝트와 작업물을 소개하는 포트폴리오입니다.',
       education: '학력',
       experience: '경력',
       activities: '활동',
