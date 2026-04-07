@@ -127,7 +127,7 @@ const Home = () => {
 
         {/* Activities */}
         <Col md={12}>
-          <h2 className="mt-5">{t.home.activities}</h2>
+          <h2 className="mt-5 mb-4">{t.home.activities}</h2>
           <ul className="list-unstyled">
             {activitiesData.map((a, i) => (
               <li key={`act-${i}`} className="mb-3">
