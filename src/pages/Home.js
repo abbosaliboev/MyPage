@@ -70,41 +70,29 @@ const DocRow = ({ text, file, lang, onOpen }) => (
 );
 
 const GlobalProgramRow = ({ item, image, lang, labels, onOpen }) => (
-  <Row className="mb-4">
-    {image && (
-      <Col md={2} xs={4} className="text-center">
-        <img
-          src={image}
-          alt={`${tr(item.title, lang)} — ${labels.poster}`}
-          style={{ maxWidth: '120px', width: '100%', height: 'auto', borderRadius: 8, cursor: 'pointer', display: 'block', margin: '0 auto' }}
-          onClick={() => onOpen(image, tr(item.title, lang))}
-        />
-      </Col>
+  <div className="mb-4">
+    <h5 className="mb-1"><strong>{tr(item.title, lang)}</strong></h5>
+    <p className="mb-1"><em>{item.location}</em> · {item.date}</p>
+    {item.role && (
+      <p className="mb-1 text-muted" style={{ fontSize: '0.9rem' }}><strong>{labels.role}:</strong> {item.role}</p>
     )}
-    <Col md={image ? 10 : 12} xs={image ? 8 : 12}>
-      <h5 className="mb-1"><strong>{tr(item.title, lang)}</strong></h5>
-      <p className="mb-1"><em>{item.location}</em> · {item.date}</p>
-      {item.role && (
-        <p className="mb-1 text-muted" style={{ fontSize: '0.9rem' }}><strong>{labels.role}:</strong> {item.role}</p>
+    {item.award && (
+      <p className="mb-1"><strong>{labels.award}:</strong> <span className="fw-bold text-success">{item.award}</span></p>
+    )}
+    <p className="text-muted" style={{ fontSize: '0.9rem' }}>{tr(item.description, lang)}</p>
+    <p className="mb-0 d-flex justify-content-between align-items-center flex-wrap">
+      {item.link ? (
+        <a href={item.link} target="_blank" rel="noopener noreferrer" className="text-primary text-decoration-none">
+          {labels.viewProject}
+        </a>
+      ) : <span />}
+      {image && (
+        <a href="#!" onClick={(e) => { e.preventDefault(); onOpen(image, tr(item.title, lang)); }} className="text-primary text-decoration-none">
+          {labels.viewPoster}
+        </a>
       )}
-      {item.award && (
-        <p className="mb-1"><strong>{labels.award}:</strong> <span className="fw-bold text-success">{item.award}</span></p>
-      )}
-      <p className="text-muted" style={{ fontSize: '0.9rem' }}>{tr(item.description, lang)}</p>
-      <p className="mb-0 d-flex justify-content-between align-items-center flex-wrap">
-        {item.link ? (
-          <a href={item.link} target="_blank" rel="noopener noreferrer" className="text-primary text-decoration-none">
-            {labels.viewProject}
-          </a>
-        ) : <span />}
-        {image && (
-          <a href="#!" onClick={(e) => { e.preventDefault(); onOpen(image, tr(item.title, lang)); }} className="text-primary text-decoration-none">
-            {labels.viewPoster}
-          </a>
-        )}
-      </p>
-    </Col>
-  </Row>
+    </p>
+  </div>
 );
 
 const Home = () => {
