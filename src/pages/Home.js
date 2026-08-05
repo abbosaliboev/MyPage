@@ -18,11 +18,14 @@ import awardScholarship from '../assets/award-LevelUp.png';
 import awardAIProject2 from '../assets/award-2024-2.png';
 import awardAIProject from '../assets/award-2024-1.png';
 import awardSPEDGold from '../assets/award-SPED.png';
+import mobiCarePoster from '../assets/MobiCare_Poster_EKC2026.jpg';
 
 // File refs in same order as certificatesText
 const certFiles = [certEKCPresentation, certEKCAttendance, certClaude, certAIFluency, cert3D, certAdvisor, certHackathon, certTopik, certTopikCamp, certKLP];
 // File refs in same order as honorsText
 const honorFiles = [awardSPEDGold, awardScholarship, awardAIProject2, awardAIProject];
+// File refs in same order as globalProgramsText (null where there's no poster/photo)
+const globalProgramFiles = [mobiCarePoster, null];
 
 const DocModal = ({ show, onHide, src, alt = 'Document' }) => (
   <Modal show={show} onHide={onHide} centered size="lg">
@@ -66,25 +69,42 @@ const DocRow = ({ text, file, lang, onOpen }) => (
   </Row>
 );
 
-const GlobalProgramRow = ({ item, lang, labels }) => (
-  <div className="mb-4">
-    <h5 className="mb-1"><strong>{tr(item.title, lang)}</strong></h5>
-    <p className="mb-1"><em>{item.location}</em> · {item.date}</p>
-    {item.role && (
-      <p className="mb-1 text-muted" style={{ fontSize: '0.9rem' }}><strong>{labels.role}:</strong> {item.role}</p>
+const GlobalProgramRow = ({ item, image, lang, labels, onOpen }) => (
+  <Row className="mb-4">
+    {image && (
+      <Col md={2} xs={4} className="text-center">
+        <img
+          src={image}
+          alt={`${tr(item.title, lang)} — ${labels.poster}`}
+          style={{ maxWidth: '120px', width: '100%', height: 'auto', borderRadius: 8, cursor: 'pointer', display: 'block', margin: '0 auto' }}
+          onClick={() => onOpen(image, tr(item.title, lang))}
+        />
+      </Col>
     )}
-    {item.award && (
-      <p className="mb-1"><strong>{labels.award}:</strong> <span className="fw-bold text-success">{item.award}</span></p>
-    )}
-    <p className="text-muted" style={{ fontSize: '0.9rem' }}>{tr(item.description, lang)}</p>
-    {item.link && (
-      <p className="mb-0">
-        <a href={item.link} target="_blank" rel="noopener noreferrer" className="text-primary text-decoration-none">
-          {labels.viewProject}
-        </a>
+    <Col md={image ? 10 : 12} xs={image ? 8 : 12}>
+      <h5 className="mb-1"><strong>{tr(item.title, lang)}</strong></h5>
+      <p className="mb-1"><em>{item.location}</em> · {item.date}</p>
+      {item.role && (
+        <p className="mb-1 text-muted" style={{ fontSize: '0.9rem' }}><strong>{labels.role}:</strong> {item.role}</p>
+      )}
+      {item.award && (
+        <p className="mb-1"><strong>{labels.award}:</strong> <span className="fw-bold text-success">{item.award}</span></p>
+      )}
+      <p className="text-muted" style={{ fontSize: '0.9rem' }}>{tr(item.description, lang)}</p>
+      <p className="mb-0 d-flex justify-content-between align-items-center flex-wrap">
+        {item.link ? (
+          <a href={item.link} target="_blank" rel="noopener noreferrer" className="text-primary text-decoration-none">
+            {labels.viewProject}
+          </a>
+        ) : <span />}
+        {image && (
+          <a href="#!" onClick={(e) => { e.preventDefault(); onOpen(image, tr(item.title, lang)); }} className="text-primary text-decoration-none">
+            {labels.viewPoster}
+          </a>
+        )}
       </p>
-    )}
-  </div>
+    </Col>
+  </Row>
 );
 
 const Home = () => {
@@ -152,7 +172,7 @@ const Home = () => {
         <Col md={12}>
           <h2 className="mt-5">{t.home.globalPrograms}</h2>
           {globalProgramsText.map((item, i) => (
-            <GlobalProgramRow key={`global-${i}`} item={item} lang={language} labels={t.labels} />
+            <GlobalProgramRow key={`global-${i}`} item={item} image={globalProgramFiles[i]} lang={language} labels={t.labels} onOpen={open} />
           ))}
         </Col>
 
