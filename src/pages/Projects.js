@@ -62,6 +62,13 @@ const ProjectCard = ({ project, showRole, lang, labels }) => (
             </a>
           </p>
         )}
+        {project.extraLink && (
+          <p className="mb-0">
+            <a href={project.extraLink.url} target="_blank" rel="noopener noreferrer" className="text-primary text-decoration-none">
+              {tr(project.extraLink.label, lang)}
+            </a>
+          </p>
+        )}
       </div>
     </Card.Body>
   </Card>

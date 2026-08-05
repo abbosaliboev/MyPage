@@ -162,21 +162,30 @@ export const teamProjects = [
   {
     id: 9,
     title: {
-      en: 'IDCool Systems — Data Center Cooling Monitoring Platform (Capstone Design)',
-      ko: 'IDCool Systems — 데이터센터 냉각 모니터링 플랫폼 (졸업 프로젝트)',
-      ru: 'IDCool Systems — Платформа мониторинга охлаждения дата-центров (дипломный проект)',
-      uz: 'IDCool Systems — Data-markaz Sovutish Monitoring Platformasi (Bitiruv Loyihasi)',
+      en: 'IDCool — Smart Customer Care & Integrated Monitoring Platform (Capstone Design)',
+      ko: 'IDCool — 스마트 고객 케어 및 통합 모니터링 플랫폼 (졸업 프로젝트)',
+      ru: 'IDCool — Платформа умного клиентского сервиса и интегрированного мониторинга (дипломный проект)',
+      uz: 'IDCool — Aqlli Mijozlarga Xizmat va Integratsiyalashgan Monitoring Platformasi (Bitiruv Loyihasi)',
     },
     description: {
-      en: 'Ongoing graduation capstone project building a monitoring and control platform for data center (IDC) cooling systems, structured as a mobile app, web dashboard, backend server, and facility server, containerized with Docker. Working as Mobile Developer on the client app within the team. Started in May 2025 and still in progress.',
-      ko: '데이터센터(IDC) 냉각 시스템을 모니터링·제어하는 플랫폼을 구축하는 진행 중인 졸업 프로젝트로, 모바일 앱·웹 대시보드·백엔드 서버·설비 서버로 구성되어 있으며 Docker로 컨테이너화되어 있습니다. 팀 내에서 Mobile Developer로 클라이언트 앱을 담당하고 있습니다. 2025년 5월에 시작해 현재도 진행 중입니다.',
-      ru: 'Продолжающийся дипломный проект по созданию платформы мониторинга и управления системами охлаждения дата-центра (IDC), состоящей из мобильного приложения, веб-панели, backend-сервера и сервера обслуживания объекта, контейнеризированных с помощью Docker. В команде отвечаю за мобильное приложение в роли Mobile Developer. Начат в мае 2025 года, всё ещё в разработке.',
-      uz: "Data-markaz (IDC) sovutish tizimlarini monitoring qilish va boshqarish platformasini yaratishga qaratilgan, hozirda davom etayotgan bitiruv loyihasi. Mobil ilova, web dashboard, backend server va fac server qismlaridan iborat bo'lib, Docker orqali konteynerlashtirilgan. Jamoada Mobile Developer sifatida mijoz ilovasi (client app) ustida ishlayapman. 2025-yil may oyida boshlangan va hozirgacha davom etmoqda.",
+      en: 'Ongoing graduation capstone project building a monitoring and customer-care platform for industrial refrigeration systems (cold storage, cold chains, chemical plants), replacing manual phone/KakaoTalk/Excel-based supervision with a centralized system. Consists of a FastAPI backend (real-time sensor ingestion, stats aggregation, REST API, web dashboard) and a Flutter mobile app with real-time unit monitoring, alarms, remote control toggles, a troubleshooting chatbot, and dark mode. Working as Mobile Developer on the Flutter app. Started in May 2025 and still in progress.',
+      ko: '산업용 냉동/냉장 시스템(냉동 창고, 콜드체인, 화학 공장)을 위한 모니터링·고객 케어 플랫폼을 구축하는 진행 중인 졸업 프로젝트로, 전화·카카오톡·엑셀 기반의 수기 관리 방식을 중앙화된 시스템으로 대체합니다. 실시간 센서 수집, 통계 집계, REST API, 웹 대시보드를 제공하는 FastAPI 백엔드와, 실시간 유닛 모니터링·알람·원격 제어·트러블슈팅 챗봇·다크 모드를 갖춘 Flutter 모바일 앱으로 구성됩니다. Flutter 앱 개발을 Mobile Developer로 담당하고 있습니다. 2025년 5월에 시작해 현재도 진행 중입니다.',
+      ru: 'Продолжающийся дипломный проект по созданию платформы мониторинга и клиентского сервиса для промышленных холодильных систем (холодильные склады, холодильные цепи, химические заводы), заменяющей ручное управление по телефону/KakaoTalk/Excel централизованной системой. Состоит из backend на FastAPI (сбор данных с датчиков в реальном времени, агрегация статистики, REST API, веб-панель) и мобильного приложения на Flutter с мониторингом в реальном времени, алармами, удалённым управлением, чат-ботом для диагностики и тёмной темой. В команде отвечаю за мобильное приложение на Flutter в роли Mobile Developer. Начат в мае 2025 года, всё ещё в разработке.',
+      uz: "Sanoat sovutish tizimlari (sovutgich omborlar, cold chain, kimyo zavodlari) uchun monitoring va mijozlarga xizmat ko'rsatish platformasini yaratishga qaratilgan, hozirda davom etayotgan bitiruv loyihasi. Telefon/KakaoTalk/Excel orqali qo'lda kuzatish o'rniga markazlashtirilgan tizim taklif etadi. Real-time sensor ma'lumotlarini qabul qilish, statistikani jamlash, REST API va web dashboardni ta'minlovchi FastAPI backend, hamda real-time monitoring, ogohlantirishlar, masofaviy boshqaruv, diagnostika chatboti va dark mode bilan jihozlangan Flutter mobil ilovasidan iborat. Flutter ilovasi ustida Mobile Developer sifatida ishlayapman. 2025-yil may oyida boshlangan va hozirgacha davom etmoqda.",
     },
     status: 'In Progress',
     role: 'Mobile Developer',
     date: '2025-05 ~ Present',
     link: 'https://github.com/abbosaliboev/Capstone_Design',
+    extraLink: {
+      url: 'https://github.com/shavrindas/idcool-software/tree/feature/mobile-app',
+      label: {
+        en: 'Original Repo (Mobile Branch)',
+        ko: '원본 저장소 (Mobile 브랜치)',
+        ru: 'Исходный репозиторий (ветка Mobile)',
+        uz: "Asl repozitoriy (Mobile branch)",
+      },
+    },
   },
   {
     id: 10,
