@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Container, Row, Col, Modal } from 'react-bootstrap';
 import avatar from '../assets/avatar.png';
 import { useLanguage } from '../context/LanguageContext';
-import { tr, educationData, experienceData, activitiesData, certificatesText, honorsText } from '../i18n/data';
+import { tr, educationData, experienceData, globalProgramsText, activitiesData, certificatesText, honorsText } from '../i18n/data';
 
 import certHackathon from '../assets/Certi-Hakhaton.png';
 import certTopikCamp from '../assets/Certi-LevelUp.png';
@@ -12,15 +12,19 @@ import cert3D from '../assets/Certi_3d.png';
 import certAdvisor from '../assets/Certi_Advisor.png';
 import certAIFluency from '../assets/Certi_AI_Fluence.png';
 import certClaude from '../assets/Certi_Claude.png';
+import certEKCAttendance from '../assets/Certi-EKC2026_Atten.png';
+import certEKCPresentation from '../assets/Certi-EKC2026_Present.png';
 import awardScholarship from '../assets/award-LevelUp.png';
 import awardAIProject2 from '../assets/award-2024-2.png';
 import awardAIProject from '../assets/award-2024-1.png';
 import awardSPEDGold from '../assets/award-SPED.png';
 
 // File refs in same order as certificatesText
-const certFiles = [certClaude, certAIFluency, cert3D, certAdvisor, certHackathon, certTopik, certTopikCamp, certKLP];
+const certFiles = [certEKCPresentation, certEKCAttendance, certClaude, certAIFluency, cert3D, certAdvisor, certHackathon, certTopik, certTopikCamp, certKLP];
 // File refs in same order as honorsText
 const honorFiles = [awardSPEDGold, awardScholarship, awardAIProject2, awardAIProject];
+// File refs in same order as globalProgramsText
+const globalProgramFiles = [certEKCPresentation, awardSPEDGold];
 
 const DocModal = ({ show, onHide, src, alt = 'Document' }) => (
   <Modal show={show} onHide={onHide} centered size="lg">
@@ -59,6 +63,34 @@ const DocRow = ({ text, file, lang, onOpen }) => (
         <p className="text-muted" style={{ fontSize: '0.9rem' }}
           dangerouslySetInnerHTML={{ __html: tr(text.note, lang) }}
         />
+      )}
+    </Col>
+  </Row>
+);
+
+const GlobalProgramRow = ({ item, file, lang, labels, onOpen }) => (
+  <Row className="align-items-center mb-4">
+    <Col md={2} xs={4} className="text-center">
+      <img
+        src={file}
+        alt={tr(item.title, lang)}
+        style={{ maxWidth: '120px', width: '100%', height: 'auto', borderRadius: 8, cursor: 'pointer', display: 'block', margin: '0 auto' }}
+        onClick={() => onOpen(file, tr(item.title, lang))}
+      />
+    </Col>
+    <Col md={10} xs={8}>
+      <h5 className="mb-1"><strong>{tr(item.title, lang)}</strong></h5>
+      <p className="mb-1"><em>{item.location}</em> · {item.date}</p>
+      {item.role && (
+        <p className="mb-1 text-muted" style={{ fontSize: '0.9rem' }}><strong>{labels.role}:</strong> {item.role}</p>
+      )}
+      <p className="text-muted" style={{ fontSize: '0.9rem' }}>{tr(item.description, lang)}</p>
+      {item.link && (
+        <p className="mb-0">
+          <a href={item.link} target="_blank" rel="noopener noreferrer" className="text-primary text-decoration-none">
+            {labels.viewProject}
+          </a>
+        </p>
       )}
     </Col>
   </Row>
@@ -123,6 +155,14 @@ const Home = () => {
               </ul>
             </Col>
           </Row>
+        </Col>
+
+        {/* International Programs */}
+        <Col md={12}>
+          <h2 className="mt-5">{t.home.globalPrograms}</h2>
+          {globalProgramsText.map((item, i) => (
+            <GlobalProgramRow key={`global-${i}`} item={item} file={globalProgramFiles[i]} lang={language} labels={t.labels} onOpen={open} />
+          ))}
         </Col>
 
         {/* Activities */}

@@ -16,10 +16,10 @@ export const teamProjects = [
       uz: "Pretty Eyes — Ko'zi ojizlar uchun AI Shopping Assistant",
     },
     description: {
-      en: 'A shopping assistant application designed to help people with visual impairments.',
-      ko: '시각 장애인을 돕기 위해 설계된 AI 쇼핑 도우미 애플리케이션입니다.',
-      ru: 'Приложение-помощник по покупкам, разработанное для людей с нарушениями зрения.',
-      uz: "Ko'zi ojiz odamlarga yordam berish uchun mo'ljallangan AI xarid yordamchisi ilovasi.",
+      en: 'Accessibility-first Android shopping app for visually impaired users, built with Python and Kivy and packaged as a desktop app. Designed all screens around large buttons, high-contrast colors, and a QR-based payment flow so users can complete purchases independently. Trained a YOLOv5-based product detection model from scratch and built a pipeline that queries a database for detected items and announces them via TTS. Won the Excellence Award (최우수상) at the CBNU SW Open Source AI Competition.',
+      ko: '시각 장애인을 위한 Accessibility 중심 쇼핑 앱. Python과 Kivy로 구현해 데스크톱 앱으로 패키징. 큰 버튼, 고대비 색상, QR 결제 방식으로 혼자서도 구매 완료 가능하도록 설계. YOLOv5 기반 상품 탐지 모델을 직접 학습하고, DB 조회 후 TTS로 상품 정보를 음성 안내하는 핵심 기능 구현. CBNU SW중심대학사업단 AI 오픈소스 경진대회 최우수상 수상.',
+      ru: 'Android-приложение для покупок для людей с нарушениями зрения с упором на Accessibility, реализованное на Python и Kivy. Все экраны спроектированы с крупными кнопками, высококонтрастными цветами и QR-оплатой. Самостоятельно обучил модель обнаружения товаров на YOLOv5, реализовал голосовое озвучивание информации через TTS. Занял первое место (최우수상) на AI Open Source конкурсе CBNU.',
+      uz: "Ko'zi ojizlar uchun Accessibility-first xarid ilovasi, Python va Kivy bilan yaratilgan. Katta tugmalar, yuqori kontrast va QR to'lov tizimi orqali foydalanuvchilar mustaqil xarid qilishi mumkin. YOLOv5 asosidagi mahsulot aniqlash modelini o'qitdim va TTS orqali ovozli yo'naltirish funksiyasini yaratdim. CBNU SW Open Source AI tanlovida birinchi o'rin (최우수상) egasi.",
     },
     status: 'Completed',
     role: 'UI/UX Designer, Frontend Developer',
@@ -35,10 +35,10 @@ export const teamProjects = [
       uz: 'Plantopia Veb-sayti',
     },
     description: {
-      en: 'Plantopia is a website designed to give users easy access to plant based information and products.',
-      ko: '식물 관련 정보와 제품에 쉽게 접근할 수 있도록 설계된 웹사이트입니다.',
-      ru: 'Сайт, предоставляющий пользователям удобный доступ к информации о растениях и продуктам на их основе.',
-      uz: "Foydalanuvchilarga o'simliklar haqida ma'lumot va mahsulotlarga qulay kirish imkonini beruvchi veb-sayt.",
+      en: 'Plant information and community platform built with React (Frontend) connected to a Spring Boot + MySQL backend. Implemented main page, plant encyclopedia, community, shopping, and account pages entirely in React. Key features include a virtual garden where users can display plants they grow, a point reward system with avatar customization, and tag-based search by plant type, season, and difficulty. Presented the project in English and won the Best Award at the CBNU SW Open Source Competition.',
+      ko: 'React로 전체 Frontend를 구현하고 Spring Boot + MySQL 기반 Backend와 연동한 식물 정보 및 커뮤니티 플랫폼. 메인 페이지, 식물 소개, 커뮤니티, 쇼핑, 계정 등 전체 UI 직접 구현. 사용자가 키운 식물을 가상 정원에서 볼 수 있는 기능, 포인트 보상 시스템, 식물 종류·계절·난이도 Tag 기반 검색 화면 포함. 영어로 최종 발표해 CBNU SW중심대학사업단 경진대회 Best Award 수상.',
+      ru: 'Платформа для информации о растениях и сообщества на React (Frontend) с подключением к Spring Boot + MySQL Backend. Реализовал главную страницу, энциклопедию растений, сообщество, магазин и страницы аккаунта. Ключевые функции: виртуальный сад, система наград с кастомизацией аватара, поиск по тегам. Представил проект на английском языке и выиграл Best Award на конкурсе CBNU.',
+      uz: "React asosida to'liq Frontend yaratilgan, Spring Boot + MySQL Backend bilan ulangan o'simliklar ma'lumotlari va jamiyat platformasi. Asosiy sahifa, o'simlik ensiklopediyasi, jamiyat, xarid va hisob sahifalari to'liq React bilan yaratildi. Virtual bog', ball mukofot tizimi va tag asosidagi qidiruv kabi asosiy funksiyalar mavjud. Loyihani ingliz tilida taqdim etib, CBNU SW tanlovida Best Award qo'lga kiritildi.",
     },
     status: 'Completed',
     role: 'UI/UX Designer, Frontend Developer',
@@ -73,10 +73,10 @@ export const teamProjects = [
       uz: "AI Mobile App — Onlayn Do'kon (+ Ko'zi Ojizlar Uchun)",
     },
     description: {
-      en: 'An Android shopping app for visually impaired users, featuring a simple screen reader–friendly interface and an AI model that summarizes product information.',
-      ko: '시각 장애인을 위한 Android 쇼핑 앱으로, 간단한 screen reader 친화적 인터페이스와 상품 정보를 요약하는 AI 모델을 갖추고 있습니다.',
-      ru: 'Android-приложение для покупок для людей с нарушениями зрения: простой screen reader-friendly интерфейс и AI модель для краткого описания товаров.',
-      uz: "Ko'zi ojizlar uchun oddiy screen reader qulay interfeys va mahsulot ma'lumotlarini umumlashtiruvchi AI modeli bilan Android xarid ilovasi.",
+      en: 'Android shopping app for visually impaired users built with Kotlin and Jetpack Compose. Designed all 20+ screens in Figma and implemented them with large buttons, high-contrast themes, voice search, and screen zoom. Integrated a Vision-Language Model (Qwen2.5-VL) to convert product images into descriptive text. Connected to a Django REST Framework backend, with a payment flow designed for fully independent use. Collaborated using Jira-based Scrum within a Korean-speaking team.',
+      ko: 'Kotlin과 Jetpack Compose로 개발한 시각 장애인용 Android 쇼핑 앱. Figma로 20개 이상의 전체 화면을 설계하고 큰 버튼, 고대비 테마, 음성 검색, 화면 확대 기능을 직접 구현. Vision-Language Model(Qwen2.5-VL)로 상품 이미지를 텍스트로 변환하는 AI 기능 통합. Django REST Framework 기반 Backend API 연동, 혼자서 결제까지 완료할 수 있는 화면 설계. Jira 기반 Scrum으로 한국인 팀원들과 한국어로 협업.',
+      ru: 'Android-приложение для покупок для людей с нарушениями зрения на Kotlin + Jetpack Compose. Спроектировал 20+ экранов в Figma и реализовал крупные кнопки, высококонтрастные темы, голосовой поиск и увеличение экрана. Интегрировал Vision-Language Model (Qwen2.5-VL) для преобразования изображений товаров в текст. Подключение к Django REST Framework Backend, полностью самостоятельный процесс оплаты. Командная работа через Jira Scrum.',
+      uz: "Kotlin va Jetpack Compose yordamida yaratilgan ko'zi ojizlar uchun Android xarid ilovasi. Figma'da 20+ ekran loyihalandim, katta tugmalar, yuqori kontrast, ovozli qidiruv va ekran kattalashtirish funksiyalari amalga oshirildi. Vision-Language Model (Qwen2.5-VL) orqali mahsulot tasvirlarini matn ko'rinishiga o'tkazish AI funksiyasi integratsiya qilindi. Django REST Framework Backend API bilan ulandi. Jira asosidagi Scrum orqali koreyscha jamoada hamkorlik.",
     },
     status: 'Completed',
     role: 'UI/UX Designer, Frontend Developer',
@@ -92,10 +92,10 @@ export const teamProjects = [
       uz: 'AI COMS: Real-Time Safety Monitoring Tizimi',
     },
     description: {
-      en: 'A private project integrating AI and Computer Vision for real-time safety monitoring, including PPE violation detection, alert systems, danger zone, and visual analytics in industrial environments.',
-      ko: 'PPE 위반 감지, 경보 시스템, 위험 구역, 시각적 분석 등을 포함한 산업 환경 실-타임 안전 모니터링을 위해 AI와 Computer Vision을 통합한 비공개 프로젝트입니다.',
-      ru: 'Закрытый проект, объединяющий AI и Computer Vision для real-time мониторинга безопасности: обнаружение нарушений PPE, системы оповещения, опасные зоны и визуальная аналитика.',
-      uz: "PPE qoidabuzarliklarini aniqlash, ogohlantirish tizimlari, xavfli zonalar va vizual tahlilni o'z ichiga olgan sanoat muhitida real-time xavfsizlikni monitoring qiluvchi AI va Computer Vision asosidagi maxfiy loyiha.",
+      en: 'Real-time multi-camera AI safety monitoring system for industrial environments, built with Python, React 19, Django REST Framework, YOLOv8/YOLOv11, TensorRT, and CUDA. Trained models to detect helmet, vest, head, fire, and smoke violations. Resolved 7 concurrent bottlenecks (GPU blocking, thread leaks, DB overload) to achieve a 38.5% FPS improvement across 4+ simultaneous RTSP cameras. Applied a Shared Backbone architecture to unify PPE and Pose Estimation models, reducing model size from 42 MB to 7.8 MB and boosting system FPS by 92%. Integrated a Fall Detection pipeline (Pose + TCN + BotSort) and deployed to Embedded Devices (Jetson Orin Nano, Jetson Developer Kit).',
+      ko: 'Python, React 19, Django REST Framework, YOLOv8/YOLOv11, TensorRT, CUDA로 구축한 다중 카메라 실시간 산업 안전 AI 모니터링 시스템. helmet, vest, head, fire, smoke 위반 감지 모델 직접 학습. RTSP 카메라 4대 이상 동시 운영 시 GPU 블로킹, 스레드 누수, DB 과부하 등 7가지 문제 해결 → FPS 38.5% 향상. PPE 탐지 + Pose Estimation 모델을 Shared Backbone으로 통합해 모델 42MB→7.8MB, 시스템 FPS 92% 향상. Fall Detection 파이프라인(Pose+TCN+BotSort) 통합 및 Embedded Device(Jetson Orin Nano) 배포.',
+      ru: 'Real-time многокамерная AI система мониторинга безопасности для промышленных сред на Python, React 19, Django REST Framework, YOLOv8/YOLOv11, TensorRT и CUDA. Обучены модели для обнаружения нарушений (шлем, жилет, голова, огонь, дым). Устранено 7 узких мест (GPU блокировки, утечки потоков, перегрузка БД) → FPS вырос на 38,5% при 4+ одновременных RTSP камерах. Shared Backbone объединил PPE и Pose Estimation модели: размер 42 МБ→7,8 МБ, FPS системы +92%. Интегрирован Fall Detection пайплайн и развёртывание на Embedded устройствах (Jetson Orin Nano).',
+      uz: "Python, React 19, Django REST Framework, YOLOv8/YOLOv11, TensorRT va CUDA yordamida qurilgan sanoat muhiti uchun real-time ko'p kamerali AI xavfsizlik monitoring tizimi. Helmet, vest, bosh, olov va tutun buzilishlarini aniqlash modellari o'qitildi. 4+ bir vaqtdagi RTSP kameralarda GPU blokirovkasi, thread sizib chiqishi, DB ortiqcha yuklanish kabi 7 ta muammo hal qilindi → FPS 38,5% oshdi. Shared Backbone orqali PPE va Pose Estimation modellari birlashtirildi: model hajmi 42 MB→7,8 MB, tizim FPS +92%. Fall Detection pipeline (Pose+TCN+BotSort) integratsiyasi va Embedded qurilmalarga (Jetson Orin Nano) joylashtirish.",
     },
     status: 'In Progress',
     role: 'UI/UX Designer, Frontend Developer, AI Integration Assistant, Intern',
@@ -130,10 +130,10 @@ export const teamProjects = [
       uz: 'AI Smart Crosswalk Tizimi',
     },
     description: {
-      en: 'AI-powered Smart Crosswalk for safer pedestrian crossings.',
-      ko: '보행자의 안전한 횡단을 위한 AI 기반 Smart Crosswalk 시스템입니다.',
-      ru: 'Smart Crosswalk система на основе AI для повышения безопасности пешеходов.',
-      uz: "Piyodalar uchun xavfsizroq yo'l kesishishni ta'minlovchi AI asosidagi Smart Crosswalk tizimi.",
+      en: 'AI-powered Smart Crosswalk system developed as Team Leader of the multinational team "One Asia" at SP!ED 2025 (South Korea–China–Japan international engineering design program). Trained a YOLOv8 model to detect wheelchairs and crutches, enhanced accuracy using custom Pose Estimation keypoint logic, and achieved mAP@0.5 of 0.941 overall and 0.971 for wheelchair class. Applied Data Augmentation for night and rainy conditions. Achieved 4.5 FPS real-time inference without GPU. Collected real-world data on-site in China, performed additional training, and completed field deployment. Won Gold Award.',
+      ko: 'SP!ED 2025(한·중·일 국제 공학 설계 프로그램)에서 다국적 팀 "One Asia"의 Team Leader로 개발한 AI Smart Crosswalk 시스템. YOLOv8 기반 휠체어·목발 탐지 모델 학습, Pose Estimation keypoint 기반 커스텀 Logic으로 정확도 향상. mAP@0.5: 전체 0.941, 휠체어 클래스 0.971 달성. 야간·우천 환경을 위한 Data Augmentation 적용. GPU 없이 4.5 FPS 실시간 구현. 중국 현지에서 실환경 데이터 수집 후 추가 학습·현장 배포 완료. 금상 수상.',
+      ru: 'AI Smart Crosswalk система, разработанная в роли Team Leader многонациональной команды «One Asia» на SP!ED 2025 (международная программа проектирования Корея–Китай–Япония). Обучена YOLOv8 модель для обнаружения инвалидных колясок и костылей с улучшением точности через Pose Estimation keypoints. mAP@0.5: 0,941 общий, 0,971 для класса "коляска". Data Augmentation для ночных и дождливых условий. 4,5 FPS в реальном времени без GPU. Сбор данных в реальных условиях в Китае, дополнительное обучение и развёртывание на месте. Золотая награда.',
+      uz: '"One Asia" ko\'pmillatli jamoasining Team Leader sifatida SP!ED 2025 (Koreya–Xitoy–Yaponiya xalqaro muhandislik dizayn dasturi)da ishlab chiqilgan AI Smart Crosswalk tizimi. YOLOv8 asosidagi nogironlar aravachasi va tayoqcha aniqlash modeli o\'qitildi, Pose Estimation keypoint mantiqiy tizimi orqali aniqlik oshirildi. mAP@0.5: umumiy 0.941, nogironlar aravachasi klassi 0.971. Tungi va yomg\'irli sharoitlar uchun Data Augmentation. GPU siz 4.5 FPS real-time ishlash. Xitoyda haqiqiy ma\'lumot to\'plash, qo\'shimcha o\'qitish va joylashtirish yakunlandi. Oltin mukofot.',
     },
     status: 'Completed',
     role: 'Team Leader, AI Developer',
@@ -159,9 +159,84 @@ export const teamProjects = [
     date: '2025-09-13 ~ 2025-09-14',
     link: 'https://github.com/abbosaliboev/E-ZIP.git',
   },
+  {
+    id: 9,
+    title: {
+      en: 'IDCool Systems — Data Center Cooling Monitoring Platform (Capstone Design)',
+      ko: 'IDCool Systems — 데이터센터 냉각 모니터링 플랫폼 (졸업 프로젝트)',
+      ru: 'IDCool Systems — Платформа мониторинга охлаждения дата-центров (дипломный проект)',
+      uz: 'IDCool Systems — Data-markaz Sovutish Monitoring Platformasi (Bitiruv Loyihasi)',
+    },
+    description: {
+      en: 'Ongoing graduation capstone project building a monitoring and control platform for data center (IDC) cooling systems, structured as a mobile app, web dashboard, backend server, and facility server, containerized with Docker. Working as Mobile Developer on the client app within the team. Started in May 2025 and still in progress.',
+      ko: '데이터센터(IDC) 냉각 시스템을 모니터링·제어하는 플랫폼을 구축하는 진행 중인 졸업 프로젝트로, 모바일 앱·웹 대시보드·백엔드 서버·설비 서버로 구성되어 있으며 Docker로 컨테이너화되어 있습니다. 팀 내에서 Mobile Developer로 클라이언트 앱을 담당하고 있습니다. 2025년 5월에 시작해 현재도 진행 중입니다.',
+      ru: 'Продолжающийся дипломный проект по созданию платформы мониторинга и управления системами охлаждения дата-центра (IDC), состоящей из мобильного приложения, веб-панели, backend-сервера и сервера обслуживания объекта, контейнеризированных с помощью Docker. В команде отвечаю за мобильное приложение в роли Mobile Developer. Начат в мае 2025 года, всё ещё в разработке.',
+      uz: "Data-markaz (IDC) sovutish tizimlarini monitoring qilish va boshqarish platformasini yaratishga qaratilgan, hozirda davom etayotgan bitiruv loyihasi. Mobil ilova, web dashboard, backend server va fac server qismlaridan iborat bo'lib, Docker orqali konteynerlashtirilgan. Jamoada Mobile Developer sifatida mijoz ilovasi (client app) ustida ishlayapman. 2025-yil may oyida boshlangan va hozirgacha davom etmoqda.",
+    },
+    status: 'In Progress',
+    role: 'Mobile Developer',
+    date: '2025-05 ~ Present',
+    link: 'https://github.com/abbosaliboev/Capstone_Design',
+  },
+  {
+    id: 10,
+    title: {
+      en: 'Smart Safety Guard — IoT & AI Industrial Safety Monitoring',
+      ko: 'Smart Safety Guard — IoT & AI 산업 안전 모니터링',
+      ru: 'Smart Safety Guard — IoT и AI мониторинг промышленной безопасности',
+      uz: 'Smart Safety Guard — IoT va AI Sanoat Xavfsizligi Monitoringi',
+    },
+    description: {
+      en: 'A two-node edge computing system for real-time industrial safety monitoring, built as a two-person team project for the Embedded Systems course. Combined IoT sensor fusion on a Raspberry Pi 3 (gas/smoke, temperature/humidity, ultrasonic distance, motion) with YOLOv5n person detection and danger-zone logic on a Jetson Nano, streaming to a Flask backend that serves a live 3-column web dashboard, stores history in SQLite, and pushes instant Telegram alerts. Integrated the Groq Vision API to auto-analyze camera frames for fire, smoke, and PPE compliance whenever an alert triggers. Responsible for the AI analyzer, frontend dashboard, and Telegram bot integration.',
+      ko: 'Embedded Systems 수업의 2인 팀 프로젝트로 개발한 실시간 산업 안전 모니터링용 2노드 엣지 컴퓨팅 시스템입니다. Raspberry Pi 3의 IoT 센서 퓨전(가스/연기, 온습도, 초음파 거리, 모션)과 Jetson Nano의 YOLOv5n 사람 탐지·위험구역 로직을 결합해, Flask 백엔드가 3열 실시간 웹 대시보드를 제공하고 SQLite에 이력을 저장하며 Telegram으로 즉시 알림을 전송하도록 구현했습니다. 경보 발생 시마다 Groq Vision API로 카메라 프레임을 분석해 화재·연기·PPE 착용 여부를 자동 판단하는 기능도 통합했습니다. AI 분석기, 프론트엔드 대시보드, Telegram 봇 연동을 담당했습니다.',
+      ru: 'Двухузловая edge-система для мониторинга промышленной безопасности в реальном времени, разработанная как командный проект (2 человека) для курса Embedded Systems. Объединены IoT-датчики на Raspberry Pi 3 (газ/дым, температура/влажность, ультразвуковое расстояние, движение) с обнаружением людей YOLOv5n и логикой опасных зон на Jetson Nano; данные передаются на Flask-бэкенд, который выводит живую 3-колоночную веб-панель, хранит историю в SQLite и мгновенно уведомляет через Telegram. Интегрирован Groq Vision API для автоматического анализа кадров камеры на предмет огня, дыма и соблюдения PPE при каждом срабатывании тревоги. Отвечал за AI-анализатор, frontend-панель и интеграцию Telegram-бота.',
+      uz: "Embedded Systems fanidan ikki kishilik jamoa loyihasi sifatida yaratilgan real-time sanoat xavfsizligi monitoringi uchun ikki tugunli edge computing tizimi. Raspberry Pi 3'dagi IoT sensorlar (gaz/tutun, harorat/namlik, ultratovush masofa, harakat) Jetson Nano'dagi YOLOv5n odam aniqlash va xavfli zona mantig'i bilan birlashtirilib, Flask backend orqali jonli 3 ustunli web dashboard, SQLite'da tarix saqlash va Telegram orqali tezkor xabarnoma yuboriladi. Har bir ogohlantirishda Groq Vision API kamera kadrini avtomatik tahlil qilib, yong'in, tutun va PPE talablariga rioya qilinishini tekshiradi. AI analizator, frontend dashboard va Telegram bot integratsiyasi uchun javobgar bo'ldim.",
+    },
+    status: 'Completed',
+    role: 'AI Analyzer, Frontend Developer, Telegram Bot Integration',
+    date: '2026-05-05 ~ 2026-06-09',
+    link: 'https://github.com/abbosaliboev/Embedded_Systems',
+  },
+  {
+    id: 11,
+    title: {
+      en: 'MobiCare — Edge AI Fall Detection & Rehabilitation System (ICCAS/EKC 2026)',
+      ko: 'MobiCare — 엣지 AI 낙상 감지 및 재활 시스템 (ICCAS/EKC 2026)',
+      ru: 'MobiCare — Система обнаружения падений и реабилитации на Edge AI (ICCAS/EKC 2026)',
+      uz: 'MobiCare — Edge AI Yiqilishni Aniqlash va Reabilitatsiya Tizimi (ICCAS/EKC 2026)',
+    },
+    description: {
+      en: "Edge AI-based real-time fall detection and rehabilitation platform for elderly people living alone, built as Team Leader and AI Engineer of a 4-person team for an international program spanning Chungbuk National University and Toulouse, France (EKC 2026 & ICCAS 2026, July 6–26, 2026). Designed a 3-stage service — Prevent (a 'Frozen!' balance-training game), Detect (24/7 camera + audio fall detection with under-3-second family alerts), and Rehabilitate (personalized recovery program) — powered by YOLOv11 pose estimation (17 keypoints), a two-stage ST-GCN + physics-filter fall model, and audio event classification, deployed on Jetson edge devices with TensorRT. Presented a paper at ICCAS 2026 and a poster at EKC 2026, and won 2nd place among all team projects in the program.",
+      ko: '독거 노인을 위한 엣지 AI 기반 실시간 낙상 감지 및 재활 플랫폼으로, 충북대학교와 프랑스 툴루즈(EKC 2026 & ICCAS 2026, 2026년 7월 6일~26일)를 아우르는 국제 프로그램에서 4인 팀의 Team Leader이자 AI Engineer로 개발했습니다. YOLOv11 Pose Estimation(17개 관절), ST-GCN + 물리 필터 2단계 낙상 모델, 음성 이벤트 분류를 기반으로 Prevent(\'Frozen!\' 균형 훈련 게임), Detect(24시간 카메라·음성 감지, 3초 이내 가족 알림), Rehabilitate(맞춤형 재활 프로그램) 3단계 서비스를 설계하고 Jetson 엣지 디바이스에 TensorRT로 배포했습니다. ICCAS 2026에서 논문을, EKC 2026에서 포스터를 발표했으며 전체 팀 프로젝트 중 2등을 수상했습니다.',
+      ru: 'Платформа для обнаружения падений и реабилитации на основе Edge AI в реальном времени для пожилых людей, живущих одни, разработанная в роли Team Leader и AI Engineer 4-человек команды для международной программы между Университетом Чхунбук и Тулузой, Франция (EKC 2026 и ICCAS 2026, 6–26 июля 2026). Спроектирована 3-этапная услуга — Prevent (игра на тренировку баланса «Frozen!»), Detect (круглосуточное обнаружение падений по камере и звуку с оповещением семьи менее чем за 3 секунды) и Rehabilitate (персонализированная программа восстановления) — на базе YOLOv11 Pose Estimation (17 ключевых точек), двухэтапной модели падения ST-GCN + физический фильтр и классификации звуковых событий, развёрнутой на Edge-устройствах Jetson с TensorRT. Представлен доклад на ICCAS 2026 и постер на EKC 2026, команда заняла 2-е место среди всех командных проектов программы.',
+      uz: "Yolg'iz yashovchi keksa insonlar uchun Edge AI asosidagi real-time yiqilishni aniqlash va reabilitatsiya platformasi, Chungbuk Milliy Universiteti va Fransiyaning Tuluza shahrini (EKC 2026 & ICCAS 2026, 2026-yil 6–26-iyul) qamrab olgan xalqaro dastur doirasida 4 kishilik jamoaning Team Leader va AI Engineer sifatida ishlab chiqildi. YOLOv11 Pose Estimation (17 ta bo'g'in), ST-GCN + fizik filtrdan iborat ikki bosqichli yiqilish modeli va ovozli hodisalarni tasniflash asosida Prevent ('Frozen!' muvozanat mashqi o'yini), Detect (24/7 kamera+ovoz orqali aniqlash, 3 soniyadan kam vaqtda oilaga xabar) va Rehabilitate (shaxsiylashtirilgan tiklanish dasturi) uch bosqichli xizmat loyihalandi va Jetson edge qurilmalariga TensorRT bilan joylashtirildi. ICCAS 2026'da maqola, EKC 2026'da poster taqdim etildi va dasturdagi barcha jamoaviy loyihalar orasida 2-o'rin qo'lga kiritildi.",
+    },
+    status: 'Completed',
+    role: 'Team Leader, AI Engineer',
+    date: '2026-07-06 ~ 2026-07-26',
+    link: 'https://github.com/abbosaliboev/ICCAS_2026',
+  },
 ];
 
 export const personalProjects = [
+  {
+    id: 5,
+    title: {
+      en: 'Worker Abnormal Behavior Detection — Rule-Based Safety AI',
+      ko: 'Worker Abnormal Behavior Detection — 규칙 기반 안전 AI',
+      ru: 'Worker Abnormal Behavior Detection — AI на основе правил безопасности',
+      uz: 'Worker Abnormal Behavior Detection — Qoidaga asoslangan xavfsizlik AI',
+    },
+    description: {
+      en: 'A rule-based real-time system built for a company to detect three types of abnormal worker behavior — Fall (92.4%), Unsafe Running (90.99%), and Long-time Inactivity (95.8%) — using YOLO11s-pose keypoints and ByteTracker, with no model training required. Applied pure biomechanical rules: body-tilt angle and tilt speed for falls, horizontal center-of-mass speed for running, and stillness duration plus posture stability for inactivity. Evaluated with Leave-One-Out Cross-Validation on the UP-Fall and KTH Action datasets, reaching a 93.07% average accuracy.',
+      ko: '회사를 위해 개발한 규칙 기반 실시간 시스템으로, YOLO11s-pose 키포인트와 ByteTracker만으로 모델 학습 없이 세 가지 이상 행동 — Fall(92.4%), Unsafe Running(90.99%), Long-time Inactivity(95.8%) — 를 감지합니다. 낙상은 체간 기울기 각도와 기울기 속도, 뛰기는 무게중심의 수평 이동 속도, 장시간 정지는 정지 프레임 비율과 자세 안정성이라는 순수 생체역학 규칙을 적용했습니다. UP-Fall 및 KTH Action 데이터셋에서 Leave-One-Out Cross-Validation으로 평가해 평균 93.07%의 정확도를 달성했습니다.',
+      ru: 'Система на основе правил в реальном времени, разработанная для компании для обнаружения трёх типов аномального поведения рабочих — Fall (92,4%), Unsafe Running (90,99%) и Long-time Inactivity (95,8%) — с использованием ключевых точек YOLO11s-pose и ByteTracker, без обучения модели. Применены чисто биомеханические правила: угол наклона тела и скорость наклона для падений, скорость горизонтального движения центра масс для бега, длительность неподвижности и стабильность позы для бездействия. Оценка проведена методом Leave-One-Out Cross-Validation на датасетах UP-Fall и KTH Action, средняя точность — 93,07%.',
+      uz: "Kompaniya uchun yaratilgan qoidaga asoslangan real-time tizim, YOLO11s-pose keypoint'lari va ByteTracker yordamida hech qanday model o'qitmasdan uch xil g'ayritabiiy xatti-harakatni aniqlaydi — Yiqilish (92.4%), Xavfli yugurish (90.99%) va Uzoq vaqt harakatsizlik (95.8%). Yiqilish uchun tana og'ish burchagi va og'ish tezligi, yugurish uchun og'irlik markazining gorizontal tezligi, harakatsizlik uchun esa qimirlamaslik davomiyligi va tana holati barqarorligi kabi sof biomexanik qoidalar qo'llanildi. UP-Fall va KTH Action datasetlarida Leave-One-Out Cross-Validation orqali baholanib, o'rtacha 93.07% aniqlikka erishildi.",
+    },
+    status: 'Completed',
+    date: '2026-06-12 ~ 2026-07-02',
+    link: 'https://github.com/abbosaliboev/worker-abnormal-behavior-detection',
+  },
   {
     id: 1,
     title: {
@@ -275,10 +350,10 @@ export const experienceData = [
     org: 'Chungbuk National University (Cheongju, South Korea)',
     date: 'Sep 2024 – Present',
     note: {
-      en: 'Working on AI and Smart Manufacturing projects, focusing on web & Computer Vision (YOLO).<br/><a href="https://sites.google.com/view/data-analytics-lab/members?authuser=0" target="_blank" rel="noreferrer">dalab.cbnu.ac.kr</a>',
-      ko: 'AI 및 Smart Manufacturing 프로젝트 수행, 웹 및 Computer Vision (YOLO) 집중.<br/><a href="https://sites.google.com/view/data-analytics-lab/members?authuser=0" target="_blank" rel="noreferrer">dalab.cbnu.ac.kr</a>',
-      ru: 'Работа над проектами AI и Smart Manufacturing, фокус на веб и Computer Vision (YOLO).<br/><a href="https://sites.google.com/view/data-analytics-lab/members?authuser=0" target="_blank" rel="noreferrer">dalab.cbnu.ac.kr</a>',
-      uz: "AI va Smart Manufacturing loyihalari ustida ishlash, web va Computer Vision (YOLO) yo'nalishida.<br/><a href=\"https://sites.google.com/view/data-analytics-lab/members?authuser=0\" target=\"_blank\" rel=\"noreferrer\">dalab.cbnu.ac.kr</a>",
+      en: 'Developing industrial AI safety systems using Deep Learning, Computer Vision, and Smart Manufacturing pipelines. Responsible for Frontend development, AI model training (YOLOv8/YOLOv11), data collection &amp; preprocessing, GPU server setup (NVIDIA TITAN RTX), and system integration. Conducted Fall Detection research — designed a Pose Estimation + TCN + BotSort pipeline, reduced keypoints from 17 to 10 (33% speed gain), and applied a Shared Backbone structure to compress models from 42 MB to 7.8 MB. Handled TensorRT optimization and deployment to Embedded Devices (Jetson Orin Nano, Jetson Developer Kit).<br/><a href="https://sites.google.com/view/data-analytics-lab/members?authuser=0" target="_blank" rel="noreferrer">dalab.cbnu.ac.kr</a>',
+      ko: 'Deep Learning, Computer Vision, Smart Manufacturing 파이프라인을 활용한 산업 현장 AI 안전 시스템 개발. Frontend 개발, AI 모델 학습(YOLOv8/YOLOv11), 데이터 수집·전처리, GPU 서버(NVIDIA TITAN RTX) 구축 및 시스템 통합 담당. Fall Detection 연구에서 Pose Estimation + TCN + BotSort 파이프라인을 설계하고 keypoint를 17개→10개로 줄여 추론 속도 33% 향상, Shared Backbone 구조로 모델 크기를 42MB→7.8MB로 압축. TensorRT 최적화 및 Embedded Device(Jetson Orin Nano, Jetson Developer Kit) 배포까지 담당.<br/><a href="https://sites.google.com/view/data-analytics-lab/members?authuser=0" target="_blank" rel="noreferrer">dalab.cbnu.ac.kr</a>',
+      ru: 'Разработка промышленных AI систем безопасности с использованием Deep Learning, Computer Vision и Smart Manufacturing пайплайнов. Отвечал за Frontend разработку, обучение AI моделей (YOLOv8/YOLOv11), сбор и предобработку данных, настройку GPU сервера (NVIDIA TITAN RTX) и системную интеграцию. В рамках Fall Detection исследования спроектировал Pose Estimation + TCN + BotSort пайплайн, сократил keypoints с 17 до 10 (прирост скорости 33%), применил Shared Backbone для сжатия модели с 42 МБ до 7,8 МБ. Выполнял TensorRT оптимизацию и развёртывание на Embedded устройствах (Jetson Orin Nano, Jetson Developer Kit).<br/><a href="https://sites.google.com/view/data-analytics-lab/members?authuser=0" target="_blank" rel="noreferrer">dalab.cbnu.ac.kr</a>',
+      uz: "Deep Learning, Computer Vision va Smart Manufacturing pipeline'laridan foydalangan holda sanoat AI xavfsizlik tizimlarini ishlab chiqish. Frontend dasturlash, AI model o'qitish (YOLOv8/YOLOv11), ma'lumot to'plash va oldindan qayta ishlash, GPU server (NVIDIA TITAN RTX) sozlash va tizim integratsiyasini amalga oshirish. Fall Detection tadqiqotida Pose Estimation + TCN + BotSort pipeline'ini loyihaladim, keypoint'larni 17 tadan 10 taga kamaytirdim (33% tezlik oshishi), Shared Backbone tuzilmasi orqali model hajmini 42 MB dan 7.8 MB ga siqtirdim. TensorRT optimizatsiyasi va Embedded qurilmalarga (Jetson Orin Nano, Jetson Developer Kit) joylashtirish.<br/><a href=\"https://sites.google.com/view/data-analytics-lab/members?authuser=0\" target=\"_blank\" rel=\"noreferrer\">dalab.cbnu.ac.kr</a>",
     },
   },
   {
@@ -291,6 +366,45 @@ export const experienceData = [
       ru: 'Консультирование клиентов по мобильным и fintech сервисам, обработка платежей и решение сервисных вопросов.<br/><a href="https://www.linkedin.com/company/humansuz/" target="_blank" rel="noreferrer">linkedin.com/company/humansuz</a>',
       uz: "Mijozlarga mobil va fintech xizmatlar bo'yicha yordam berish, to'lovlarni amalga oshirish va xizmat muammolarini hal qilish.<br/><a href=\"https://www.linkedin.com/company/humansuz/\" target=\"_blank\" rel=\"noreferrer\">linkedin.com/company/humansuz</a>",
     },
+  },
+];
+
+export const globalProgramsText = [
+  {
+    title: {
+      en: 'ICCAS/EKC 2026 — International AI & Engineering Program',
+      ko: 'ICCAS/EKC 2026 — 국제 AI 및 공학 프로그램',
+      ru: 'ICCAS/EKC 2026 — Международная программа по AI и инженерии',
+      uz: 'ICCAS/EKC 2026 — Xalqaro AI va muhandislik dasturi',
+    },
+    location: 'Toulouse, France',
+    date: 'Jul 6 – 26, 2026',
+    role: 'Team Leader, AI Engineer',
+    description: {
+      en: 'Represented Chungbuk National University in a three-week international program (CBNU, South Korea → Toulouse, France) combining conference, team project, research, and poster presentation tracks. Led a 4-person team to build MobiCare, an Edge AI fall-detection and rehabilitation system, presented a paper at ICCAS 2026 and a poster at EKC 2026, and won 2nd place among all team projects in the program.',
+      ko: '3주간의 국제 프로그램(충북대학교, 한국 → 프랑스 툴루즈)에 충북대학교 대표로 참가하여 학회, 팀 프로젝트, 연구, 포스터 발표 트랙을 모두 수행했습니다. 4인 팀을 이끌고 엣지 AI 낙상 감지·재활 시스템 MobiCare를 개발해 ICCAS 2026에서 논문을, EKC 2026에서 포스터를 발표했으며 전체 팀 프로젝트 중 2등을 수상했습니다.',
+      ru: 'Представлял Чхунбукский национальный университет в трёхнедельной международной программе (CBNU, Южная Корея → Тулуза, Франция), включающей конференцию, командный проект, исследование и постерную презентацию. Возглавил команду из 4 человек и разработал MobiCare — систему обнаружения падений и реабилитации на Edge AI, представил доклад на ICCAS 2026 и постер на EKC 2026, команда заняла 2-е место среди всех командных проектов программы.',
+      uz: "Uch haftalik xalqaro dastur (CBNU, Janubiy Koreya → Tuluza, Fransiya) doirasida Chungbuk Milliy Universitetini vakillik qildim; dastur konferensiya, jamoaviy loyiha, tadqiqot va poster taqdimoti bosqichlarini o'z ichiga oldi. 4 kishilik jamoaga rahbarlik qilib, Edge AI asosidagi yiqilishni aniqlash va reabilitatsiya tizimi MobiCare'ni yaratdim, ICCAS 2026'da maqola va EKC 2026'da poster taqdim etdim, dasturdagi barcha jamoaviy loyihalar orasida 2-o'rinni qo'lga kiritdik.",
+    },
+    link: 'https://github.com/abbosaliboev/ICCAS_2026',
+  },
+  {
+    title: {
+      en: 'SP!ED 2025 — Summer Program for Innovative Engineering Design',
+      ko: 'SP!ED 2025 — 혁신 공학 설계 여름 프로그램',
+      ru: 'SP!ED 2025 — Летняя программа инновационного инженерного проектирования',
+      uz: 'SP!ED 2025 — Innovatsion muhandislik dizayni yozgi dasturi',
+    },
+    location: 'China (multinational program)',
+    date: 'Jul 23 – Aug 23, 2025',
+    role: 'Team Leader, AI Developer',
+    description: {
+      en: 'Selected for the 13th Summer Program for Innovative Engineering Design (SP!ED 2025), a multinational South Korea–China–Japan engineering design program. Led the team "One Asia" to design an AI Smart Crosswalk system, collected real-world data on-site in China, and won the Gold Award.',
+      ko: '한·중·일 다국적 공학 설계 프로그램인 제13회 SP!ED 2025에 선발되었습니다. "One Asia" 팀을 이끌고 AI Smart Crosswalk 시스템을 설계했으며, 중국 현지에서 실환경 데이터를 수집하고 Gold Award를 수상하였습니다.',
+      ru: 'Отобран для участия в 13-й летней программе инновационного инженерного проектирования (SP!ED 2025) — многонациональной программе Корея–Китай–Япония. Возглавил команду "One Asia" в разработке системы AI Smart Crosswalk, собрал данные в реальных условиях в Китае и завоевал Gold Award.',
+      uz: "Koreya–Xitoy–Yaponiya ko'pmillatli muhandislik dizayni dasturi bo'lgan 13-SP!ED 2025 yozgi dasturiga tanlab olindim. \"One Asia\" jamoasiga rahbarlik qilib AI Smart Crosswalk tizimini loyihalashtirdim, Xitoyda haqiqiy sharoitda ma'lumot to'pladim va Gold Award'ni qo'lga kiritdim.",
+    },
+    link: 'https://github.com/abbosaliboev/AI_Smart_Crosswalk.git',
   },
 ];
 
@@ -334,6 +448,28 @@ export const activitiesData = [
 ];
 
 export const certificatesText = [
+  {
+    title: 'Certificate of Presentation — EKC 2026',
+    org: 'Europe-Korea Conference on Science and Technology (Association des Scientifiques Coréens en France)',
+    date: 'Toulouse, France · Jul 20–23, 2026',
+    note: {
+      en: 'Successfully presented "Edge AI-Based Real-Time Fall Detection and Alert System for Elderly People Living Alone" (MobiCare, Team 4) with Damin Kim, Jonghyuk Park, and Seongwoo Cho at EKC 2026 — "AI-Driven Future of Science and Technology".',
+      ko: 'EKC 2026 — "AI-Driven Future of Science and Technology"에서 Damin Kim, Jonghyuk Park, Seongwoo Cho와 함께 "Edge AI-Based Real-Time Fall Detection and Alert System for Elderly People Living Alone"(MobiCare, Team 4)를 성공적으로 발표하였습니다.',
+      ru: 'Успешно представил доклад "Edge AI-Based Real-Time Fall Detection and Alert System for Elderly People Living Alone" (MobiCare, Team 4) вместе с Damin Kim, Jonghyuk Park и Seongwoo Cho на EKC 2026 — "AI-Driven Future of Science and Technology".',
+      uz: "EKC 2026 — \"AI-Driven Future of Science and Technology\" konferensiyasida Damin Kim, Jonghyuk Park va Seongwoo Cho bilan birgalikda \"Edge AI-Based Real-Time Fall Detection and Alert System for Elderly People Living Alone\" (MobiCare, Team 4) mavzusidagi taqdimotni muvaffaqiyatli o'tkazdim.",
+    },
+  },
+  {
+    title: 'Certificate of Attendance — EKC 2026',
+    org: 'Europe-Korea Conference on Science and Technology (Association des Scientifiques Coréens en France)',
+    date: 'Toulouse, France · Jul 20–23, 2026',
+    note: {
+      en: 'Contributed to and participated in EKC 2026 — "AI-Driven Future of Science and Technology", held in Toulouse, France, as part of the ICCAS/EKC 2026 international program.',
+      ko: '프랑스 툴루즈에서 개최된 EKC 2026 — "AI-Driven Future of Science and Technology"에 ICCAS/EKC 2026 국제 프로그램의 일환으로 참가 및 기여하였습니다.',
+      ru: 'Внёс вклад и принял участие в EKC 2026 — "AI-Driven Future of Science and Technology", прошедшей в Тулузе, Франция, в рамках международной программы ICCAS/EKC 2026.',
+      uz: "Fransiyaning Tuluza shahrida o'tkazilgan EKC 2026 — \"AI-Driven Future of Science and Technology\" konferensiyasida ICCAS/EKC 2026 xalqaro dasturi doirasida ishtirok etdim va hissa qo'shdim.",
+    },
+  },
   {
     title: 'Claude Code in Action',
     org: 'Anthropic',
