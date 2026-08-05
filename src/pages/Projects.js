@@ -15,11 +15,15 @@ import TartibAIImg from '../assets/tartibai.png';
 import SafarTourImg from '../assets/safartour.png';
 import TillatandirImg from '../assets/tillatandir.png';
 import LibraryImg from '../assets/library.png';
+import IDCoolImg from '../assets/Icon_IDCool.png';
+import SmartSafetyGuardImg from '../assets/Icon_SmartSafetyGuard.png';
+import MobiCareImg from '../assets/Icon_MobiCare.png';
+import WorkerAbnormalImg from '../assets/Icon_WorkerAbnormal_Detection.png';
 
 // Image map by project id for team projects
-const teamImages = { 1: PrettyImg, 2: PlantopiaImg, 3: SafetyImg, 4: VoidaImg, 5: AICOMSImg, 6: FallImg, 7: CrosswalkImg, 8: EZIPImg };
+const teamImages = { 1: PrettyImg, 2: PlantopiaImg, 3: SafetyImg, 4: VoidaImg, 5: AICOMSImg, 6: FallImg, 7: CrosswalkImg, 8: EZIPImg, 9: IDCoolImg, 10: SmartSafetyGuardImg, 11: MobiCareImg };
 // Image map by project id for personal projects
-const personalImages = { 1: TartibAIImg, 2: SafarTourImg, 3: TillatandirImg, 4: LibraryImg };
+const personalImages = { 1: TartibAIImg, 2: SafarTourImg, 3: TillatandirImg, 4: LibraryImg, 5: WorkerAbnormalImg };
 
 const ProjectCard = ({ project, showRole, lang, labels }) => (
   <Card
