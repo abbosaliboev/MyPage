@@ -23,8 +23,6 @@ import awardSPEDGold from '../assets/award-SPED.png';
 const certFiles = [certEKCPresentation, certEKCAttendance, certClaude, certAIFluency, cert3D, certAdvisor, certHackathon, certTopik, certTopikCamp, certKLP];
 // File refs in same order as honorsText
 const honorFiles = [awardSPEDGold, awardScholarship, awardAIProject2, awardAIProject];
-// File refs in same order as globalProgramsText
-const globalProgramFiles = [certEKCPresentation, awardSPEDGold];
 
 const DocModal = ({ show, onHide, src, alt = 'Document' }) => (
   <Modal show={show} onHide={onHide} centered size="lg">
@@ -68,32 +66,25 @@ const DocRow = ({ text, file, lang, onOpen }) => (
   </Row>
 );
 
-const GlobalProgramRow = ({ item, file, lang, labels, onOpen }) => (
-  <Row className="align-items-center mb-4">
-    <Col md={2} xs={4} className="text-center">
-      <img
-        src={file}
-        alt={tr(item.title, lang)}
-        style={{ maxWidth: '120px', width: '100%', height: 'auto', borderRadius: 8, cursor: 'pointer', display: 'block', margin: '0 auto' }}
-        onClick={() => onOpen(file, tr(item.title, lang))}
-      />
-    </Col>
-    <Col md={10} xs={8}>
-      <h5 className="mb-1"><strong>{tr(item.title, lang)}</strong></h5>
-      <p className="mb-1"><em>{item.location}</em> · {item.date}</p>
-      {item.role && (
-        <p className="mb-1 text-muted" style={{ fontSize: '0.9rem' }}><strong>{labels.role}:</strong> {item.role}</p>
-      )}
-      <p className="text-muted" style={{ fontSize: '0.9rem' }}>{tr(item.description, lang)}</p>
-      {item.link && (
-        <p className="mb-0">
-          <a href={item.link} target="_blank" rel="noopener noreferrer" className="text-primary text-decoration-none">
-            {labels.viewProject}
-          </a>
-        </p>
-      )}
-    </Col>
-  </Row>
+const GlobalProgramRow = ({ item, lang, labels }) => (
+  <div className="mb-4">
+    <h5 className="mb-1"><strong>{tr(item.title, lang)}</strong></h5>
+    <p className="mb-1"><em>{item.location}</em> · {item.date}</p>
+    {item.role && (
+      <p className="mb-1 text-muted" style={{ fontSize: '0.9rem' }}><strong>{labels.role}:</strong> {item.role}</p>
+    )}
+    {item.award && (
+      <p className="mb-1"><strong>{labels.award}:</strong> <span className="fw-bold text-success">{item.award}</span></p>
+    )}
+    <p className="text-muted" style={{ fontSize: '0.9rem' }}>{tr(item.description, lang)}</p>
+    {item.link && (
+      <p className="mb-0">
+        <a href={item.link} target="_blank" rel="noopener noreferrer" className="text-primary text-decoration-none">
+          {labels.viewProject}
+        </a>
+      </p>
+    )}
+  </div>
 );
 
 const Home = () => {
@@ -161,7 +152,7 @@ const Home = () => {
         <Col md={12}>
           <h2 className="mt-5">{t.home.globalPrograms}</h2>
           {globalProgramsText.map((item, i) => (
-            <GlobalProgramRow key={`global-${i}`} item={item} file={globalProgramFiles[i]} lang={language} labels={t.labels} onOpen={open} />
+            <GlobalProgramRow key={`global-${i}`} item={item} lang={language} labels={t.labels} />
           ))}
         </Col>
 

@@ -389,6 +389,7 @@ export const globalProgramsText = [
     location: 'Toulouse, France',
     date: 'Jul 6 – 26, 2026',
     role: 'Team Leader, AI Engineer',
+    award: '2nd Place — Team Projects',
     description: {
       en: 'Represented Chungbuk National University in a three-week international program (CBNU, South Korea → Toulouse, France) combining conference, team project, research, and poster presentation tracks. Led a 4-person team to build MobiCare, an Edge AI fall-detection and rehabilitation system, presented a paper at ICCAS 2026 and a poster at EKC 2026, and won 2nd place among all team projects in the program.',
       ko: '3주간의 국제 프로그램(충북대학교, 한국 → 프랑스 툴루즈)에 충북대학교 대표로 참가하여 학회, 팀 프로젝트, 연구, 포스터 발표 트랙을 모두 수행했습니다. 4인 팀을 이끌고 엣지 AI 낙상 감지·재활 시스템 MobiCare를 개발해 ICCAS 2026에서 논문을, EKC 2026에서 포스터를 발표했으며 전체 팀 프로젝트 중 2등을 수상했습니다.',
@@ -407,6 +408,7 @@ export const globalProgramsText = [
     location: 'China (multinational program)',
     date: 'Jul 23 – Aug 23, 2025',
     role: 'Team Leader, AI Developer',
+    award: 'Gold Award',
     description: {
       en: 'Selected for the 13th Summer Program for Innovative Engineering Design (SP!ED 2025), a multinational South Korea–China–Japan engineering design program. Led the team "One Asia" to design an AI Smart Crosswalk system, collected real-world data on-site in China, and won the Gold Award.',
       ko: '한·중·일 다국적 공학 설계 프로그램인 제13회 SP!ED 2025에 선발되었습니다. "One Asia" 팀을 이끌고 AI Smart Crosswalk 시스템을 설계했으며, 중국 현지에서 실환경 데이터를 수집하고 Gold Award를 수상하였습니다.',
