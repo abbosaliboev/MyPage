@@ -158,7 +158,7 @@ const Home = () => {
 
         {/* International Programs */}
         <Col md={12}>
-          <h2 className="mt-5">{t.home.globalPrograms}</h2>
+          <h2 className="mt-5 mb-4">{t.home.globalPrograms}</h2>
           {globalProgramsText.map((item, i) => (
             <GlobalProgramRow key={`global-${i}`} item={item} image={globalProgramFiles[i]} lang={language} labels={t.labels} onOpen={open} />
           ))}
