@@ -55,18 +55,18 @@ const ProjectCard = ({ project, showRole, lang, labels }) => (
           <p className="mb-1 text-muted"><strong>{labels.role}:</strong> {project.role}</p>
         )}
         <p className="mb-1 text-muted"><strong>{labels.date}:</strong> {project.date}</p>
-        {project.link && (
-          <p className="mb-0">
-            <a href={project.link} target="_blank" rel="noopener noreferrer" className="text-primary text-decoration-none">
-              {labels.viewProject}
-            </a>
-          </p>
-        )}
-        {project.extraLink && (
-          <p className="mb-0">
-            <a href={project.extraLink.url} target="_blank" rel="noopener noreferrer" className="text-primary text-decoration-none">
-              {tr(project.extraLink.label, lang)}
-            </a>
+        {(project.link || project.extraLink) && (
+          <p className="mb-0 d-flex justify-content-between align-items-center flex-wrap">
+            {project.link ? (
+              <a href={project.link} target="_blank" rel="noopener noreferrer" className="text-primary text-decoration-none">
+                {labels.viewProject}
+              </a>
+            ) : <span />}
+            {project.extraLink && (
+              <a href={project.extraLink.url} target="_blank" rel="noopener noreferrer" className="text-primary text-decoration-none">
+                {tr(project.extraLink.label, lang)}
+              </a>
+            )}
           </p>
         )}
       </div>
