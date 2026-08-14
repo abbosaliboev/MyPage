@@ -18,12 +18,13 @@ import awardScholarship from '../assets/award-LevelUp.png';
 import awardAIProject2 from '../assets/award-2024-2.png';
 import awardAIProject from '../assets/award-2024-1.png';
 import awardSPEDGold from '../assets/award-SPED.png';
+import awardICCASSilver from '../assets/ICCAS_Silver_award.png';
 import mobiCarePoster from '../assets/MobiCare_Poster_EKC2026.jpg';
 
 // File refs in same order as certificatesText
 const certFiles = [certEKCPresentation, certEKCAttendance, certClaude, certAIFluency, cert3D, certAdvisor, certHackathon, certTopik, certTopikCamp, certKLP];
 // File refs in same order as honorsText
-const honorFiles = [awardSPEDGold, awardScholarship, awardAIProject2, awardAIProject];
+const honorFiles = [awardICCASSilver, awardSPEDGold, awardScholarship, awardAIProject2, awardAIProject];
 // File refs in same order as globalProgramsText (null where there's no poster/photo)
 const globalProgramFiles = [mobiCarePoster, null];
 
