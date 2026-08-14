@@ -389,7 +389,7 @@ export const globalProgramsText = [
     location: 'Toulouse, France',
     date: 'Jul 6 – 26, 2026',
     role: 'Team Leader, AI Engineer',
-    award: 'Silver Award — ICCAS 2026',
+    award: 'Silver Award',
     description: {
       en: "Represented Chungbuk National University in a three-week international program (CBNU, South Korea → Toulouse, France) combining conference, team project, research, and poster presentation tracks. Served as Team Leader — a role that fit naturally since the project topic closely overlapped with my own fall-detection research — on a 4-person team that built MobiCare, an Edge AI real-time fall-detection and alert system combining Deep Learning (YOLO11n-pose + ST-GCN) with a kinematics-based verification filter. The team presented a paper at ICCAS 2026 and a poster at EKC 2026, and won the Silver Award at the 5th International Collegiate Challenge for AI-Assisted Society (ICCAS 2026).",
       ko: '3주간의 국제 프로그램(충북대학교, 한국 → 프랑스 툴루즈)에 충북대학교 대표로 참가하여 학회, 팀 프로젝트, 연구, 포스터 발표 트랙을 모두 수행했습니다. 프로젝트 주제가 제 낙상 감지 연구와 밀접하게 맞닿아 있어 자연스럽게 4인 팀의 Team Leader를 맡았고, 팀은 Deep Learning(YOLO11n-pose + ST-GCN)과 Kinematics 기반 검증 필터를 결합한 엣지 AI 실시간 낙상 감지·알림 시스템 MobiCare를 개발했습니다. 팀은 ICCAS 2026에서 논문을, EKC 2026에서 포스터를 발표했으며 제5회 International Collegiate Challenge for AI-Assisted Society(ICCAS 2026)에서 Silver Award를 수상했습니다.',
@@ -574,7 +574,7 @@ export const certificatesText = [
 export const honorsText = [
   {
     title: 'Silver Award — MobiCare (ICCAS 2026)',
-    org: '5th International Collegiate Challenge for AI-Assisted Society (ICCAS 2026), Euro-Korean Women Scientists and Engineers Association',
+    org: 'International Collegiate Challenge for AI-Assisted Society (ICCAS 2026), Euro-Korean Women Scientists and Engineers Association',
     date: 'Jul 25, 2026',
     note: {
       en: 'Won the Silver Award at ICCAS 2026 in Toulouse, France, for the paper "Edge AI-Based Real-Time Fall Detection and Alert System for Elderly People Living Alone," co-authored with Damin Kim, Jonghyuk Park, and Seongwoo Cho.',
