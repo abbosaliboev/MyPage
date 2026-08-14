@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://abbosaliboev.uz/sitemap.xml
