@@ -9,12 +9,11 @@ npm start        # Dev server (localhost:3000)
 npm run build    # Production build → /build
 npm test         # Run tests (watch mode)
 npm test -- --watchAll=false  # Run tests once
-npm run deploy   # Build + deploy to GitHub Pages (gh-pages branch)
 ```
 
 ## Architecture
 
-This is a Create React App personal portfolio site deployed to [abbosaliboev.site](https://abbosaliboev.site).
+This is a Create React App personal portfolio site deployed to [abbosaliboev.uz](https://abbosaliboev.uz).
 
 **Routing:** Uses `HashRouter` (not `BrowserRouter`) — required for GitHub Pages compatibility. Routes map to four pages: `/`, `/about`, `/projects`, `/blog`.
 
@@ -25,7 +24,7 @@ This is a Create React App personal portfolio site deployed to [abbosaliboev.sit
 
 **UI:** React Bootstrap (`Container`, `Row`, `Col`, `Modal`, `Navbar`) + `react-icons` for social icons. No custom component library — layout is done inline with Bootstrap grid.
 
-**Deployment:** Pushing to `main` triggers the GitHub Actions workflow ([.github/workflows/static.yml](.github/workflows/static.yml)) which deploys the repo root to GitHub Pages. The `CNAME` file maps the custom domain. Alternatively, `npm run deploy` uses the `gh-pages` package to deploy the `/build` folder.
+**Deployment:** Pushing to `main` triggers the GitHub Actions workflow ([.github/workflows/static.yml](.github/workflows/static.yml)), which runs `npm ci && npm run build` and deploys the `/build` output to GitHub Pages (repo Pages source is set to "GitHub Actions", not a branch). `public/CNAME` maps the custom domain and is copied into every build. There is no separate manual deploy step — merging/pushing to `main` is the only thing that ships to production. (The repo previously also supported `npm run deploy` via the `gh-pages` package pushing to a `gh-pages` branch; that path was removed after it started racing with this workflow and causing intermittent 404s on the live site — don't reintroduce a branch-based Pages deploy alongside this workflow.)
 
 ## Content Updates
 
