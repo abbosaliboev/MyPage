@@ -108,7 +108,7 @@ function AppInner() {
           </div>
           <p className="mb-0">{t.footer}</p>
           <p className="mb-0" style={{ fontSize: '0.7rem', opacity: 0.3, marginTop: '4px' }}>
-            Last updated: August 26, 2026, 2:00 PM KST
+            Last updated: August 27, 2026, 12:55 AM KST
           </p>
         </Container>
       </footer>

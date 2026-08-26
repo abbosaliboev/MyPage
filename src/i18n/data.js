@@ -606,6 +606,28 @@ export const honorsText = [
     },
   },
   {
+    title: 'Chungbuk-type K-International Student Scholarship',
+    org: 'Chungbuk National University RISE(앵커) Project, K-International Student Center',
+    date: 'Fall 2025 & Spring 2026',
+    note: {
+      en: 'Selected for the Chungbuk-type K-International Student Scholarship (충북형 K-유학생 장학금) for two consecutive semesters — 2025 Fall and 2026 Spring.',
+      ko: '충북형 K-유학생 장학금에 2025학년도 2학기와 2026학년도 1학기, 두 학기 연속 최종 선발되었습니다.',
+      ru: 'Отобран на стипендию для иностранных студентов провинции Чхунбук (충북형 K-유학생 장학금) два семестра подряд — осенью 2025 и весной 2026.',
+      uz: "Chungbuk-turi xorijiy talabalar uchun K-stipendiyasiga (충북형 K-유학생 장학금) ketma-ket ikki semestr — 2025-yil kuz va 2026-yil bahor — uchun tanlab olindim.",
+    },
+  },
+  {
+    title: 'Undergraduate Lab (Research) Intern Scholarship',
+    org: 'Chungbuk National University, Data Analytics Lab (DaLab)',
+    date: 'Mar 2025 – Aug 2026 (3 semesters)',
+    note: {
+      en: 'Selected as an Undergraduate Lab (Research) Intern Scholarship recipient (학부생 실험실(연구실) 인턴 장학생) for three consecutive semesters at DaLab, from March 2025 to August 2026.',
+      ko: '2025년 3월부터 2026년 8월까지 3개 학기 연속으로 DaLab 학부생 실험실(연구실) 인턴 장학생으로 선발되었습니다.',
+      ru: 'Отобран в качестве стипендиата программы стажировки в лаборатории для студентов (학부생 실험실(연구실) 인턴 장학생) в DaLab на протяжении трёх семестров подряд, с марта 2025 по август 2026.',
+      uz: "DaLab'da 2025-yil mart oyidan 2026-yil avgustigacha, ketma-ket 3 semestr davomida talaba laboratoriya (tadqiqot) intern stipendiati (학부생 실험실(연구실) 인턴 장학생) sifatida tanlab olindim.",
+    },
+  },
+  {
     title: 'Gold Award — AI Smart Crosswalk (Team Leader)',
     org: 'SPIED 2025, Innovative Research & Education of Asia (China)',
     date: 'Aug 23, 2025',
