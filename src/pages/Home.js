@@ -14,6 +14,8 @@ import certAIFluency from '../assets/Certi_AI_Fluence.png';
 import certClaude from '../assets/Certi_Claude.png';
 import certEKCAttendance from '../assets/Certi-EKC2026_Atten.png';
 import certEKCPresentation from '../assets/Certi-EKC2026_Present.png';
+import certSeoulGlobalCenter from '../assets/Certi_Seoul_global_center.png';
+import certEKCVolunteer from '../assets/Certi-EKC2026-Volunteerpng.png';
 import awardScholarship from '../assets/award-LevelUp.png';
 import awardAIProject2 from '../assets/award-2024-2.png';
 import awardAIProject from '../assets/award-2024-1.png';
@@ -22,7 +24,7 @@ import awardICCASSilver from '../assets/ICCAS_Silver_award.png';
 import mobiCarePoster from '../assets/MobiCare_Poster_EKC2026.jpg';
 
 // File refs in same order as certificatesText
-const certFiles = [certEKCPresentation, certEKCAttendance, certClaude, certAIFluency, cert3D, certAdvisor, certHackathon, certTopik, certTopikCamp, certKLP];
+const certFiles = [certSeoulGlobalCenter, certEKCVolunteer, certEKCPresentation, certEKCAttendance, certClaude, certAIFluency, cert3D, certAdvisor, certHackathon, certTopik, certTopikCamp, certKLP];
 // File refs in same order as honorsText
 const honorFiles = [awardICCASSilver, awardSPEDGold, awardScholarship, awardAIProject2, awardAIProject];
 // File refs in same order as globalProgramsText (null where there's no poster/photo)
@@ -113,7 +115,8 @@ const Home = () => {
             alt="Abbos Aliboev"
             style={{ maxWidth: 200, width: '100%', height: 'auto' }}
           />
-          <p className="mt-3">ali@chungbuk.ac.kr</p>
+          <p className="mt-3 mb-0">ali@chungbuk.ac.kr</p>
+          <p className="mb-0">abbosaliboyev66669999@gmail.com</p>
         </Col>
 
         <Col md={8}>

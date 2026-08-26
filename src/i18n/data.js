@@ -460,6 +460,28 @@ export const activitiesData = [
 
 export const certificatesText = [
   {
+    title: 'Certificate of Completion — Job-Specific Training (Seoul Global Center)',
+    org: 'Seoul Global Center',
+    date: 'Aug 19–20, 2026',
+    note: {
+      en: 'Completed the 2nd cohort of Job-Specific Training (직무역량강화교육 2기) organized by Seoul Global Center, Aug 19–20, 2026. Certificate No. SGC26-수317호.',
+      ko: '서울글로벌센터가 주관하는 2026년 직무역량강화교육 2기(2026.08.19~08.20)를 수료하였습니다. 수료증 번호: SGC26-수317호.',
+      ru: 'Завершил 2-й поток программы Job-Specific Training, организованной Seoul Global Center, 19–20 августа 2026 года. № сертификата: SGC26-수317호.',
+      uz: "Seoul Global Center tashkil qilgan Job-Specific Training (직무역량강화교육) 2-guruhini 2026-yil 19–20 avgust kunlarida muvaffaqiyatli yakunladim. Sertifikat raqami: SGC26-수317호.",
+    },
+  },
+  {
+    title: 'Certificate of Appreciation — EKC 2026 Volunteer',
+    org: 'Europe-Korea Conference on Science and Technology (Association des Scientifiques Coréens en France)',
+    date: 'Toulouse, France · Jul 20–23, 2026',
+    note: {
+      en: 'Received a Certificate of Appreciation for outstanding work and effort as a volunteer at EKC 2026 — "AI-Driven Future of Science and Technology", held in Toulouse, France.',
+      ko: '프랑스 툴루즈에서 열린 EKC 2026 — "AI-Driven Future of Science and Technology"에서 자원봉사자로서 헌신적으로 기여한 공로를 인정받아 감사장(Certificate of Appreciation)을 수여받았습니다.',
+      ru: 'Получил Certificate of Appreciation за выдающуюся работу и вклад в качестве волонтёра на EKC 2026 — "AI-Driven Future of Science and Technology", проходившей в Тулузе, Франция.',
+      uz: "Fransiyaning Tuluza shahrida o'tkazilgan EKC 2026 — \"AI-Driven Future of Science and Technology\" konferensiyasida volontyor sifatida ko'rsatgan sidqidildan xizmatim uchun Certificate of Appreciation (minnatdorchilik sertifikati) bilan taqdirlandim.",
+    },
+  },
+  {
     title: 'Certificate of Presentation — EKC 2026',
     org: 'Europe-Korea Conference on Science and Technology (Association des Scientifiques Coréens en France)',
     date: 'Toulouse, France · Jul 20–23, 2026',
