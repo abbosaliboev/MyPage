@@ -2,7 +2,6 @@ import { useState, useRef, useEffect } from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
-import { SiLeetcode } from "react-icons/si";
 
 import { LanguageProvider, useLanguage } from './context/LanguageContext';
 import Home from './pages/Home';
@@ -106,13 +105,10 @@ function AppInner() {
             <a href="https://instagram.com/abbos_aliboev" target="_blank" rel="noreferrer" className="text-white mx-3">
               <FaInstagram size={28} />
             </a>
-            <a href="https://leetcode.com/abbosaliboev" target="_blank" rel="noreferrer" className="text-white mx-3">
-              <SiLeetcode size={28} />
-            </a>
           </div>
           <p className="mb-0">{t.footer}</p>
           <p className="mb-0" style={{ fontSize: '0.7rem', opacity: 0.3, marginTop: '4px' }}>
-            Last updated: August 26, 2026, 1:52 PM KST
+            Last updated: August 26, 2026, 2:00 PM KST
           </p>
         </Container>
       </footer>
