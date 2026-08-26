@@ -26,7 +26,7 @@ import mobiCarePoster from '../assets/MobiCare_Poster_EKC2026.jpg';
 // File refs in same order as certificatesText
 const certFiles = [certSeoulGlobalCenter, certEKCVolunteer, certEKCPresentation, certEKCAttendance, certClaude, certAIFluency, cert3D, certAdvisor, certHackathon, certTopik, certTopikCamp, certKLP];
 // File refs in same order as honorsText
-const honorFiles = [awardICCASSilver, null, null, awardSPEDGold, awardScholarship, awardAIProject2, awardAIProject];
+const honorFiles = [awardICCASSilver, null, awardSPEDGold, awardScholarship, awardAIProject2, awardAIProject];
 // File refs in same order as globalProgramsText (null where there's no poster/photo)
 const globalProgramFiles = [mobiCarePoster, null];
 
@@ -46,17 +46,17 @@ const DocModal = ({ show, onHide, src, alt = 'Document' }) => (
 
 const DocRow = ({ text, file, lang, onOpen }) => (
   <Row className="align-items-center mb-4">
-    {file && (
-      <Col md={2} xs={4} className="text-center">
+    <Col md={2} xs={4} className="text-center">
+      {file && (
         <img
           src={file}
           alt={text.title}
           style={{ maxWidth: '120px', width: '100%', height: 'auto', borderRadius: 8, cursor: 'pointer', display: 'block', margin: '0 auto' }}
           onClick={() => onOpen(file, text.title)}
         />
-      </Col>
-    )}
-    <Col md={file ? 10 : 12} xs={file ? 8 : 12}>
+      )}
+    </Col>
+    <Col md={10} xs={8}>
       <h5 className="mb-1"><strong>{text.title}</strong></h5>
       {(text.org || text.date) && (
         <p className="mb-1">
