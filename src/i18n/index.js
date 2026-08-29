@@ -10,8 +10,7 @@ export const translations = {
       activities: 'Activities',
       honors: 'Honors & Awards',
       certificates: 'Certificates',
-      downloadCV: 'Download CV (English)',
-      downloadResumeKo: 'Download Resume (Korean)',
+      downloadCV: 'Download CV',
     },
     labels: {
       status: 'Status',
@@ -49,8 +48,7 @@ export const translations = {
       activities: '활동',
       honors: '수상 및 표창',
       certificates: '자격증',
-      downloadCV: 'CV 다운로드 (영문)',
-      downloadResumeKo: '이력서 다운로드 (국문)',
+      downloadCV: 'CV 다운로드',
     },
     labels: {
       status: '상태',
@@ -88,8 +86,7 @@ export const translations = {
       activities: 'Деятельность',
       honors: 'Награды и достижения',
       certificates: 'Сертификаты',
-      downloadCV: 'Скачать резюме (англ.)',
-      downloadResumeKo: 'Скачать резюме (кор.)',
+      downloadCV: 'Скачать резюме',
     },
     labels: {
       status: 'Статус',
@@ -127,8 +124,7 @@ export const translations = {
       activities: 'Faoliyat',
       honors: 'Mukofotlar va yutuqlar',
       certificates: 'Sertifikatlar',
-      downloadCV: "CV yuklab olish (ingliz)",
-      downloadResumeKo: "Rezyume yuklab olish (koreys)",
+      downloadCV: "CV yuklab olish",
     },
     labels: {
       status: 'Holat',

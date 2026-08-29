@@ -2,7 +2,6 @@ import { useState } from 'react';
 import { Container, Row, Col, Modal } from 'react-bootstrap';
 import avatar from '../assets/avatar.png';
 import cvEnglish from '../assets/CV_Abbos.pdf';
-import resumeKorean from '../assets/Abbos_Aliboev_이력서.pdf';
 import { useLanguage } from '../context/LanguageContext';
 import { tr, educationData, experienceData, globalProgramsText, activitiesData, certificatesText, honorsText } from '../i18n/data';
 
@@ -129,9 +128,6 @@ const Home = () => {
           <div className="d-flex gap-2 flex-wrap">
             <a href={cvEnglish} download="Abbos_Aliboev_CV.pdf" target="_blank" rel="noreferrer" className="btn btn-outline-dark btn-sm">
               {t.home.downloadCV}
-            </a>
-            <a href={resumeKorean} download="Abbos_Aliboev_이력서.pdf" target="_blank" rel="noreferrer" className="btn btn-outline-dark btn-sm">
-              {t.home.downloadResumeKo}
             </a>
           </div>
         </Col>
