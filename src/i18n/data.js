@@ -341,6 +341,26 @@ export const educationData = [
       uz: "Koreys tili, 6-daraja (6급)<br/>Chungbuk Milliy Universiteti Koreys tili ta'lim markazida koreys tili dasturini tugatdim.<br/><a href=\"https://www.cbnu.ac.kr/eng/\" target=\"_blank\" rel=\"noreferrer\">cbnu.ac.kr</a>",
     },
   },
+  {
+    title: 'Academic Lyceum under Samarkand Medical Institute',
+    date: 'Sep 2017 – Jul 2019',
+    note: {
+      en: 'Natural Sciences track<br/>Graduated with a perfect GPA of 5.0/5.0 (100%).',
+      ko: '자연과학 전공<br/>GPA 5.0/5.0(100%) 만점으로 졸업하였습니다.',
+      ru: 'Направление: естественные науки<br/>Окончил с отличием — GPA 5.0/5.0 (100%).',
+      uz: "Tabiy fanlar yo'nalishi<br/>5.0/5.0 (100%) GPA bilan tamomladim.",
+    },
+  },
+  {
+    title: 'General Secondary School, Samarkand',
+    date: 'Sep 2008 – Jul 2017',
+    note: {
+      en: 'Completed general secondary education with a perfect GPA of 5.0/5.0 (100%).',
+      ko: '일반 중등교육을 GPA 5.0/5.0(100%) 만점으로 졸업하였습니다.',
+      ru: 'Окончил общее среднее образование с отличием — GPA 5.0/5.0 (100%).',
+      uz: "Umumiy o'rta ta'limni 5.0/5.0 (100%) GPA bilan tamomladim.",
+    },
+  },
 ];
 
 export const experienceData = [
