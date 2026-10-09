@@ -141,7 +141,7 @@ const Home = () => {
                 {educationData.map((ed, i) => (
                   <li key={`edu-${i}`} className="mb-3">
                     <h5 className="mb-1"><strong>{ed.title}</strong></h5>
-                    <p className="mb-1"><em>{ed.date}</em></p>
+                    <p className="mb-1">{ed.date}</p>
                     <p className="text-muted" style={{ fontSize: '0.9rem' }}
                       dangerouslySetInnerHTML={{ __html: tr(ed.note, language) }}
                     />
