@@ -352,7 +352,7 @@ export const educationData = [
     },
   },
   {
-    title: 'General Secondary School, Samarkand',
+    title: 'School No. 19, Jizzakh',
     date: 'Sep 2008 – Jul 2017',
     note: {
       en: 'Completed general secondary education with a perfect GPA of 5.0/5.0 (100%).',
