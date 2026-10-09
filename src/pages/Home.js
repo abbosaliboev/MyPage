@@ -119,7 +119,7 @@ const Home = () => {
             style={{ maxWidth: 200, width: '100%', height: 'auto' }}
           />
           <p className="mt-3 mb-0">ali@chungbuk.ac.kr</p>
-          <p className="mb-0">abbosaliboyev66669999@gmail.com</p>
+          <p className="mb-0">abbosaliboyev7@gmail.com</p>
         </Col>
 
         <Col md={8}>
