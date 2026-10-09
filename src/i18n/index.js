@@ -79,7 +79,7 @@ export const translations = {
     nav: { home: 'Главная', about: 'Обо мне', projects: 'Проекты', blog: 'Блог' },
     footer: '© 2025 Abbos Aliboev. Все права защищены.',
     home: {
-      intro: 'Я из Узбекистана и в настоящее время изучаю Computer Science в Чхунбукском национальном университете в Южной Корее. Мои основные интересы — AI, Deep Learning, Computer Vision, Smart Manufacturing и веб-разработка. Этот сайт является моим портфолио для демонстрации проектов и работ.',
+      intro: 'Я из Узбекистана и в настоящее время изучаю Computer Science в Чхунбукском национальном университете в Южной Корее. Мои основные интересы: AI, Deep Learning, Computer Vision, Smart Manufacturing и веб-разработка. Этот сайт является моим портфолио для демонстрации проектов и работ.',
       education: 'Образование',
       experience: 'Опыт работы',
       globalPrograms: 'Международные программы',
@@ -108,7 +108,7 @@ export const translations = {
     },
     about: {
       title: 'Обо мне',
-      p1: 'Я — <strong>Алибоев Аббос</strong>, студент по направлению <strong>Computer Science</strong> в <strong>Чхунбукском национальном университете</strong>. Начал учёбу в <strong>2023 году</strong>, а в <strong>2024 году</strong> был отобран в качестве <strong>стипендиата-стажёра</strong> в <strong>Data Analytics Lab (DaLab)</strong> при CBNU. С <strong>2025 года</strong> моя специализация официально — <strong>Artificial Intelligence</strong>.',
+      p1: 'Я <strong>Алибоев Аббос</strong>, студент по направлению <strong>Computer Science</strong> в <strong>Чхунбукском национальном университете</strong>. Начал учёбу в <strong>2023 году</strong>, а в <strong>2024 году</strong> был отобран в качестве <strong>стипендиата-стажёра</strong> в <strong>Data Analytics Lab (DaLab)</strong> при CBNU. С <strong>2025 года</strong> моя специализация официально: <strong>Artificial Intelligence</strong>.',
       p2: 'Мои основные интересы: <strong>AI, Computer Vision, Object Detection, Deep Learning, Machine Learning, Smart Manufacturing</strong> и <strong>Web Development (Frontend)</strong>. Я люблю создавать интеллектуальные системы, которые одновременно масштабируемы и удобны для пользователя.',
       p3: 'В настоящее время провожу исследования по <strong>Fall Detection</strong> с использованием AI и Computer Vision.',
     },
@@ -146,7 +146,7 @@ export const translations = {
     },
     about: {
       title: 'Men haqimda',
-      p1: "Men — <strong>Aliboev Abbos</strong>, <strong>Chungbuk Milliy Universiteti</strong>ning <strong>Computer Science</strong> talabasiman. <strong>2023-yilda</strong> o'qishni boshladim va <strong>2024-yilda</strong> CBNU'dagi <strong>Data Analytics Lab (DaLab)</strong>da <strong>stipendiyali stajiyor</strong> sifatida tanlandim. <strong>2025-yildan</strong> boshlab ixtisosligim rasman <strong>Artificial Intelligence</strong>ga o'zgartirildi.",
+      p1: "Men <strong>Aliboev Abbos</strong>, <strong>Chungbuk Milliy Universiteti</strong>ning <strong>Computer Science</strong> talabasiman. <strong>2023-yilda</strong> o'qishni boshladim va <strong>2024-yilda</strong> CBNU'dagi <strong>Data Analytics Lab (DaLab)</strong>da <strong>stipendiyali stajiyor</strong> sifatida tanlandim. <strong>2025-yildan</strong> boshlab ixtisosligim rasman <strong>Artificial Intelligence</strong>ga o'zgartirildi.",
       p2: "Asosiy qiziqishlarim: <strong>AI, Computer Vision, Object Detection, Deep Learning, Machine Learning, Smart Manufacturing</strong> va <strong>Web Development (Frontend)</strong>. Men kengaytiriladigan va foydalanuvchilar uchun qulay aqlli tizimlar qurishni yaxshi ko'raman.",
       p3: "Hozirda AI va Computer Vision texnikalaridan foydalangan holda <strong>Fall Detection</strong> bo'yicha tadqiqot olib bormoqdaman.",
     },

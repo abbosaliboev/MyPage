@@ -10,10 +10,10 @@ export const teamProjects = [
   {
     id: 1,
     title: {
-      en: 'Pretty Eyes — AI Shopping Assistant for Visual Impairment',
-      ko: 'Pretty Eyes — 시각 장애인용 AI 쇼핑 어시스턴트',
-      ru: 'Pretty Eyes — AI Shopping Assistant для людей с нарушением зрения',
-      uz: "Pretty Eyes — Ko'zi ojizlar uchun AI Shopping Assistant",
+      en: 'Pretty Eyes: AI Shopping Assistant for Visual Impairment',
+      ko: 'Pretty Eyes: 시각 장애인용 AI 쇼핑 어시스턴트',
+      ru: 'Pretty Eyes: AI Shopping Assistant для людей с нарушением зрения',
+      uz: "Pretty Eyes: Ko'zi ojizlar uchun AI Shopping Assistant",
     },
     description: {
       en: 'Accessibility-first Android shopping app for visually impaired users, built with Python and Kivy and packaged as a desktop app. Designed all screens around large buttons, high-contrast colors, and a QR-based payment flow so users can complete purchases independently. Trained a YOLOv5-based product detection model from scratch and built a pipeline that queries a database for detected items and announces them via TTS. Won the Excellence Award (최우수상) at the CBNU SW Open Source AI Competition.',
@@ -67,10 +67,10 @@ export const teamProjects = [
   {
     id: 4,
     title: {
-      en: 'AI Mobile App — Online Store (+ For Visual Impairment)',
-      ko: 'AI 모바일 앱 — 온라인 쇼핑 (+ 시각 장애인용)',
-      ru: 'AI Mobile App — Интернет-магазин (+ для людей с нарушением зрения)',
-      uz: "AI Mobile App — Onlayn Do'kon (+ Ko'zi Ojizlar Uchun)",
+      en: 'AI Mobile App: Online Store (+ For Visual Impairment)',
+      ko: 'AI 모바일 앱: 온라인 쇼핑 (+ 시각 장애인용)',
+      ru: 'AI Mobile App: Интернет-магазин (+ для людей с нарушением зрения)',
+      uz: "AI Mobile App: Onlayn Do'kon (+ Ko'zi Ojizlar Uchun)",
     },
     description: {
       en: 'Android shopping app for visually impaired users built with Kotlin and Jetpack Compose. Designed all 20+ screens in Figma and implemented them with large buttons, high-contrast themes, voice search, and screen zoom. Integrated a Vision-Language Model (Qwen2.5-VL) to convert product images into descriptive text. Connected to a Django REST Framework backend, with a payment flow designed for fully independent use. Collaborated using Jira-based Scrum within a Korean-speaking team.',
@@ -93,9 +93,9 @@ export const teamProjects = [
     },
     description: {
       en: 'Real-time multi-camera AI safety monitoring system for industrial environments, built with Python, React 19, Django REST Framework, YOLOv8/YOLOv11, TensorRT, and CUDA. Trained models to detect helmet, vest, head, fire, and smoke violations. Resolved 7 concurrent bottlenecks (GPU blocking, thread leaks, DB overload) to achieve a 38.5% FPS improvement across 4+ simultaneous RTSP cameras. Applied a Shared Backbone architecture to unify PPE and Pose Estimation models, reducing model size from 42 MB to 7.8 MB and boosting system FPS by 92%. Integrated a Fall Detection pipeline (Pose + TCN + BotSort) and deployed to Embedded Devices (Jetson Orin Nano, Jetson Developer Kit).',
-      ko: 'Python, React 19, Django REST Framework, YOLOv8/YOLOv11, TensorRT, CUDA로 구축한 다중 카메라 실시간 산업 안전 AI 모니터링 시스템. helmet, vest, head, fire, smoke 위반 감지 모델 직접 학습. RTSP 카메라 4대 이상 동시 운영 시 GPU 블로킹, 스레드 누수, DB 과부하 등 7가지 문제 해결 → FPS 38.5% 향상. PPE 탐지 + Pose Estimation 모델을 Shared Backbone으로 통합해 모델 42MB→7.8MB, 시스템 FPS 92% 향상. Fall Detection 파이프라인(Pose+TCN+BotSort) 통합 및 Embedded Device(Jetson Orin Nano) 배포.',
-      ru: 'Создал real-time многокамерную AI систему мониторинга безопасности для промышленных сред на Python, React 19, Django REST Framework, YOLOv8/YOLOv11, TensorRT и CUDA. Обучил модели для обнаружения нарушений (шлем, жилет, голова, огонь, дым). Устранил 7 узких мест (блокировки GPU, утечки потоков, перегрузка БД) при 4+ одновременных RTSP-камерах — FPS вырос на 38,5%. Объединил модели PPE и Pose Estimation с помощью архитектуры Shared Backbone: сжал модель с 42 МБ до 7,8 МБ и увеличил FPS системы на 92%. Интегрировал пайплайн Fall Detection (Pose + TCN + BotSort) и развернул систему на Embedded-устройствах (Jetson Orin Nano, Jetson Developer Kit).',
-      uz: "Python, React 19, Django REST Framework, YOLOv8/YOLOv11, TensorRT va CUDA yordamida sanoat muhiti uchun real-time ko'p kamerali AI xavfsizlik monitoring tizimini qurdim. Kaska, jilet, bosh, olov va tutun qoidabuzarliklarini aniqlaydigan modellarni o'qitdim. 4 tadan ortiq bir vaqtdagi RTSP kameralarda GPU blokirovkasi, thread sizib chiqishi, DB ortiqcha yuklanishi kabi 7 ta bir vaqtdagi muammoni hal qildim — natijada FPS 38,5% oshdi. PPE aniqlash va Pose Estimation modellarini Shared Backbone arxitekturasi orqali birlashtirdim: model hajmini 42 MB dan 7,8 MB ga siqdim va tizim FPS'ini 92% oshirdim. Fall Detection pipeline'ini (Pose + TCN + BotSort) integratsiya qildim va Embedded qurilmalarga (Jetson Orin Nano, Jetson Developer Kit) joylashtirdim.",
+      ko: 'Python, React 19, Django REST Framework, YOLOv8/YOLOv11, TensorRT, CUDA로 구축한 다중 카메라 실시간 산업 안전 AI 모니터링 시스템. helmet, vest, head, fire, smoke 위반 감지 모델 직접 학습. RTSP 카메라 4대 이상 동시 운영 시 GPU 블로킹, 스레드 누수, DB 과부하 등 7가지 문제를 해결해 FPS 38.5% 향상. PPE 탐지 + Pose Estimation 모델을 Shared Backbone으로 통합해 모델 42MB에서 7.8MB로 압축, 시스템 FPS 92% 향상. Fall Detection 파이프라인(Pose+TCN+BotSort) 통합 및 Embedded Device(Jetson Orin Nano) 배포.',
+      ru: 'Создал real-time многокамерную AI систему мониторинга безопасности для промышленных сред на Python, React 19, Django REST Framework, YOLOv8/YOLOv11, TensorRT и CUDA. Обучил модели для обнаружения нарушений (шлем, жилет, голова, огонь, дым). Устранил 7 узких мест (блокировки GPU, утечки потоков, перегрузка БД) при 4+ одновременных RTSP-камерах, FPS вырос на 38,5%. Объединил модели PPE и Pose Estimation с помощью архитектуры Shared Backbone: сжал модель с 42 МБ до 7,8 МБ и увеличил FPS системы на 92%. Интегрировал пайплайн Fall Detection (Pose + TCN + BotSort) и развернул систему на Embedded-устройствах (Jetson Orin Nano, Jetson Developer Kit).',
+      uz: "Python, React 19, Django REST Framework, YOLOv8/YOLOv11, TensorRT va CUDA yordamida sanoat muhiti uchun real-time ko'p kamerali AI xavfsizlik monitoring tizimini qurdim. Kaska, jilet, bosh, olov va tutun qoidabuzarliklarini aniqlaydigan modellarni o'qitdim. 4 tadan ortiq bir vaqtdagi RTSP kameralarda GPU blokirovkasi, thread sizib chiqishi, DB ortiqcha yuklanishi kabi 7 ta bir vaqtdagi muammoni hal qildim, natijada FPS 38,5% oshdi. PPE aniqlash va Pose Estimation modellarini Shared Backbone arxitekturasi orqali birlashtirdim: model hajmini 42 MB dan 7,8 MB ga siqdim va tizim FPS'ini 92% oshirdim. Fall Detection pipeline'ini (Pose + TCN + BotSort) integratsiya qildim va Embedded qurilmalarga (Jetson Orin Nano, Jetson Developer Kit) joylashtirdim.",
     },
     status: 'In Progress',
     role: 'UI/UX Designer, Frontend Developer, AI Integration Assistant, Intern',
@@ -130,10 +130,10 @@ export const teamProjects = [
       uz: 'AI Smart Crosswalk Tizimi',
     },
     description: {
-      en: 'AI-powered Smart Crosswalk system developed as Team Leader of the multinational team "One Asia" at SP!ED 2025 (South Korea–China–Japan international engineering design program) in Zhenjiang, China. Trained a YOLOv8 model to detect wheelchairs and crutches, enhanced accuracy using custom Pose Estimation keypoint logic, and achieved mAP@0.5 of 0.941 overall and 0.971 for wheelchair class. Applied Data Augmentation for night and rainy conditions. Achieved 4.5 FPS real-time inference without GPU. Collected real-world data on-site in Zhenjiang, performed additional training, and completed field deployment. Won Gold Award.',
+      en: 'AI-powered Smart Crosswalk system developed as Team Leader of the multinational team "One Asia" at SP!ED 2025 (South Korea-China-Japan international engineering design program) in Zhenjiang, China. Trained a YOLOv8 model to detect wheelchairs and crutches, enhanced accuracy using custom Pose Estimation keypoint logic, and achieved mAP@0.5 of 0.941 overall and 0.971 for wheelchair class. Applied Data Augmentation for night and rainy conditions. Achieved 4.5 FPS real-time inference without GPU. Collected real-world data on-site in Zhenjiang, performed additional training, and completed field deployment. Won Gold Award.',
       ko: '중국 전장(Zhenjiang)에서 열린 SP!ED 2025(한·중·일 국제 공학 설계 프로그램)에서 다국적 팀 "One Asia"의 Team Leader로 개발한 AI Smart Crosswalk 시스템. YOLOv8 기반 휠체어·목발 탐지 모델 학습, Pose Estimation keypoint 기반 커스텀 Logic으로 정확도 향상. mAP@0.5: 전체 0.941, 휠체어 클래스 0.971 달성. 야간·우천 환경을 위한 Data Augmentation 적용. GPU 없이 4.5 FPS 실시간 구현. 전장 현지에서 실환경 데이터 수집 후 추가 학습·현장 배포 완료. 금상 수상.',
-      ru: 'AI Smart Crosswalk — система, разработанная в роли Team Leader многонациональной команды «One Asia» на SP!ED 2025 (международная программа проектирования Корея–Китай–Япония) в Чжэньцзяне, Китай. Обучил модель YOLOv8 для обнаружения инвалидных колясок и костылей, повысил точность с помощью собственной логики ключевых точек Pose Estimation — достиг mAP@0.5 0,941 в целом и 0,971 для класса «коляска». Применил Data Augmentation для ночных и дождливых условий. Добился 4,5 FPS в реальном времени без GPU. Собрал данные в реальных условиях на месте в Чжэньцзяне, провёл дополнительное обучение и завершил развёртывание в полевых условиях. Завоевал золотую награду.',
-      uz: '"One Asia" ko\'pmillatli jamoasining Team Leaderi sifatida Xitoyning Chjenszyan (Zhenjiang) shahrida o\'tkazilgan SP!ED 2025 (Koreya–Xitoy–Yaponiya xalqaro muhandislik dizayn dasturi)da ishlab chiqilgan AI Smart Crosswalk tizimi. Nogironlar aravachasi va tayoqchani aniqlaydigan YOLOv8 modelini o\'qitdim, maxsus Pose Estimation keypoint mantig\'i orqali aniqlikni oshirdim — mAP@0.5 umumiy 0.941ga, nogironlar aravachasi klassi uchun esa 0.971ga erishdim. Tungi va yomg\'irli sharoitlar uchun Data Augmentation qo\'lladim. GPU\'siz 4.5 FPS real-time inferensga erishdim. Chjenszyanda haqiqiy ma\'lumot to\'pladim, qo\'shimcha o\'qitish o\'tkazdim va joyida joylashtirishni yakunladim. Oltin mukofotni qo\'lga kiritdim.',
+      ru: 'AI Smart Crosswalk: система, разработанная в роли Team Leader многонациональной команды «One Asia» на SP!ED 2025 (международная программа проектирования Корея-Китай-Япония) в Чжэньцзяне, Китай. Обучил модель YOLOv8 для обнаружения инвалидных колясок и костылей, повысил точность с помощью собственной логики ключевых точек Pose Estimation, достиг mAP@0.5 0,941 в целом и 0,971 для класса «коляска». Применил Data Augmentation для ночных и дождливых условий. Добился 4,5 FPS в реальном времени без GPU. Собрал данные в реальных условиях на месте в Чжэньцзяне, провёл дополнительное обучение и завершил развёртывание в полевых условиях. Завоевал золотую награду.',
+      uz: '"One Asia" ko\'pmillatli jamoasining Team Leaderi sifatida Xitoyning Chjenszyan (Zhenjiang) shahrida o\'tkazilgan SP!ED 2025 (Koreya-Xitoy-Yaponiya xalqaro muhandislik dizayn dasturi)da ishlab chiqilgan AI Smart Crosswalk tizimi. Nogironlar aravachasi va tayoqchani aniqlaydigan YOLOv8 modelini o\'qitdim, maxsus Pose Estimation keypoint mantig\'i orqali aniqlikni oshirdim, mAP@0.5 umumiy 0.941ga, nogironlar aravachasi klassi uchun esa 0.971ga erishdim. Tungi va yomg\'irli sharoitlar uchun Data Augmentation qo\'lladim. GPU\'siz 4.5 FPS real-time inferensga erishdim. Chjenszyanda haqiqiy ma\'lumot to\'pladim, qo\'shimcha o\'qitish o\'tkazdim va joyida joylashtirishni yakunladim. Oltin mukofotni qo\'lga kiritdim.',
     },
     status: 'Completed',
     role: 'Team Leader, AI Developer',
@@ -162,10 +162,10 @@ export const teamProjects = [
   {
     id: 9,
     title: {
-      en: 'IDCool — Smart Customer Care & Integrated Monitoring Platform (Capstone Design)',
-      ko: 'IDCool — 스마트 고객 케어 및 통합 모니터링 플랫폼 (졸업 프로젝트)',
-      ru: 'IDCool — Платформа умного клиентского сервиса и интегрированного мониторинга (дипломный проект)',
-      uz: 'IDCool — Aqlli Mijozlarga Xizmat va Integratsiyalashgan Monitoring Platformasi (Bitiruv Loyihasi)',
+      en: 'IDCool: Smart Customer Care & Integrated Monitoring Platform (Capstone Design)',
+      ko: 'IDCool: 스마트 고객 케어 및 통합 모니터링 플랫폼 (졸업 프로젝트)',
+      ru: 'IDCool: Платформа умного клиентского сервиса и интегрированного мониторинга (дипломный проект)',
+      uz: 'IDCool: Aqlli Mijozlarga Xizmat va Integratsiyalashgan Monitoring Platformasi (Bitiruv Loyihasi)',
     },
     description: {
       en: 'Ongoing graduation capstone project building a monitoring and customer-care platform for industrial refrigeration systems (cold storage, cold chains, chemical plants), replacing manual phone/KakaoTalk/Excel-based supervision with a centralized system. Consists of a FastAPI backend (real-time sensor ingestion, stats aggregation, REST API, web dashboard) and a Flutter mobile app with real-time unit monitoring, alarms, remote control toggles, a troubleshooting chatbot, and dark mode. Working as Mobile Developer on the Flutter app. Started in May 2026 and still in progress.',
@@ -190,10 +190,10 @@ export const teamProjects = [
   {
     id: 10,
     title: {
-      en: 'Smart Safety Guard — IoT & AI Industrial Safety Monitoring',
-      ko: 'Smart Safety Guard — IoT & AI 산업 안전 모니터링',
-      ru: 'Smart Safety Guard — IoT и AI мониторинг промышленной безопасности',
-      uz: 'Smart Safety Guard — IoT va AI Sanoat Xavfsizligi Monitoringi',
+      en: 'Smart Safety Guard: IoT & AI Industrial Safety Monitoring',
+      ko: 'Smart Safety Guard: IoT & AI 산업 안전 모니터링',
+      ru: 'Smart Safety Guard: IoT и AI мониторинг промышленной безопасности',
+      uz: 'Smart Safety Guard: IoT va AI Sanoat Xavfsizligi Monitoringi',
     },
     description: {
       en: 'A two-node edge computing system for real-time industrial safety monitoring, built as a two-person team project for the Embedded Systems course. Combined IoT sensor fusion on a Raspberry Pi 3 (gas/smoke, temperature/humidity, ultrasonic distance, motion) with YOLOv5n person detection and danger-zone logic on a Jetson Nano, streaming to a Flask backend that serves a live 3-column web dashboard, stores history in SQLite, and pushes instant Telegram alerts. Integrated the Groq Vision API to auto-analyze camera frames for fire, smoke, and PPE compliance whenever an alert triggers. Responsible for the AI analyzer, frontend dashboard, and Telegram bot integration.',
@@ -209,16 +209,16 @@ export const teamProjects = [
   {
     id: 11,
     title: {
-      en: 'MobiCare — Edge AI-Based Real-Time Fall Detection & Alert System (ICCAS/EKC 2026)',
-      ko: 'MobiCare — 엣지 AI 기반 실시간 낙상 감지 및 알림 시스템 (ICCAS/EKC 2026)',
-      ru: 'MobiCare — Система обнаружения падений и оповещения на Edge AI в реальном времени (ICCAS/EKC 2026)',
-      uz: 'MobiCare — Edge AI Asosidagi Real-Time Yiqilishni Aniqlash va Ogohlantirish Tizimi (ICCAS/EKC 2026)',
+      en: 'MobiCare: Edge AI-Based Real-Time Fall Detection & Alert System (ICCAS/EKC 2026)',
+      ko: 'MobiCare: 엣지 AI 기반 실시간 낙상 감지 및 알림 시스템 (ICCAS/EKC 2026)',
+      ru: 'MobiCare: Система обнаружения падений и оповещения на Edge AI в реальном времени (ICCAS/EKC 2026)',
+      uz: 'MobiCare: Edge AI Asosidagi Real-Time Yiqilishni Aniqlash va Ogohlantirish Tizimi (ICCAS/EKC 2026)',
     },
     description: {
-      en: "Edge AI-based real-time fall detection and alert system for elderly people living alone, built as Team Leader and AI Engineer of a 4-person team for an international program spanning Chungbuk National University and Toulouse, France (EKC 2026 & ICCAS 2026, July 6–26, 2026). Combined a Deep Learning fall classifier (YOLO11n-pose + ST-GCN) with a Kinematics-based verification filter (Butterworth-filtered hip velocity/acceleration) to resolve gray-zone cases, reaching 99.2% accuracy (Fall F1 0.972) on the full Up-Fall dataset and 98.0% accuracy (Fall F1 0.932) on a 6x-smaller dataset — showing the kinematic filter helps most exactly where elderly fall data is scarcest. On a detected fall, a Whisper Response Service (TTS/STT) asks the person to confirm by voice ('Contact' / 'No'), auto-alerting a guardian via SMS/app within 15 seconds if there's no response. Deployed on a Jetson Orin NX edge device with a FastAPI backend and the MobiCare mobile app (live status, fall history/reports, event clips, Safe Zone marking). Presented a paper at ICCAS 2026 and a poster at EKC 2026, and won the Silver Award at the 5th International Collegiate Challenge for AI-Assisted Society (ICCAS 2026).",
+      en: "Edge AI-based real-time fall detection and alert system for elderly people living alone, built as Team Leader and AI Engineer of a 4-person team for an international program spanning Chungbuk National University and Toulouse, France (EKC 2026 & ICCAS 2026, July 6-26, 2026). Combined a Deep Learning fall classifier (YOLO11n-pose + ST-GCN) with a Kinematics-based verification filter (Butterworth-filtered hip velocity/acceleration) to resolve gray-zone cases, reaching 99.2% accuracy (Fall F1 0.972) on the full Up-Fall dataset and 98.0% accuracy (Fall F1 0.932) on a 6x-smaller dataset. This shows the kinematic filter helps most exactly where elderly fall data is scarcest. On a detected fall, a Whisper Response Service (TTS/STT) asks the person to confirm by voice ('Contact' / 'No'), auto-alerting a guardian via SMS/app within 15 seconds if there's no response. Deployed on a Jetson Orin NX edge device with a FastAPI backend and the MobiCare mobile app (live status, fall history/reports, event clips, Safe Zone marking). Presented a paper at ICCAS 2026 and a poster at EKC 2026, and won the Silver Award at the 5th International Collegiate Challenge for AI-Assisted Society (ICCAS 2026).",
       ko: '독거 노인을 위한 엣지 AI 기반 실시간 낙상 감지 및 알림 시스템으로, 충북대학교와 프랑스 툴루즈(EKC 2026 & ICCAS 2026, 2026년 7월 6일~26일)를 아우르는 국제 프로그램에서 4인 팀의 Team Leader이자 AI Engineer로 개발했습니다. Deep Learning 낙상 분류 모델(YOLO11n-pose + ST-GCN)과 Kinematics 기반 검증 필터(Butterworth 필터링된 골반 속도·가속도)를 결합해 Gray-zone 케이스를 판별했으며, Up-Fall 전체 데이터셋에서 99.2% 정확도(Fall F1 0.972), 6배 작은 데이터셋에서도 98.0% 정확도(Fall F1 0.932)를 달성해 Kinematic Filter가 노인 낙상 데이터가 가장 부족한 상황에서 가장 큰 효과를 낸다는 것을 확인했습니다. 낙상이 감지되면 Whisper Response Service(TTS/STT)가 음성으로 확인("Contact"/"No")을 요청하고, 15초 내 응답이 없으면 SMS·앱으로 보호자에게 자동 알림을 보냅니다. Jetson Orin NX 엣지 디바이스, FastAPI 백엔드, MobiCare 모바일 앱(실시간 상태, 낙상 이력·리포트, 이벤트 클립, Safe Zone 설정)으로 구성했습니다. ICCAS 2026에서 논문을, EKC 2026에서 포스터를 발표했으며 제5회 International Collegiate Challenge for AI-Assisted Society(ICCAS 2026)에서 Silver Award를 수상했습니다.',
-      ru: 'Система обнаружения падений и оповещения на основе Edge AI в реальном времени для пожилых людей, живущих одни, разработанная в роли Team Leader и AI Engineer 4-человек команды для международной программы между Университетом Чхунбук и Тулузой, Франция (EKC 2026 и ICCAS 2026, 6–26 июля 2026). Объединил классификатор падений на Deep Learning (YOLO11n-pose + ST-GCN) с фильтром верификации на основе кинематики (скорость/ускорение бедра с фильтром Баттерворта) для разрешения пограничных случаев (gray-zone), достигнув точности 99,2% (Fall F1 0,972) на полном датасете Up-Fall и 98,0% (Fall F1 0,932) на датасете в 6 раз меньше — это показывает, что кинематический фильтр даёт наибольшую пользу именно там, где данных о падениях пожилых людей меньше всего. При обнаружении падения Whisper Response Service (TTS/STT) голосом просит подтверждения («Contact» / «No»), автоматически оповещая опекуна по SMS/приложению в течение 15 секунд при отсутствии ответа. Развёрнуто на Edge-устройстве Jetson Orin NX с backend на FastAPI и мобильным приложением MobiCare (статус в реальном времени, история падений/отчёты, видеоклипы событий, зоны безопасности). Представлен доклад на ICCAS 2026 и постер на EKC 2026, команда получила Silver Award на 5-м International Collegiate Challenge for AI-Assisted Society (ICCAS 2026).',
-      uz: "Yolg'iz yashovchi keksa insonlar uchun Edge AI asosidagi real-time yiqilishni aniqlash va ogohlantirish tizimi, Chungbuk Milliy Universiteti va Fransiyaning Tuluza shahrini (EKC 2026 & ICCAS 2026, 2026-yil 6–26-iyul) qamrab olgan xalqaro dastur doirasida 4 kishilik jamoaning Team Leader va AI Engineer sifatida ishlab chiqildi. Deep Learning yiqilish klassifikatori (YOLO11n-pose + ST-GCN) Kinematika asosidagi tekshiruv filtri (Butterworth filtrlangan son bo'g'imi tezligi/tezlanishi) bilan birlashtirilib, gray-zone holatlarni aniqlashda ishlatildi; Up-Fall to'liq datasetida 99.2% aniqlik (Fall F1 0.972), 6 marta kichikroq datasetda esa 98.0% aniqlik (Fall F1 0.932)ga erishildi — bu Kinematic Filter aynan keksalar yiqilishi ma'lumotlari eng kam bo'lgan holatlarda eng katta foyda berishini ko'rsatadi. Yiqilish aniqlanganda Whisper Response Service (TTS/STT) ovoz orqali tasdiqlashni so'raydi (\"Contact\"/\"No\"), 15 soniya ichida javob bo'lmasa SMS/ilova orqali vasiyga avtomatik xabar yuboradi. Jetson Orin NX edge qurilmasi, FastAPI backend va MobiCare mobil ilovasi (real-time holat, yiqilish tarixi/hisobotlar, hodisa videoklipi, Safe Zone belgilash) orqali joylashtirildi. ICCAS 2026'da maqola, EKC 2026'da poster taqdim etildi va 5-International Collegiate Challenge for AI-Assisted Society (ICCAS 2026)da Silver Award qo'lga kiritildi.",
+      ru: 'Система обнаружения падений и оповещения на основе Edge AI в реальном времени для пожилых людей, живущих одни, разработанная в роли Team Leader и AI Engineer 4-человек команды для международной программы между Университетом Чхунбук и Тулузой, Франция (EKC 2026 и ICCAS 2026, 6-26 июля 2026). Объединил классификатор падений на Deep Learning (YOLO11n-pose + ST-GCN) с фильтром верификации на основе кинематики (скорость/ускорение бедра с фильтром Баттерворта) для разрешения пограничных случаев (gray-zone), достигнув точности 99,2% (Fall F1 0,972) на полном датасете Up-Fall и 98,0% (Fall F1 0,932) на датасете в 6 раз меньше. Это показывает, что кинематический фильтр даёт наибольшую пользу именно там, где данных о падениях пожилых людей меньше всего. При обнаружении падения Whisper Response Service (TTS/STT) голосом просит подтверждения («Contact» / «No»), автоматически оповещая опекуна по SMS/приложению в течение 15 секунд при отсутствии ответа. Развёрнуто на Edge-устройстве Jetson Orin NX с backend на FastAPI и мобильным приложением MobiCare (статус в реальном времени, история падений/отчёты, видеоклипы событий, зоны безопасности). Представлен доклад на ICCAS 2026 и постер на EKC 2026, команда получила Silver Award на 5-м International Collegiate Challenge for AI-Assisted Society (ICCAS 2026).',
+      uz: "Yolg'iz yashovchi keksa insonlar uchun Edge AI asosidagi real-time yiqilishni aniqlash va ogohlantirish tizimi, Chungbuk Milliy Universiteti va Fransiyaning Tuluza shahrini (EKC 2026 & ICCAS 2026, 2026-yil 6-26-iyul) qamrab olgan xalqaro dastur doirasida 4 kishilik jamoaning Team Leader va AI Engineer sifatida ishlab chiqildi. Deep Learning yiqilish klassifikatori (YOLO11n-pose + ST-GCN) Kinematika asosidagi tekshiruv filtri (Butterworth filtrlangan son bo'g'imi tezligi/tezlanishi) bilan birlashtirilib, gray-zone holatlarni aniqlashda ishlatildi; Up-Fall to'liq datasetida 99.2% aniqlik (Fall F1 0.972), 6 marta kichikroq datasetda esa 98.0% aniqlik (Fall F1 0.932)ga erishildi. Bu Kinematic Filter aynan keksalar yiqilishi ma'lumotlari eng kam bo'lgan holatlarda eng katta foyda berishini ko'rsatadi. Yiqilish aniqlanganda Whisper Response Service (TTS/STT) ovoz orqali tasdiqlashni so'raydi (\"Contact\"/\"No\"), 15 soniya ichida javob bo'lmasa SMS/ilova orqali vasiyga avtomatik xabar yuboradi. Jetson Orin NX edge qurilmasi, FastAPI backend va MobiCare mobil ilovasi (real-time holat, yiqilish tarixi/hisobotlar, hodisa videoklipi, Safe Zone belgilash) orqali joylashtirildi. ICCAS 2026'da maqola, EKC 2026'da poster taqdim etildi va 5-International Collegiate Challenge for AI-Assisted Society (ICCAS 2026)da Silver Award qo'lga kiritildi.",
     },
     status: 'Completed',
     role: 'Team Leader, AI Engineer',
@@ -231,16 +231,16 @@ export const personalProjects = [
   {
     id: 5,
     title: {
-      en: 'Worker Abnormal Behavior Detection — Rule-Based Safety AI',
-      ko: 'Worker Abnormal Behavior Detection — 규칙 기반 안전 AI',
-      ru: 'Worker Abnormal Behavior Detection — AI на основе правил безопасности',
-      uz: 'Worker Abnormal Behavior Detection — Qoidaga asoslangan xavfsizlik AI',
+      en: 'Worker Abnormal Behavior Detection: Rule-Based Safety AI',
+      ko: 'Worker Abnormal Behavior Detection: 규칙 기반 안전 AI',
+      ru: 'Worker Abnormal Behavior Detection: AI на основе правил безопасности',
+      uz: 'Worker Abnormal Behavior Detection: Qoidaga asoslangan xavfsizlik AI',
     },
     description: {
-      en: 'A rule-based real-time system built for a company to detect three types of abnormal worker behavior — Fall (92.4%), Unsafe Running (90.99%), and Long-time Inactivity (95.8%) — using YOLO11s-pose keypoints and ByteTracker, with no model training required. Applied pure biomechanical rules: body-tilt angle and tilt speed for falls, horizontal center-of-mass speed for running, and stillness duration plus posture stability for inactivity. Evaluated with Leave-One-Out Cross-Validation on the UP-Fall and KTH Action datasets, reaching a 93.07% average accuracy.',
-      ko: '회사를 위해 개발한 규칙 기반 실시간 시스템으로, YOLO11s-pose 키포인트와 ByteTracker만으로 모델 학습 없이 세 가지 이상 행동 — Fall(92.4%), Unsafe Running(90.99%), Long-time Inactivity(95.8%) — 를 감지합니다. 낙상은 체간 기울기 각도와 기울기 속도, 뛰기는 무게중심의 수평 이동 속도, 장시간 정지는 정지 프레임 비율과 자세 안정성이라는 순수 생체역학 규칙을 적용했습니다. UP-Fall 및 KTH Action 데이터셋에서 Leave-One-Out Cross-Validation으로 평가해 평균 93.07%의 정확도를 달성했습니다.',
-      ru: 'Система на основе правил в реальном времени, разработанная для компании для обнаружения трёх типов аномального поведения рабочих — Fall (92,4%), Unsafe Running (90,99%) и Long-time Inactivity (95,8%) — с использованием ключевых точек YOLO11s-pose и ByteTracker, без обучения модели. Применены чисто биомеханические правила: угол наклона тела и скорость наклона для падений, скорость горизонтального движения центра масс для бега, длительность неподвижности и стабильность позы для бездействия. Оценка проведена методом Leave-One-Out Cross-Validation на датасетах UP-Fall и KTH Action, средняя точность — 93,07%.',
-      uz: "Kompaniya uchun yaratilgan qoidaga asoslangan real-time tizim, YOLO11s-pose keypoint'lari va ByteTracker yordamida hech qanday model o'qitmasdan uch xil g'ayritabiiy xatti-harakatni aniqlaydi — Yiqilish (92.4%), Xavfli yugurish (90.99%) va Uzoq vaqt harakatsizlik (95.8%). Yiqilish uchun tana og'ish burchagi va og'ish tezligi, yugurish uchun og'irlik markazining gorizontal tezligi, harakatsizlik uchun esa qimirlamaslik davomiyligi va tana holati barqarorligi kabi sof biomexanik qoidalar qo'llanildi. UP-Fall va KTH Action datasetlarida Leave-One-Out Cross-Validation orqali baholanib, o'rtacha 93.07% aniqlikka erishildi.",
+      en: 'A rule-based real-time system built for a company to detect three types of abnormal worker behavior: Fall (92.4%), Unsafe Running (90.99%), and Long-time Inactivity (95.8%), using YOLO11s-pose keypoints and ByteTracker, with no model training required. Applied pure biomechanical rules: body-tilt angle and tilt speed for falls, horizontal center-of-mass speed for running, and stillness duration plus posture stability for inactivity. Evaluated with Leave-One-Out Cross-Validation on the UP-Fall and KTH Action datasets, reaching a 93.07% average accuracy.',
+      ko: '회사를 위해 개발한 규칙 기반 실시간 시스템으로, YOLO11s-pose 키포인트와 ByteTracker만으로 모델 학습 없이 세 가지 이상 행동인 Fall(92.4%), Unsafe Running(90.99%), Long-time Inactivity(95.8%)를 감지합니다. 낙상은 체간 기울기 각도와 기울기 속도, 뛰기는 무게중심의 수평 이동 속도, 장시간 정지는 정지 프레임 비율과 자세 안정성이라는 순수 생체역학 규칙을 적용했습니다. UP-Fall 및 KTH Action 데이터셋에서 Leave-One-Out Cross-Validation으로 평가해 평균 93.07%의 정확도를 달성했습니다.',
+      ru: 'Система на основе правил в реальном времени, разработанная для компании для обнаружения трёх типов аномального поведения рабочих: Fall (92,4%), Unsafe Running (90,99%) и Long-time Inactivity (95,8%), с использованием ключевых точек YOLO11s-pose и ByteTracker, без обучения модели. Применены чисто биомеханические правила: угол наклона тела и скорость наклона для падений, скорость горизонтального движения центра масс для бега, длительность неподвижности и стабильность позы для бездействия. Оценка проведена методом Leave-One-Out Cross-Validation на датасетах UP-Fall и KTH Action, средняя точность: 93,07%.',
+      uz: "Kompaniya uchun yaratilgan qoidaga asoslangan real-time tizim, YOLO11s-pose keypoint'lari va ByteTracker yordamida hech qanday model o'qitmasdan uch xil g'ayritabiiy xatti-harakatni aniqlaydi: Yiqilish (92.4%), Xavfli yugurish (90.99%) va Uzoq vaqt harakatsizlik (95.8%). Yiqilish uchun tana og'ish burchagi va og'ish tezligi, yugurish uchun og'irlik markazining gorizontal tezligi, harakatsizlik uchun esa qimirlamaslik davomiyligi va tana holati barqarorligi kabi sof biomexanik qoidalar qo'llanildi. UP-Fall va KTH Action datasetlarida Leave-One-Out Cross-Validation orqali baholanib, o'rtacha 93.07% aniqlikka erishildi.",
     },
     status: 'Completed',
     date: '2026-06-12 ~ 2026-07-02',
@@ -249,10 +249,10 @@ export const personalProjects = [
   {
     id: 1,
     title: {
-      en: 'Tartib AI — Telegram Bot & Mini App',
-      ko: 'Tartib AI — Telegram Bot & Mini App',
-      ru: 'Tartib AI — Telegram Bot & Mini App',
-      uz: 'Tartib AI — Telegram Bot & Mini App',
+      en: 'Tartib AI: Telegram Bot & Mini App',
+      ko: 'Tartib AI: Telegram Bot & Mini App',
+      ru: 'Tartib AI: Telegram Bot & Mini App',
+      uz: 'Tartib AI: Telegram Bot & Mini App',
     },
     description: {
       en: "A Telegram bot + Mini App that helps users manage reminders and financial records (expenses / income) via voice and text in Uzbek. Gained 300+ users within 2 days of launch.",
@@ -267,10 +267,10 @@ export const personalProjects = [
   {
     id: 2,
     title: {
-      en: 'Jizzax Safar Tour — Travel Agency Website',
-      ko: 'Jizzax Safar Tour — 여행사 웹사이트',
-      ru: 'Jizzax Safar Tour — Сайт туристического агентства',
-      uz: 'Jizzax Safar Tour — Sayohat Agentligi Veb-Sayti',
+      en: 'Jizzax Safar Tour: Travel Agency Website',
+      ko: 'Jizzax Safar Tour: 여행사 웹사이트',
+      ru: 'Jizzax Safar Tour: Сайт туристического агентства',
+      uz: 'Jizzax Safar Tour: Sayohat Agentligi Veb-Sayti',
     },
     description: {
       en: 'A multilingual travel agency website built with React, featuring tour packages, online booking, gallery, and full legal documentation pages. Live at safar-tour.uz.',
@@ -303,10 +303,10 @@ export const personalProjects = [
   {
     id: 4,
     title: {
-      en: 'Library — Interactive 3D Project',
-      ko: 'Library — Interactive 3D 프로젝트',
-      ru: 'Library — Interactive 3D Project',
-      uz: 'Kutubxona — Interaktiv 3D Loyiha',
+      en: 'Library: Interactive 3D Project',
+      ko: 'Library: Interactive 3D 프로젝트',
+      ru: 'Library: Interactive 3D Project',
+      uz: 'Kutubxona: Interaktiv 3D Loyiha',
     },
     description: {
       en: 'An interactive 3D project created as part of the Computer Graphics course at Chungbuk National University, demonstrating advanced rendering and interactivity techniques using Three.js.',
@@ -323,7 +323,7 @@ export const personalProjects = [
 export const educationData = [
   {
     title: 'Chungbuk National University (CBNU), South Korea',
-    date: 'Mar 2023 – Present',
+    date: 'Mar 2023 - Present',
     note: {
       en: 'B.S. in Computer Science<br/>Major in <strong>Artificial Intelligence</strong> (from Mar 2025)<br/><a href="https://www.cbnu.ac.kr/eng/" target="_blank" rel="noreferrer">cbnu.ac.kr</a>',
       ko: 'Computer Science 학사<br/><strong>Artificial Intelligence</strong> 전공 (2025년 3월부터)<br/><a href="https://www.cbnu.ac.kr/eng/" target="_blank" rel="noreferrer">cbnu.ac.kr</a>',
@@ -332,8 +332,8 @@ export const educationData = [
     },
   },
   {
-    title: 'Chungbuk National University — Korean Language Program',
-    date: 'Mar 2021 – Feb 2023',
+    title: 'Chungbuk National University: Korean Language Program',
+    date: 'Mar 2021 - Feb 2023',
     note: {
       en: 'Korean Language, Level 6 (6급)<br/>Completed the Korean Language Program at the CBNU Korean Language Education Center.<br/><a href="https://www.cbnu.ac.kr/eng/" target="_blank" rel="noreferrer">cbnu.ac.kr</a>',
       ko: '한국어, 6급<br/>충북대학교 한국어교육원 한국어연수 과정을 수료하였습니다.<br/><a href="https://www.cbnu.ac.kr/eng/" target="_blank" rel="noreferrer">cbnu.ac.kr</a>',
@@ -343,21 +343,21 @@ export const educationData = [
   },
   {
     title: 'Academic Lyceum under Samarkand Medical Institute',
-    date: 'Sep 2017 – Jul 2019',
+    date: 'Sep 2017 - Jul 2019',
     note: {
       en: 'Natural Sciences track<br/>Graduated with a perfect GPA of 5.0/5.0 (100%).',
       ko: '자연과학 전공<br/>GPA 5.0/5.0(100%) 만점으로 졸업하였습니다.',
-      ru: 'Направление: естественные науки<br/>Окончил с отличием — GPA 5.0/5.0 (100%).',
+      ru: 'Направление: естественные науки<br/>Окончил с отличием, GPA 5.0/5.0 (100%).',
       uz: "Tabiy fanlar yo'nalishi<br/>5.0/5.0 (100%) GPA bilan tamomladim.",
     },
   },
   {
     title: 'School No. 19, Jizzakh',
-    date: 'Sep 2008 – Jul 2017',
+    date: 'Sep 2008 - Jul 2017',
     note: {
       en: 'Completed general secondary education with a perfect GPA of 5.0/5.0 (100%).',
       ko: '일반 중등교육을 GPA 5.0/5.0(100%) 만점으로 졸업하였습니다.',
-      ru: 'Окончил общее среднее образование с отличием — GPA 5.0/5.0 (100%).',
+      ru: 'Окончил общее среднее образование с отличием, GPA 5.0/5.0 (100%).',
       uz: "Umumiy o'rta ta'limni 5.0/5.0 (100%) GPA bilan tamomladim.",
     },
   },
@@ -365,12 +365,12 @@ export const educationData = [
 
 export const experienceData = [
   {
-    title: 'Undergraduate Intern – Data Analytics Lab (DaLab)',
+    title: 'Undergraduate Intern - Data Analytics Lab (DaLab)',
     org: 'Chungbuk National University (Cheongju, South Korea)',
-    date: 'Sep 2024 – Present',
+    date: 'Sep 2024 - Present',
     note: {
-      en: 'Developing industrial AI safety systems using Deep Learning, Computer Vision, and Smart Manufacturing pipelines. Responsible for Frontend development, AI model training (YOLOv8/YOLOv11), data collection &amp; preprocessing, GPU server setup (NVIDIA TITAN RTX), and system integration. Conducted Fall Detection research — designed a Pose Estimation + TCN + BotSort pipeline, reduced keypoints from 17 to 10 (33% speed gain), and applied a Shared Backbone structure to compress models from 42 MB to 7.8 MB. Handled TensorRT optimization and deployment to Embedded Devices (Jetson Orin Nano, Jetson Developer Kit). Selected as an Undergraduate Lab Intern Scholarship recipient (학부생 실험실 인턴 장학생) for three consecutive semesters, Mar 2025 – Aug 2026.<br/><a href="https://sites.google.com/view/data-analytics-lab/members?authuser=0" target="_blank" rel="noreferrer">dalab.cbnu.ac.kr</a>',
-      ko: 'Deep Learning, Computer Vision, Smart Manufacturing 파이프라인을 활용한 산업 현장 AI 안전 시스템 개발. Frontend 개발, AI 모델 학습(YOLOv8/YOLOv11), 데이터 수집·전처리, GPU 서버(NVIDIA TITAN RTX) 구축 및 시스템 통합 담당. Fall Detection 연구에서 Pose Estimation + TCN + BotSort 파이프라인을 설계하고 keypoint를 17개→10개로 줄여 추론 속도 33% 향상, Shared Backbone 구조로 모델 크기를 42MB→7.8MB로 압축. TensorRT 최적화 및 Embedded Device(Jetson Orin Nano, Jetson Developer Kit) 배포까지 담당. 2025년 3월부터 2026년 8월까지 3개 학기 연속 학부생 실험실 인턴 장학생으로 선발되었습니다.<br/><a href="https://sites.google.com/view/data-analytics-lab/members?authuser=0" target="_blank" rel="noreferrer">dalab.cbnu.ac.kr</a>',
+      en: 'Developing industrial AI safety systems using Deep Learning, Computer Vision, and Smart Manufacturing pipelines. Responsible for Frontend development, AI model training (YOLOv8/YOLOv11), data collection &amp; preprocessing, GPU server setup (NVIDIA TITAN RTX), and system integration. Conducted Fall Detection research: designed a Pose Estimation + TCN + BotSort pipeline, reduced keypoints from 17 to 10 (33% speed gain), and applied a Shared Backbone structure to compress models from 42 MB to 7.8 MB. Handled TensorRT optimization and deployment to Embedded Devices (Jetson Orin Nano, Jetson Developer Kit). Selected as an Undergraduate Lab Intern Scholarship recipient (학부생 실험실 인턴 장학생) for three consecutive semesters, Mar 2025 - Aug 2026.<br/><a href="https://sites.google.com/view/data-analytics-lab/members?authuser=0" target="_blank" rel="noreferrer">dalab.cbnu.ac.kr</a>',
+      ko: 'Deep Learning, Computer Vision, Smart Manufacturing 파이프라인을 활용한 산업 현장 AI 안전 시스템 개발. Frontend 개발, AI 모델 학습(YOLOv8/YOLOv11), 데이터 수집·전처리, GPU 서버(NVIDIA TITAN RTX) 구축 및 시스템 통합 담당. Fall Detection 연구에서 Pose Estimation + TCN + BotSort 파이프라인을 설계하고 keypoint를 17개에서 10개로 줄여 추론 속도 33% 향상, Shared Backbone 구조로 모델 크기를 42MB에서 7.8MB로 압축. TensorRT 최적화 및 Embedded Device(Jetson Orin Nano, Jetson Developer Kit) 배포까지 담당. 2025년 3월부터 2026년 8월까지 3개 학기 연속 학부생 실험실 인턴 장학생으로 선발되었습니다.<br/><a href="https://sites.google.com/view/data-analytics-lab/members?authuser=0" target="_blank" rel="noreferrer">dalab.cbnu.ac.kr</a>',
       ru: 'Разработка промышленных AI систем безопасности с использованием Deep Learning, Computer Vision и Smart Manufacturing пайплайнов. Отвечал за Frontend разработку, обучение AI моделей (YOLOv8/YOLOv11), сбор и предобработку данных, настройку GPU сервера (NVIDIA TITAN RTX) и системную интеграцию. В рамках Fall Detection исследования спроектировал Pose Estimation + TCN + BotSort пайплайн, сократил keypoints с 17 до 10 (прирост скорости 33%), применил Shared Backbone для сжатия модели с 42 МБ до 7,8 МБ. Выполнял TensorRT оптимизацию и развёртывание на Embedded устройствах (Jetson Orin Nano, Jetson Developer Kit). Отобран стипендиатом программы стажировки в лаборатории для студентов (학부생 실험실 인턴 장학생) на три семестра подряд, с марта 2025 по август 2026.<br/><a href="https://sites.google.com/view/data-analytics-lab/members?authuser=0" target="_blank" rel="noreferrer">dalab.cbnu.ac.kr</a>',
       uz: "Deep Learning, Computer Vision va Smart Manufacturing pipeline'laridan foydalangan holda sanoat AI xavfsizlik tizimlarini ishlab chiqish. Frontend dasturlash, AI model o'qitish (YOLOv8/YOLOv11), ma'lumot to'plash va oldindan qayta ishlash, GPU server (NVIDIA TITAN RTX) sozlash va tizim integratsiyasini amalga oshirish. Fall Detection tadqiqotida Pose Estimation + TCN + BotSort pipeline'ini loyihaladim, keypoint'larni 17 tadan 10 taga kamaytirdim (33% tezlik oshishi), Shared Backbone tuzilmasi orqali model hajmini 42 MB dan 7.8 MB ga siqtirdim. TensorRT optimizatsiyasi va Embedded qurilmalarga (Jetson Orin Nano, Jetson Developer Kit) joylashtirish. 2025-yil mart oyidan 2026-yil avgustigacha, ketma-ket 3 semestr davomida talaba laboratoriya intern stipendiati (학부생 실험실 인턴 장학생) sifatida tanlab olindim.<br/><a href=\"https://sites.google.com/view/data-analytics-lab/members?authuser=0\" target=\"_blank\" rel=\"noreferrer\">dalab.cbnu.ac.kr</a>",
     },
@@ -378,7 +378,7 @@ export const experienceData = [
   {
     title: 'Sales & Service Specialist',
     org: 'HUMANS.uz (Tashkent, Uzbekistan)',
-    date: 'Nov 2020 – Apr 2021',
+    date: 'Nov 2020 - Apr 2021',
     note: {
       en: 'Assisted customers with mobile and fintech services, handled payments, and resolved service issues.<br/><a href="https://www.linkedin.com/company/humansuz/" target="_blank" rel="noreferrer">linkedin.com/company/humansuz</a>',
       ko: '모바일 및 fintech 서비스 관련 고객 지원, 결제 처리 및 서비스 문제 해결.<br/><a href="https://www.linkedin.com/company/humansuz/" target="_blank" rel="noreferrer">linkedin.com/company/humansuz</a>',
@@ -391,39 +391,39 @@ export const experienceData = [
 export const globalProgramsText = [
   {
     title: {
-      en: 'ICCAS/EKC 2026 — International AI & Engineering Program',
-      ko: 'ICCAS/EKC 2026 — 국제 AI 및 공학 프로그램',
-      ru: 'ICCAS/EKC 2026 — Международная программа по AI и инженерии',
-      uz: 'ICCAS/EKC 2026 — Xalqaro AI va muhandislik dasturi',
+      en: 'ICCAS/EKC 2026: International AI & Engineering Program',
+      ko: 'ICCAS/EKC 2026: 국제 AI 및 공학 프로그램',
+      ru: 'ICCAS/EKC 2026: Международная программа по AI и инженерии',
+      uz: 'ICCAS/EKC 2026: Xalqaro AI va muhandislik dasturi',
     },
     location: 'Toulouse, France',
-    date: 'Jul 6 – 26, 2026',
+    date: 'Jul 6 - 26, 2026',
     role: 'Team Leader, AI Engineer',
     award: 'Silver Award',
     description: {
-      en: "Represented Chungbuk National University in a three-week international program (CBNU, South Korea → Toulouse, France) combining conference, team project, research, and poster presentation tracks. Served as Team Leader — a role that fit naturally since the project topic closely overlapped with my own fall-detection research — on a 4-person team that built MobiCare, an Edge AI real-time fall-detection and alert system combining Deep Learning (YOLO11n-pose + ST-GCN) with a kinematics-based verification filter. The team presented a paper at ICCAS 2026 and a poster at EKC 2026, and won the Silver Award at the 5th International Collegiate Challenge for AI-Assisted Society (ICCAS 2026).",
-      ko: '3주간의 국제 프로그램(충북대학교, 한국 → 프랑스 툴루즈)에 충북대학교 대표로 참가하여 학회, 팀 프로젝트, 연구, 포스터 발표 트랙을 모두 수행했습니다. 프로젝트 주제가 제 낙상 감지 연구와 밀접하게 맞닿아 있어 자연스럽게 4인 팀의 Team Leader를 맡았고, 팀은 Deep Learning(YOLO11n-pose + ST-GCN)과 Kinematics 기반 검증 필터를 결합한 엣지 AI 실시간 낙상 감지·알림 시스템 MobiCare를 개발했습니다. 팀은 ICCAS 2026에서 논문을, EKC 2026에서 포스터를 발표했으며 제5회 International Collegiate Challenge for AI-Assisted Society(ICCAS 2026)에서 Silver Award를 수상했습니다.',
-      ru: 'Представлял Чхунбукский национальный университет в трёхнедельной международной программе (CBNU, Южная Корея → Тулуза, Франция), включающей конференцию, командный проект, исследование и постерную презентацию. Стал Team Leader команды из 4 человек — эта роль естественно возникла благодаря тесной связи темы проекта с моими собственными исследованиями по обнаружению падений; команда разработала MobiCare — систему обнаружения падений и оповещения на Edge AI в реальном времени, сочетающую Deep Learning (YOLO11n-pose + ST-GCN) с фильтром верификации на основе кинематики. Команда представила доклад на ICCAS 2026 и постер на EKC 2026 и получила Silver Award на 5-м International Collegiate Challenge for AI-Assisted Society (ICCAS 2026).',
-      uz: "Uch haftalik xalqaro dastur (CBNU, Janubiy Koreya → Tuluza, Fransiya) doirasida Chungbuk Milliy Universitetini vakillik qildim; dastur konferensiya, jamoaviy loyiha, tadqiqot va poster taqdimoti bosqichlarini o'z ichiga oldi. Loyiha mavzusi mening yiqilishni aniqlash bo'yicha tadqiqotimga yaqin bo'lgani uchun tabiiy ravishda 4 kishilik jamoaning Team Leaderi bo'ldim; jamoa Deep Learning (YOLO11n-pose + ST-GCN) va kinematika asosidagi tekshiruv filtrini birlashtirgan Edge AI real-time yiqilishni aniqlash va ogohlantirish tizimi MobiCare'ni yaratdi. Jamoa ICCAS 2026'da maqola va EKC 2026'da poster taqdim etdi va 5-International Collegiate Challenge for AI-Assisted Society (ICCAS 2026)da Silver Award qo'lga kiritdi.",
+      en: "Represented Chungbuk National University in a three-week international program (CBNU, South Korea, and Toulouse, France) combining conference, team project, research, and poster presentation tracks. Served as Team Leader (a role that fit naturally since the project topic closely overlapped with my own fall-detection research) on a 4-person team that built MobiCare, an Edge AI real-time fall-detection and alert system combining Deep Learning (YOLO11n-pose + ST-GCN) with a kinematics-based verification filter. The team presented a paper at ICCAS 2026 and a poster at EKC 2026, and won the Silver Award at the 5th International Collegiate Challenge for AI-Assisted Society (ICCAS 2026).",
+      ko: '3주간의 국제 프로그램(충북대학교, 한국과 프랑스 툴루즈)에 충북대학교 대표로 참가하여 학회, 팀 프로젝트, 연구, 포스터 발표 트랙을 모두 수행했습니다. 프로젝트 주제가 제 낙상 감지 연구와 밀접하게 맞닿아 있어 자연스럽게 4인 팀의 Team Leader를 맡았고, 팀은 Deep Learning(YOLO11n-pose + ST-GCN)과 Kinematics 기반 검증 필터를 결합한 엣지 AI 실시간 낙상 감지·알림 시스템 MobiCare를 개발했습니다. 팀은 ICCAS 2026에서 논문을, EKC 2026에서 포스터를 발표했으며 제5회 International Collegiate Challenge for AI-Assisted Society(ICCAS 2026)에서 Silver Award를 수상했습니다.',
+      ru: 'Представлял Чхунбукский национальный университет в трёхнедельной международной программе (CBNU, Южная Корея, и Тулуза, Франция), включающей конференцию, командный проект, исследование и постерную презентацию. Стал Team Leader команды из 4 человек (эта роль естественно возникла благодаря тесной связи темы проекта с моими собственными исследованиями по обнаружению падений); команда разработала MobiCare: систему обнаружения падений и оповещения на Edge AI в реальном времени, сочетающую Deep Learning (YOLO11n-pose + ST-GCN) с фильтром верификации на основе кинематики. Команда представила доклад на ICCAS 2026 и постер на EKC 2026 и получила Silver Award на 5-м International Collegiate Challenge for AI-Assisted Society (ICCAS 2026).',
+      uz: "Uch haftalik xalqaro dastur (CBNU, Janubiy Koreya va Tuluza, Fransiya) doirasida Chungbuk Milliy Universitetini vakillik qildim; dastur konferensiya, jamoaviy loyiha, tadqiqot va poster taqdimoti bosqichlarini o'z ichiga oldi. Loyiha mavzusi mening yiqilishni aniqlash bo'yicha tadqiqotimga yaqin bo'lgani uchun tabiiy ravishda 4 kishilik jamoaning Team Leaderi bo'ldim; jamoa Deep Learning (YOLO11n-pose + ST-GCN) va kinematika asosidagi tekshiruv filtrini birlashtirgan Edge AI real-time yiqilishni aniqlash va ogohlantirish tizimi MobiCare'ni yaratdi. Jamoa ICCAS 2026'da maqola va EKC 2026'da poster taqdim etdi va 5-International Collegiate Challenge for AI-Assisted Society (ICCAS 2026)da Silver Award qo'lga kiritdi.",
     },
     link: 'https://github.com/abbosaliboev/ICCAS_2026',
   },
   {
     title: {
-      en: 'SP!ED 2025 — Summer Program for Innovative Engineering Design',
-      ko: 'SP!ED 2025 — 혁신 공학 설계 여름 프로그램',
-      ru: 'SP!ED 2025 — Летняя программа инновационного инженерного проектирования',
-      uz: 'SP!ED 2025 — Innovatsion muhandislik dizayni yozgi dasturi',
+      en: 'SP!ED 2025: Summer Program for Innovative Engineering Design',
+      ko: 'SP!ED 2025: 혁신 공학 설계 여름 프로그램',
+      ru: 'SP!ED 2025: Летняя программа инновационного инженерного проектирования',
+      uz: 'SP!ED 2025: Innovatsion muhandislik dizayni yozgi dasturi',
     },
     location: 'Zhenjiang, China (multinational program)',
-    date: 'Jul 23 – Aug 23, 2025',
+    date: 'Jul 23 - Aug 23, 2025',
     role: 'Team Leader, AI Developer',
     award: 'Gold Award',
     description: {
-      en: 'Selected for the 13th Summer Program for Innovative Engineering Design (SP!ED 2025), a multinational South Korea–China–Japan engineering design program held in Zhenjiang, China. Served as Team Leader of the multinational team "One Asia", which designed an AI Smart Crosswalk system, collected real-world data on-site, and won the Gold Award.',
+      en: 'Selected for the 13th Summer Program for Innovative Engineering Design (SP!ED 2025), a multinational South Korea-China-Japan engineering design program held in Zhenjiang, China. Served as Team Leader of the multinational team "One Asia", which designed an AI Smart Crosswalk system, collected real-world data on-site, and won the Gold Award.',
       ko: '중국 전장(Zhenjiang)에서 열린 한·중·일 다국적 공학 설계 프로그램인 제13회 SP!ED 2025에 선발되었습니다. 다국적 팀 "One Asia"의 Team Leader를 맡았으며, 팀은 AI Smart Crosswalk 시스템을 설계하고 현지에서 실환경 데이터를 수집해 Gold Award를 수상하였습니다.',
-      ru: 'Отобран для участия в 13-й летней программе инновационного инженерного проектирования (SP!ED 2025) — многонациональной программе Корея–Китай–Япония, прошедшей в Чжэньцзяне, Китай. Был Team Leader многонациональной команды "One Asia", которая разработала систему AI Smart Crosswalk, собрала данные в реальных условиях на месте и завоевала Gold Award.',
-      uz: "Xitoyning Chjenszyan (Zhenjiang) shahrida o'tkazilgan Koreya–Xitoy–Yaponiya ko'pmillatli muhandislik dizayni dasturi bo'lgan 13-SP!ED 2025 yozgi dasturiga tanlab olindim. Ko'pmillatli \"One Asia\" jamoasining Team Leaderi bo'ldim; jamoa AI Smart Crosswalk tizimini loyihalashtirdi, joyida haqiqiy ma'lumot to'pladi va Gold Award'ni qo'lga kiritdi.",
+      ru: 'Отобран для участия в 13-й летней программе инновационного инженерного проектирования (SP!ED 2025), многонациональной программе Корея-Китай-Япония, прошедшей в Чжэньцзяне, Китай. Был Team Leader многонациональной команды "One Asia", которая разработала систему AI Smart Crosswalk, собрала данные в реальных условиях на месте и завоевала Gold Award.',
+      uz: "Xitoyning Chjenszyan (Zhenjiang) shahrida o'tkazilgan Koreya-Xitoy-Yaponiya ko'pmillatli muhandislik dizayni dasturi bo'lgan 13-SP!ED 2025 yozgi dasturiga tanlab olindim. Ko'pmillatli \"One Asia\" jamoasining Team Leaderi bo'ldim; jamoa AI Smart Crosswalk tizimini loyihalashtirdi, joyida haqiqiy ma'lumot to'pladi va Gold Award'ni qo'lga kiritdi.",
     },
     link: 'https://github.com/abbosaliboev/AI_Smart_Crosswalk.git',
   },
@@ -434,83 +434,83 @@ export const activitiesData = [
     title: 'TUX Club',
     role: { en: 'Member', ko: '멤버', ru: 'Участник', uz: "A'zo" },
     org: 'CBNU Department of Computer Science',
-    date: 'Mar 2023 – Present',
+    date: 'Mar 2023 - Present',
   },
   {
     title: 'Advisor Program for Foreign Freshmen',
     role: { en: 'Advisor', ko: '어드바이저', ru: 'Советник', uz: 'Maslahatchi' },
     org: 'CBNU Office of International Affairs',
-    date: 'Feb 25, 2025 – Jul 31, 2025',
+    date: 'Feb 25, 2025 - Jul 31, 2025',
   },
   {
     title: 'CBNU K-Culture Department',
     role: { en: 'SNS Manager', ko: 'SNS Manager', ru: 'SNS Manager', uz: 'SNS Manager' },
     org: 'Chungbuk National University',
-    date: 'Apr 1, 2025 – Dec 31, 2025',
+    date: 'Apr 1, 2025 - Dec 31, 2025',
   },
   {
     title: 'CBNU International Office',
     role: { en: 'Influencer', ko: 'Influencer', ru: 'Influencer', uz: 'Influencer' },
     org: 'Chungbuk National University',
-    date: 'Oct 1, 2025 – Present',
+    date: 'Oct 1, 2025 - Present',
   },
   {
     title: 'Department Student Council',
     role: { en: 'Coordinator, Planner', ko: '조율자, 기획자', ru: 'Координатор, Планировщик', uz: 'Koordinator, Rejalashtiruvchi' },
     org: 'Chungbuk National University',
-    date: 'Mar 1, 2026 – Present',
+    date: 'Mar 1, 2026 - Present',
   },
   {
     title: 'Startup Club',
     role: { en: 'Founder, Team Lead, Project Manager', ko: 'Founder, Team Lead, Project Manager', ru: 'Founder, Team Lead, Project Manager', uz: 'Founder, Team Lead, Project Manager' },
     org: 'CBNU RISE 사업단',
-    date: 'Apr 1, 2026 – Present',
+    date: 'Apr 1, 2026 - Present',
   },
 ];
 
 export const certificatesText = [
   {
-    title: 'Certificate of Completion — Job-Specific Training (Seoul Global Center)',
+    title: 'Certificate of Completion: Job-Specific Training (Seoul Global Center)',
     org: 'Seoul Global Center',
-    date: 'Aug 19–20, 2026',
+    date: 'Aug 19-20, 2026',
     note: {
-      en: 'Completed the 2nd cohort of Job-Specific Training (직무역량강화교육 2기) organized by Seoul Global Center, Aug 19–20, 2026. Certificate No. SGC26-수317호.',
+      en: 'Completed the 2nd cohort of Job-Specific Training (직무역량강화교육 2기) organized by Seoul Global Center, Aug 19-20, 2026. Certificate No. SGC26-수317호.',
       ko: '서울글로벌센터가 주관하는 2026년 직무역량강화교육 2기(2026.08.19~08.20)를 수료하였습니다. 수료증 번호: SGC26-수317호.',
-      ru: 'Завершил 2-й поток программы Job-Specific Training, организованной Seoul Global Center, 19–20 августа 2026 года. № сертификата: SGC26-수317호.',
-      uz: "Seoul Global Center tashkil qilgan Job-Specific Training (직무역량강화교육) 2-guruhini 2026-yil 19–20 avgust kunlarida muvaffaqiyatli yakunladim. Sertifikat raqami: SGC26-수317호.",
+      ru: 'Завершил 2-й поток программы Job-Specific Training, организованной Seoul Global Center, 19-20 августа 2026 года. № сертификата: SGC26-수317호.',
+      uz: "Seoul Global Center tashkil qilgan Job-Specific Training (직무역량강화교육) 2-guruhini 2026-yil 19-20 avgust kunlarida muvaffaqiyatli yakunladim. Sertifikat raqami: SGC26-수317호.",
     },
   },
   {
-    title: 'Certificate of Appreciation — EKC 2026 Volunteer',
+    title: 'Certificate of Appreciation: EKC 2026 Volunteer',
     org: 'Europe-Korea Conference on Science and Technology (Association des Scientifiques Coréens en France)',
-    date: 'Toulouse, France · Jul 20–23, 2026',
+    date: 'Toulouse, France · Jul 20-23, 2026',
     note: {
-      en: 'Received a Certificate of Appreciation for outstanding work and effort as a volunteer at EKC 2026 — "AI-Driven Future of Science and Technology", held in Toulouse, France.',
-      ko: '프랑스 툴루즈에서 열린 EKC 2026 — "AI-Driven Future of Science and Technology"에서 자원봉사자로서 헌신적으로 기여한 공로를 인정받아 감사장(Certificate of Appreciation)을 수여받았습니다.',
-      ru: 'Получил Certificate of Appreciation за выдающуюся работу и вклад в качестве волонтёра на EKC 2026 — "AI-Driven Future of Science and Technology", проходившей в Тулузе, Франция.',
-      uz: "Fransiyaning Tuluza shahrida o'tkazilgan EKC 2026 — \"AI-Driven Future of Science and Technology\" konferensiyasida volontyor sifatida ko'rsatgan sidqidildan xizmatim uchun Certificate of Appreciation (minnatdorchilik sertifikati) bilan taqdirlandim.",
+      en: 'Received a Certificate of Appreciation for outstanding work and effort as a volunteer at EKC 2026: "AI-Driven Future of Science and Technology", held in Toulouse, France.',
+      ko: '프랑스 툴루즈에서 열린 EKC 2026: "AI-Driven Future of Science and Technology"에서 자원봉사자로서 헌신적으로 기여한 공로를 인정받아 감사장(Certificate of Appreciation)을 수여받았습니다.',
+      ru: 'Получил Certificate of Appreciation за выдающуюся работу и вклад в качестве волонтёра на EKC 2026: "AI-Driven Future of Science and Technology", проходившей в Тулузе, Франция.',
+      uz: "Fransiyaning Tuluza shahrida o'tkazilgan EKC 2026: \"AI-Driven Future of Science and Technology\" konferensiyasida volontyor sifatida ko'rsatgan sidqidildan xizmatim uchun Certificate of Appreciation (minnatdorchilik sertifikati) bilan taqdirlandim.",
     },
   },
   {
-    title: 'Certificate of Presentation — EKC 2026',
+    title: 'Certificate of Presentation: EKC 2026',
     org: 'Europe-Korea Conference on Science and Technology (Association des Scientifiques Coréens en France)',
-    date: 'Toulouse, France · Jul 20–23, 2026',
+    date: 'Toulouse, France · Jul 20-23, 2026',
     note: {
-      en: 'Successfully presented "Edge AI-Based Real-Time Fall Detection and Alert System for Elderly People Living Alone" (MobiCare, Team 4) with Damin Kim, Jonghyuk Park, and Seongwoo Cho at EKC 2026 — "AI-Driven Future of Science and Technology".',
-      ko: 'EKC 2026 — "AI-Driven Future of Science and Technology"에서 Damin Kim, Jonghyuk Park, Seongwoo Cho와 함께 "Edge AI-Based Real-Time Fall Detection and Alert System for Elderly People Living Alone"(MobiCare, Team 4)를 성공적으로 발표하였습니다.',
-      ru: 'Успешно представил доклад "Edge AI-Based Real-Time Fall Detection and Alert System for Elderly People Living Alone" (MobiCare, Team 4) вместе с Damin Kim, Jonghyuk Park и Seongwoo Cho на EKC 2026 — "AI-Driven Future of Science and Technology".',
-      uz: "EKC 2026 — \"AI-Driven Future of Science and Technology\" konferensiyasida Damin Kim, Jonghyuk Park va Seongwoo Cho bilan birgalikda \"Edge AI-Based Real-Time Fall Detection and Alert System for Elderly People Living Alone\" (MobiCare, Team 4) mavzusidagi taqdimotni muvaffaqiyatli o'tkazdim.",
+      en: 'Successfully presented "Edge AI-Based Real-Time Fall Detection and Alert System for Elderly People Living Alone" (MobiCare, Team 4) with Damin Kim, Jonghyuk Park, and Seongwoo Cho at EKC 2026: "AI-Driven Future of Science and Technology".',
+      ko: 'EKC 2026: "AI-Driven Future of Science and Technology"에서 Damin Kim, Jonghyuk Park, Seongwoo Cho와 함께 "Edge AI-Based Real-Time Fall Detection and Alert System for Elderly People Living Alone"(MobiCare, Team 4)를 성공적으로 발표하였습니다.',
+      ru: 'Успешно представил доклад "Edge AI-Based Real-Time Fall Detection and Alert System for Elderly People Living Alone" (MobiCare, Team 4) вместе с Damin Kim, Jonghyuk Park и Seongwoo Cho на EKC 2026: "AI-Driven Future of Science and Technology".',
+      uz: "EKC 2026: \"AI-Driven Future of Science and Technology\" konferensiyasida Damin Kim, Jonghyuk Park va Seongwoo Cho bilan birgalikda \"Edge AI-Based Real-Time Fall Detection and Alert System for Elderly People Living Alone\" (MobiCare, Team 4) mavzusidagi taqdimotni muvaffaqiyatli o'tkazdim.",
     },
   },
   {
-    title: 'Certificate of Attendance — EKC 2026',
+    title: 'Certificate of Attendance: EKC 2026',
     org: 'Europe-Korea Conference on Science and Technology (Association des Scientifiques Coréens en France)',
-    date: 'Toulouse, France · Jul 20–23, 2026',
+    date: 'Toulouse, France · Jul 20-23, 2026',
     note: {
-      en: 'Contributed to and participated in EKC 2026 — "AI-Driven Future of Science and Technology", held in Toulouse, France, as part of the ICCAS/EKC 2026 international program.',
-      ko: '프랑스 툴루즈에서 개최된 EKC 2026 — "AI-Driven Future of Science and Technology"에 ICCAS/EKC 2026 국제 프로그램의 일환으로 참가 및 기여하였습니다.',
-      ru: 'Внёс вклад и принял участие в EKC 2026 — "AI-Driven Future of Science and Technology", прошедшей в Тулузе, Франция, в рамках международной программы ICCAS/EKC 2026.',
-      uz: "Fransiyaning Tuluza shahrida o'tkazilgan EKC 2026 — \"AI-Driven Future of Science and Technology\" konferensiyasida ICCAS/EKC 2026 xalqaro dasturi doirasida ishtirok etdim va hissa qo'shdim.",
+      en: 'Contributed to and participated in EKC 2026: "AI-Driven Future of Science and Technology", held in Toulouse, France, as part of the ICCAS/EKC 2026 international program.',
+      ko: '프랑스 툴루즈에서 개최된 EKC 2026: "AI-Driven Future of Science and Technology"에 ICCAS/EKC 2026 국제 프로그램의 일환으로 참가 및 기여하였습니다.',
+      ru: 'Внёс вклад и принял участие в EKC 2026: "AI-Driven Future of Science and Technology", прошедшей в Тулузе, Франция, в рамках международной программы ICCAS/EKC 2026.',
+      uz: "Fransiyaning Tuluza shahrida o'tkazilgan EKC 2026: \"AI-Driven Future of Science and Technology\" konferensiyasida ICCAS/EKC 2026 xalqaro dasturi doirasida ishtirok etdim va hissa qo'shdim.",
     },
   },
   {
@@ -552,9 +552,9 @@ export const certificatesText = [
     date: 'Issued: August 27, 2025',
     note: {
       en: 'Successfully completed the Advisor Program for Foreign Freshmen, 1st Semester 2025, from February 25, 2025 to July 31, 2025. Certificate No. 2025-388.',
-      ko: '2025학년도 1학기 외국인 신입생 Advisor Program(2025.02.25 – 2025.07.31)을 성공적으로 이수하였습니다. 수료증 번호: 2025-388.',
-      ru: 'Успешно завершил Advisor Program для иностранных первокурсников, 1-й семестр 2025 года (25.02.2025 – 31.07.2025). № сертификата: 2025-388.',
-      uz: "2025-yilning 1-semestri uchun xorijiy birinchi kurs talabalari uchun Advisor Program ni muvaffaqiyatli yakunladim (2025.02.25 – 2025.07.31). Sertifikat raqami: 2025-388.",
+      ko: '2025학년도 1학기 외국인 신입생 Advisor Program(2025.02.25 - 2025.07.31)을 성공적으로 이수하였습니다. 수료증 번호: 2025-388.',
+      ru: 'Успешно завершил Advisor Program для иностранных первокурсников, 1-й семестр 2025 года (25.02.2025 - 31.07.2025). № сертификата: 2025-388.',
+      uz: "2025-yilning 1-semestri uchun xorijiy birinchi kurs talabalari uchun Advisor Program ni muvaffaqiyatli yakunladim (2025.02.25 - 2025.07.31). Sertifikat raqami: 2025-388.",
     },
   },
   {
@@ -562,10 +562,10 @@ export const certificatesText = [
     org: '충북PRO메이커센터 (Chungbuk PRO Maker Center)',
     date: 'Issued: September 14, 2025',
     note: {
-      en: "Successfully completed the Global Innovators' IT LAB Hackathon (2025.09.13 – 2025.09.14), demonstrating innovation and strong IT application skills.",
-      ko: "Global Innovators IT LAB Hackathon(2025.09.13 – 2025.09.14)을 성공적으로 완수하여 혁신성과 뛰어난 IT 역량을 입증하였습니다.",
-      ru: "Успешно завершил Global Innovators IT LAB Hackathon (2025.09.13 – 2025.09.14), продемонстрировав инновационный подход и сильные IT навыки.",
-      uz: "Global Innovators IT LAB Hackathonini (2025.09.13 – 2025.09.14) muvaffaqiyatli yakunladim, innovatsion yondashuv va kuchli IT ko'nikmalarini namoyish etdim.",
+      en: "Successfully completed the Global Innovators' IT LAB Hackathon (2025.09.13 - 2025.09.14), demonstrating innovation and strong IT application skills.",
+      ko: "Global Innovators IT LAB Hackathon(2025.09.13 - 2025.09.14)을 성공적으로 완수하여 혁신성과 뛰어난 IT 역량을 입증하였습니다.",
+      ru: "Успешно завершил Global Innovators IT LAB Hackathon (2025.09.13 - 2025.09.14), продемонстрировав инновационный подход и сильные IT навыки.",
+      uz: "Global Innovators IT LAB Hackathonini (2025.09.13 - 2025.09.14) muvaffaqiyatli yakunladim, innovatsion yondashuv va kuchli IT ko'nikmalarini namoyish etdim.",
     },
   },
   {
@@ -573,39 +573,39 @@ export const certificatesText = [
     org: 'President of National Institute for International Education',
     date: 'Issued: November 10, 2024',
     note: {
-      en: 'Advanced Korean proficiency (C1 equivalent) – academic and professional communication skills.',
-      ko: '고급 한국어 능력 (C1 수준) – 학문적·직업적 의사소통 능력 보유.',
-      ru: 'Продвинутый уровень корейского языка (эквивалент C1) — навыки академической и профессиональной коммуникации.',
-      uz: "Koreys tilini ilg'or darajada bilish (C1 ekvivalenti) — akademik va professional muloqot ko'nikmalari.",
+      en: 'Advanced Korean proficiency (C1 equivalent) - academic and professional communication skills.',
+      ko: '고급 한국어 능력 (C1 수준) - 학문적·직업적 의사소통 능력 보유.',
+      ru: 'Продвинутый уровень корейского языка (эквивалент C1): навыки академической и профессиональной коммуникации.',
+      uz: "Koreys tilini ilg'or darajada bilish (C1 ekvivalenti): akademik va professional muloqot ko'nikmalari.",
     },
   },
   {
-    title: 'Certificate of Completion — CBNU 2024 Summer LEVEL-UP TOPIK Camp',
+    title: 'Certificate of Completion: CBNU 2024 Summer LEVEL-UP TOPIK Camp',
     org: 'Office of International Affairs, Chungbuk National University',
     date: 'Issued: July 12, 2024',
     note: {
-      en: 'Program: Jun 24, 2024 – Jul 12, 2024',
-      ko: '과정 기간: 2024년 6월 24일 – 7월 12일',
-      ru: 'Программа: 24 июня 2024 – 12 июля 2024',
-      uz: 'Dastur muddati: 2024-yil 24-iyun – 12-iyul',
+      en: 'Program: Jun 24, 2024 - Jul 12, 2024',
+      ko: '과정 기간: 2024년 6월 24일 - 7월 12일',
+      ru: 'Программа: 24 июня 2024 - 12 июля 2024',
+      uz: 'Dastur muddati: 2024-yil 24-iyun - 12-iyul',
     },
   },
   {
-    title: 'Completion Certificate — Korean Language Program',
+    title: 'Completion Certificate: Korean Language Program',
     org: 'CBNU International Office',
     date: 'Issued: July 19, 2024',
     note: {
-      en: 'Program: Mar 25, 2021 – Feb 15, 2023',
-      ko: '과정 기간: 2021년 3월 25일 – 2023년 2월 15일',
-      ru: 'Программа: 25 марта 2021 – 15 февраля 2023',
-      uz: 'Dastur muddati: 2021-yil 25-mart – 2023-yil 15-fevral',
+      en: 'Program: Mar 25, 2021 - Feb 15, 2023',
+      ko: '과정 기간: 2021년 3월 25일 - 2023년 2월 15일',
+      ru: 'Программа: 25 марта 2021 - 15 февраля 2023',
+      uz: 'Dastur muddati: 2021-yil 25-mart - 2023-yil 15-fevral',
     },
   },
 ];
 
 export const honorsText = [
   {
-    title: 'Silver Award — MobiCare (ICCAS 2026)',
+    title: 'Silver Award: MobiCare (ICCAS 2026)',
     org: 'International Collegiate Challenge for AI-Assisted Society (ICCAS 2026), Euro-Korean Women Scientists and Engineers Association',
     date: 'Jul 25, 2026',
     note: {
@@ -620,14 +620,14 @@ export const honorsText = [
     org: 'Chungbuk National University RISE(앵커) Project, K-International Student Center',
     date: 'Fall 2025 & Spring 2026',
     note: {
-      en: 'Selected for the Chungbuk-type K-International Student Scholarship (충북형 K-유학생 장학금) for two consecutive semesters — 2025 Fall and 2026 Spring.',
+      en: 'Selected for the Chungbuk-type K-International Student Scholarship (충북형 K-유학생 장학금) for two consecutive semesters: 2025 Fall and 2026 Spring.',
       ko: '충북형 K-유학생 장학금에 2025학년도 2학기와 2026학년도 1학기, 두 학기 연속 최종 선발되었습니다.',
-      ru: 'Отобран на стипендию для иностранных студентов провинции Чхунбук (충북형 K-유학생 장학금) два семестра подряд — осенью 2025 и весной 2026.',
-      uz: "Chungbuk-turi xorijiy talabalar uchun K-stipendiyasiga (충북형 K-유학생 장학금) ketma-ket ikki semestr — 2025-yil kuz va 2026-yil bahor — uchun tanlab olindim.",
+      ru: 'Отобран на стипендию для иностранных студентов провинции Чхунбук (충북형 K-유학생 장학금) два семестра подряд: осенью 2025 и весной 2026.',
+      uz: "Chungbuk-turi xorijiy talabalar uchun K-stipendiyasiga (충북형 K-유학생 장학금) ketma-ket ikki semestr: 2025-yil kuz va 2026-yil bahor: uchun tanlab olindim.",
     },
   },
   {
-    title: 'Gold Award — AI Smart Crosswalk (Team Leader)',
+    title: 'Gold Award: AI Smart Crosswalk (Team Leader)',
     org: 'SPIED 2025, Innovative Research & Education of Asia (China)',
     date: 'Aug 23, 2025',
     note: {
@@ -638,7 +638,7 @@ export const honorsText = [
     },
   },
   {
-    title: 'Scholarship — TOPIK Level-up Camp (Attendance & Academic Excellence)',
+    title: 'Scholarship: TOPIK Level-up Camp (Attendance & Academic Excellence)',
     org: 'CBNU Office of International Affairs',
     date: 'Aug 20, 2024',
     note: {
@@ -649,7 +649,7 @@ export const honorsText = [
     },
   },
   {
-    title: 'Best Award — AI Open Source Project (English Presentation)',
+    title: 'Best Award: AI Open Source Project (English Presentation)',
     org: 'CBNU SW중심대학사업단',
     date: 'Dec 19, 2024',
     note: {
@@ -660,7 +660,7 @@ export const honorsText = [
     },
   },
   {
-    title: 'Excellence Award — AI Open Source Specialized Project',
+    title: 'Excellence Award: AI Open Source Specialized Project',
     org: 'CBNU SW중심대학사업단',
     date: 'Jul 3, 2024',
     note: {
