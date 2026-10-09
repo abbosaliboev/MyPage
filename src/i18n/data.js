@@ -332,23 +332,13 @@ export const educationData = [
     },
   },
   {
-    title: '42.uz, Online',
-    date: 'Jun 2025 – Present',
+    title: 'Chungbuk National University — Korean Language Program',
+    date: 'Mar 2021 – Feb 2023',
     note: {
-      en: 'Express Algorithm & Data Structure<br/>Mentors include software engineers from Meta, Amazon, and Google.<br/><a href="https://42.uz" target="_blank" rel="noreferrer">42.uz</a>',
-      ko: '알고리즘 & Data Structure 집중 과정<br/>Meta, Amazon, Google 출신 소프트웨어 엔지니어가 멘토.<br/><a href="https://42.uz" target="_blank" rel="noreferrer">42.uz</a>',
-      ru: 'Экспресс-курс по алгоритмам и Data Structure<br/>Наставники — инженеры из Meta, Amazon и Google.<br/><a href="https://42.uz" target="_blank" rel="noreferrer">42.uz</a>',
-      uz: 'Algorithm & Data Structure intensiv kursi<br/>Mentorlar orasida Meta, Amazon va Google dasturchilar bor.<br/><a href="https://42.uz" target="_blank" rel="noreferrer">42.uz</a>',
-    },
-  },
-  {
-    title: 'academy.pdp.uz, Online',
-    date: 'Mar 2024 – Present',
-    note: {
-      en: 'Frontend Development<br/><a href="https://academy.pdp.uz" target="_blank" rel="noreferrer">academy.pdp.uz</a>',
-      ko: 'Frontend Development<br/><a href="https://academy.pdp.uz" target="_blank" rel="noreferrer">academy.pdp.uz</a>',
-      ru: 'Frontend Development<br/><a href="https://academy.pdp.uz" target="_blank" rel="noreferrer">academy.pdp.uz</a>',
-      uz: 'Frontend Development<br/><a href="https://academy.pdp.uz" target="_blank" rel="noreferrer">academy.pdp.uz</a>',
+      en: 'Korean Language, Level 6 (6급)<br/>Completed the Korean Language Program at the CBNU Korean Language Education Center.<br/><a href="https://www.cbnu.ac.kr/eng/" target="_blank" rel="noreferrer">cbnu.ac.kr</a>',
+      ko: '한국어, 6급<br/>충북대학교 한국어교육원 한국어연수 과정을 수료하였습니다.<br/><a href="https://www.cbnu.ac.kr/eng/" target="_blank" rel="noreferrer">cbnu.ac.kr</a>',
+      ru: 'Корейский язык, 6 уровень (6급)<br/>Завершил программу корейского языка в Центре языкового образования CBNU.<br/><a href="https://www.cbnu.ac.kr/eng/" target="_blank" rel="noreferrer">cbnu.ac.kr</a>',
+      uz: "Koreys tili, 6-daraja (6급)<br/>Chungbuk Milliy Universiteti Koreys tili ta'lim markazida koreys tili dasturini tugatdim.<br/><a href=\"https://www.cbnu.ac.kr/eng/\" target=\"_blank\" rel=\"noreferrer\">cbnu.ac.kr</a>",
     },
   },
 ];
