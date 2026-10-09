@@ -322,8 +322,8 @@ export const personalProjects = [
 
 export const educationData = [
   {
-    title: 'Chungbuk National University (CBNU)',
-    date: 'Mar 2023 - Present (Cheongju, South Korea)',
+    title: 'Chungbuk National University',
+    date: 'Mar 2023 - Present (South Korea, Cheongju)',
     note: {
       en: 'B.S. in Computer Science<br/>Major in <strong>Artificial Intelligence</strong> (from Mar 2025)<br/><a href="https://www.cbnu.ac.kr/eng/" target="_blank" rel="noreferrer">cbnu.ac.kr</a>',
       ko: 'Computer Science 학사<br/><strong>Artificial Intelligence</strong> 전공 (2025년 3월부터)<br/><a href="https://www.cbnu.ac.kr/eng/" target="_blank" rel="noreferrer">cbnu.ac.kr</a>',
@@ -332,8 +332,8 @@ export const educationData = [
     },
   },
   {
-    title: 'Chungbuk National University: Korean Language Program',
-    date: 'Mar 2021 - Feb 2023 (Cheongju, South Korea)',
+    title: 'Chungbuk National University',
+    date: 'Mar 2021 - Feb 2023 (South Korea, Cheongju)',
     note: {
       en: 'Korean Language, Level 6 (6급)<br/>Completed the Korean Language Program at the CBNU Korean Language Education Center.<br/><a href="https://www.cbnu.ac.kr/eng/" target="_blank" rel="noreferrer">cbnu.ac.kr</a>',
       ko: '한국어, 6급<br/>충북대학교 한국어교육원 한국어연수 과정을 수료하였습니다.<br/><a href="https://www.cbnu.ac.kr/eng/" target="_blank" rel="noreferrer">cbnu.ac.kr</a>',
@@ -343,17 +343,17 @@ export const educationData = [
   },
   {
     title: 'Academic Lyceum under Samarkand Medical Institute',
-    date: 'Sep 2017 - Jul 2019 (Samarkand, Uzbekistan)',
+    date: 'Sep 2017 - Jul 2019 (Uzbekistan, Samarkand)',
     note: {
-      en: 'Natural Sciences track<br/>Graduated with a perfect GPA of 5.0/5.0 (100%).',
-      ko: '자연과학 전공<br/>GPA 5.0/5.0(100%) 만점으로 졸업하였습니다.',
-      ru: 'Направление: естественные науки<br/>Окончил с отличием, GPA 5.0/5.0 (100%).',
-      uz: "Tabiy fanlar yo'nalishi<br/>5.0/5.0 (100%) GPA bilan tamomladim.",
+      en: 'Natural Sciences track<br/>Graduated with a perfect GPA of 5.0/5.0 (100%).<br/><a href="https://samdtual.uz/" target="_blank" rel="noreferrer">samdtual.uz</a>',
+      ko: '자연과학 전공<br/>GPA 5.0/5.0(100%) 만점으로 졸업하였습니다.<br/><a href="https://samdtual.uz/" target="_blank" rel="noreferrer">samdtual.uz</a>',
+      ru: 'Направление: естественные науки<br/>Окончил с отличием, GPA 5.0/5.0 (100%).<br/><a href="https://samdtual.uz/" target="_blank" rel="noreferrer">samdtual.uz</a>',
+      uz: "Tabiy fanlar yo'nalishi<br/>5.0/5.0 (100%) GPA bilan tamomladim.<br/><a href=\"https://samdtual.uz/\" target=\"_blank\" rel=\"noreferrer\">samdtual.uz</a>",
     },
   },
   {
     title: 'General Secondary School No. 19',
-    date: 'Sep 2008 - Jul 2017 (Jizzakh, Uzbekistan)',
+    date: 'Sep 2008 - Jul 2017 (Uzbekistan, Jizzakh)',
     note: {
       en: 'Completed general secondary education with a perfect GPA of 5.0/5.0 (100%).',
       ko: '일반 중등교육을 GPA 5.0/5.0(100%) 만점으로 졸업하였습니다.',
